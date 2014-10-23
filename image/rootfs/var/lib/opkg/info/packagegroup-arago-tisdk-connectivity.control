@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-connectivity
+Version: 1.0-r24
+Description: packagegroup-arago-tisdk-connectivity version 1.0-r24
+ Task to install wireless packages into the target FS
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-tisdk-connectivity
+Homepage: unknown
+Depends: ti-wifi-utils-wl18xx, eventdump, pulseaudio-module-loopback, uim, iw, wlconf, softap-udhcpd-config, htop, obexd, obex-client, hostap-daemon-wl18xx, wireless-tools, bluez4-agent, wpa-gui-e, wl18xx-firmware, wpa-supplicant-wl18xx, pulseaudio, pulseaudio-server, bluez4, bt-firmware, bluez-hcidump, crda
+Source: None

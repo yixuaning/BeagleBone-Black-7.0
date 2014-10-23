@@ -1,0 +1,13 @@
+Package: orc
+Version: 0.4.16-r1.0
+Description: orc version 0.4.16-r1.0
+ orc - The Oil Runtime Compiler
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: orc
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: orc
+Homepage: http://code.entropywave.com/projects/orc/
+Depends: liborc-0.4-0 (>= 0.4.16), liborc-test-0.4-0 (>= 0.4.16), libc6 (>= 2.15)
+Source: http://code.entropywave.com/download/orc/orc-0.4.16.tar.gz;name=orc

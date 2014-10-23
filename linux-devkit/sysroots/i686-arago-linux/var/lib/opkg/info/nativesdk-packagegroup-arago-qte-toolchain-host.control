@@ -1,0 +1,13 @@
+Package: nativesdk-packagegroup-arago-qte-toolchain-host
+Version: 1.0-r4
+Description: nativesdk-packagegroup-arago-qte-toolchain-host version 1.0-r4
+ Host packages for Qt Embedded SDK
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: nativesdk-packagegroup-arago-qte-toolchain-host
+Homepage: unknown
+Depends: nativesdk-python-distutils, nativesdk-libtool, nativesdk-qt4-tools, nativesdk-opkg, nativesdk-pkgconfig
+Source: None

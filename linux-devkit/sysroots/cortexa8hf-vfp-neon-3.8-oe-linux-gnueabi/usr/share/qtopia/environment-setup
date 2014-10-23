@@ -1,0 +1,16 @@
+export QT_DIR_NAME=qtopia
+export QT_LIBINFIX=E
+export OE_QMAKE_AR=ar
+export OE_QMAKE_CC=gcc
+export OE_QMAKE_CXX=g++
+export OE_QMAKE_LINK=g++
+export OE_QMAKE_LIBDIR_QT=/usr/lib
+export OE_QMAKE_INCDIR_QT=/usr/include/qtopia
+export OE_QMAKE_MOC=/usr/bin/moc
+export OE_QMAKE_UIC=/usr/bin/uic
+export OE_QMAKE_UIC3=/usr/bin/uic3
+export OE_QMAKE_RCC=/usr/bin/rcc
+export OE_QMAKE_QDBUSCPP2XML=/usr/bin/qdbuscpp2xml
+export OE_QMAKE_QDBUSXML2CPP=/usr/bin/qdbusxml2cpp
+export OE_QMAKE_QT_CONFIG=/usr/share/qtopia/mkspecs/qconfig.pri
+export QMAKESPEC=/usr/share/qtopia/mkspecs/linux-g++

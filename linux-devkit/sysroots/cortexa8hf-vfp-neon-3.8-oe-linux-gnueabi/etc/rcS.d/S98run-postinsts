@@ -1,0 +1,4 @@
+#!/bin/sh
+opkg-cl configure >/var/log/postinstall.log 2>&1
+rm -f //etc/rcS.d/S98run-postinsts
+

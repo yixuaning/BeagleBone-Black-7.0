@@ -1,0 +1,2 @@
+	update-alternatives --remove ar arm-oe-linux-gnueabi-ar
+	update-alternatives --remove strings arm-oe-linux-gnueabi-strings

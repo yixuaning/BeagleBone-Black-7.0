@@ -1,0 +1,13 @@
+Package: packagegroup-arago-test
+Version: 1.0-r16
+Description: packagegroup-arago-test version 1.0-r16
+ Extended task to get System Test specific apps
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-test
+Homepage: unknown
+Depends: stress, evtest, rt-tests, bc, libdrm-tests, lmbench, powertop, linaro-pm-qa-utils, hdparm, input-utils, iperf, cpuloadgen, ltp-ddt, bonnie++, iozone3, memtester
+Source: None

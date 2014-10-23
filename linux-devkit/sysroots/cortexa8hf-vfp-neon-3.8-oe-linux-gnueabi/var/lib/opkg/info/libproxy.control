@@ -1,0 +1,13 @@
+Package: libproxy
+Version: 0.4.7-r6
+Description: libproxy version 0.4.7-r6
+ A library that provides automatic proxy configuration management
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libproxy
+Homepage: http://code.google.com/p/libproxy/
+Depends: libglib-2.0-0 (>= 2.34.3), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://libproxy.googlecode.com/files/libproxy-0.4.7.zip file://g++-namepace.patch file://libproxy_fix_for_gcc4.7.patch file://libproxy-0.4.7-CVE-2012-4504.patch

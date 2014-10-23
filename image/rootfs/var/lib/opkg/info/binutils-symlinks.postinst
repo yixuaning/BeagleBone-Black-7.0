@@ -1,0 +1,2 @@
+	update-alternatives --install /usr/bin/ar ar arm-oe-linux-gnueabi-ar 100
+	update-alternatives --install /usr/bin/strings strings arm-oe-linux-gnueabi-strings 100

@@ -1,0 +1,14 @@
+Package: php
+Version: 5.4.14-r4.0-arago2
+Description: php version 5.4.14-r4.0-arago2
+ A server-side, HTML-embedded scripting language. This package provides
+ the CGI.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PHP-3.0
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: php
+Homepage: http://www.php.net
+Recommends: update-rc.d
+Source: http://museum.php.net/php5/php-5.4.14.tar.bz2 file://acinclude-xml2-config.patch file://0001-php-don-t-use-broken-wrapper-for-mkdir.patch file://iconv.patch file://imap-fix-autofoo.patch file://pear-makefile.patch file://phar-makefile.patch file://php_exec_native.patch file://fix-fpm-cross-compile.patch file://php-fpm.conf file://php-fpm-apache.conf

@@ -1,0 +1,13 @@
+Package: packagegroup-arago-cross-canadian-arm
+Version: 1.0-r5
+Description: Host Arago SDK package for cross canadian toolchain
+ Host Arago SDK package for cross canadian toolchain
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-cross-canadian-arm
+Homepage: unknown
+Depends: binutils-cross-canadian-arm, gcc-cross-canadian-arm, gdb-cross-canadian-arm
+Source: None

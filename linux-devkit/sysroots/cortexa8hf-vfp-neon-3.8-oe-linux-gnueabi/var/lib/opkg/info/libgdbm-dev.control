@@ -1,0 +1,16 @@
+Package: libgdbm-dev
+Version: 1.8.3-r4
+Description: gdbm version 1.8.3-r4 - Development files
+ GNU dbm is a set of database routines that use extensible hashing.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgdbm3 (= 1.8.3-r4)
+Recommends: libc6-dev
+Source: ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.8.3.tar.gz file://makefile.patch file://libtool-mode.patch

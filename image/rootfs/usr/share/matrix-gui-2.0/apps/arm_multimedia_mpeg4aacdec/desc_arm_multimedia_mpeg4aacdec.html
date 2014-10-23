@@ -1,0 +1,15 @@
+<h1> ARM MPEG-4 AAC Decode </h1>
+
+<p> This example demonstrates audio/video decoding capability of Cortex-A8 core using MPEG-4 video codec and AAC audio codec. The Multimedia framework used is GStreamer and gst-ffmpeg plug-in is used to call into open source FFmpeg codec libraries. </p>
+<p>
+<span style="color:red">NOTE: Please make sure audio line out is connected to the main processor board. </span>
+</p>
+<h2> Multimedia Pipeline </h2>
+<p>
+gst-launch <br>
+&nbsp;|_ qtdemux - - <br>
+&nbsp; &nbsp;|_ audio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_ video<br>
+&nbsp; &nbsp; &nbsp;|_faad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_ mpeg4videoparse <br>
+&nbsp; &nbsp; &nbsp; &nbsp;|_alsasink &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_ ffdec_mpeg4<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_ v4l2/fbdev sink<br>
+</p>

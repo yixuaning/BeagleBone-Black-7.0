@@ -1,0 +1,9 @@
+/usr/share/matrix-gui-2.0/apps/eth1_nat/
+/usr/share/matrix-gui-2.0/apps/eth1_nat/desc_eth1_enbl_nat.html
+/usr/bin/eth1_nat.sh
+/usr/share/matrix-gui-2.0/apps/eth1_enbl/desc_eth1_enable.html
+/usr/bin/eth1_up.sh
+/usr/share/matrix-gui-2.0/apps/eth1_enbl/eth1_enbl.desktop
+/etc/udhcpd_eth1.conf
+/usr/share/matrix-gui-2.0/apps/eth1_nat/eth1_enbl_nat.desktop
+/usr/share/matrix-gui-2.0/apps/eth1_enbl/

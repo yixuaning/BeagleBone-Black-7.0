@@ -1,0 +1,9 @@
+	update-alternatives --install /boot/zImage zImage zImage-3.12.10-ti2013.12.01 31210 || true
+	if [ ! -e "$D/lib/modules/3.12.10-ti2013.12.01" ]; then
+		mkdir -p $D/lib/modules/3.12.10-ti2013.12.01
+	fi
+	if [ -n "$D" ]; then
+		depmodwrapper -a -b $D 3.12.10-ti2013.12.01
+	else
+		depmod -a 3.12.10-ti2013.12.01
+	fi

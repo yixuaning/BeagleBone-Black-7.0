@@ -1,0 +1,13 @@
+Package: packagegroup-arago-qte
+Version: 1.0-r4
+Description: packagegroup-arago-qte version 1.0-r4
+ Task to add Qt embedded related packages
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-qte
+Homepage: unknown
+Depends: qt4-embedded-plugin-gfxdriver-gfxpvregl, qt4-embedded-plugin-mousedriver-tslib, libqtdeclarativee4, libpvrqwswsegl1, qt4-embedded, libqtopengle4, qt4-embedded-qml-plugins, libqtmultimediae4, qt4-embedded-plugin-imageformat-jpeg, qt4-embedded-plugin-gfxdriver-gfxtransformed, qt4-embedded-plugin-imageformat-gif, qt4-embedded-plugin-phonon-backend-gstreamer, libqtxmlpatternse4
+Source: None

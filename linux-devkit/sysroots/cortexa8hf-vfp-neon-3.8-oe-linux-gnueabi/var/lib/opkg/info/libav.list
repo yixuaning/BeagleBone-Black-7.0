@@ -1,0 +1,5 @@
+/usr/bin/avconv
+/usr/bin/avprobe
+/usr/bin/avserver
+/usr/bin/ffmpeg
+/usr/bin/avplay

@@ -1,0 +1,13 @@
+Package: matrix-gui-settings-demos
+Version: 2.0-r21.1
+Description: matrix-gui-settings-demos version 2.0-r21.1
+ Settings demo descriptions for Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: all
+OE: matrix-gui-settings-demos
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Depends: am-sysinfo, matrix-gui-submenus-settings, matrix-gui-apps-images
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

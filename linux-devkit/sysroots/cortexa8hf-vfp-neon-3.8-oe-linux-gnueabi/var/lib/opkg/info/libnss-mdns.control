@@ -1,0 +1,13 @@
+Package: libnss-mdns
+Version: 0.10-r7
+Description: libnss-mdns version 0.10-r7
+ NSS module for Multicast DNS name resolution
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libnss-mdns
+Homepage: http://0pointer.de/lennart/projects/nss-mdns/
+Depends: avahi-daemon, libc6 (>= 2.15)
+Source: http://0pointer.de/lennart/projects/nss-mdns/nss-mdns-0.10.tar.gz

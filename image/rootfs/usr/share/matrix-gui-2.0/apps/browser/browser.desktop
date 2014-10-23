@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Browser
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/web-icon.png
+Exec=browser.sh http://www.ti.com
+Type=Application
+ProgramType=gui

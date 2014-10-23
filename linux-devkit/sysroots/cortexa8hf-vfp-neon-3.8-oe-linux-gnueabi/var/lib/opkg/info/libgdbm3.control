@@ -1,0 +1,13 @@
+Package: libgdbm3
+Version: 1.8.3-r4
+Description: gdbm version 1.8.3-r4
+ GNU dbm is a set of database routines that use extensible hashing.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libc6 (>= 2.15)
+Source: ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.8.3.tar.gz file://makefile.patch file://libtool-mode.patch

@@ -1,0 +1,13 @@
+Package: qt-tstat
+Version: 2.0-r8
+Description: qt-tstat version 2.0-r8
+ Qt Thermostat Demo
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD & CC-BY-SA-2.0 & CC-BY-SA-3.0 & MIT
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: qt-tstat
+Homepage: https://gitorious.org/thermostat-demo
+Depends: libqtsvge4 (>= 4.8.4), libqtcoree4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtscripte4 (>= 4.8.4), libqtguie4 (>= 4.8.4), libc6 (>= 2.15), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Source: git://gitorious.org/thermostat-demo/thermostat-demo.git;protocol=git

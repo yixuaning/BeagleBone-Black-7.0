@@ -1,0 +1,15 @@
+<h1> Oprofile Initialization </h1>
+
+<h2> Purpose: </h2>
+<p> To use Oprofile, you need to tell oprofile where vmlinux 
+corresponding to the kernel is located 
+</p>
+<h2> Additional Information </h2>
+<p> This will allow you to profile the kernel along with your application.
+If you don't want to profile the kernel: opcontrol --no--vmlinux
+</p>
+<p> This only needs to be done one time. </p>
+<p> To run from the command line:
+</p>
+<p> root@device:~# opcontrol --vmlinux=/boot/vmlinux-[kernel version]
+</p>

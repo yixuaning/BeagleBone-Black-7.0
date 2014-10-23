@@ -1,0 +1,13 @@
+Package: libsqlite3-0
+Version: 3071502-r0
+Description: sqlite3 version 3071502-r0
+ An Embeddable SQL Database Engine
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://www.sqlite.org/sqlite-autoconf-3071502.tar.gz

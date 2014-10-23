@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.openobex
+Exec=/usr/lib/obexd/obexd --nodaemon --opp --ftp

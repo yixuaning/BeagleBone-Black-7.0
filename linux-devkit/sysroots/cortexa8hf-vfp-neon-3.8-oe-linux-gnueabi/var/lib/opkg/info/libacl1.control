@@ -1,0 +1,13 @@
+Package: libacl1
+Version: 2.2.51-r3
+Description: acl version 2.2.51-r3
+ utilities for access control list
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libattr1 (>= 2.4.46), libc6 (>= 2.15)
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.51.src.tar.gz file://relative-libdir.patch;striplevel=0

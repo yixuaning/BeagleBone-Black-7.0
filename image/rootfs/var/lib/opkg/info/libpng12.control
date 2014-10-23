@@ -1,0 +1,13 @@
+Package: libpng12
+Version: 1.2.50-r0
+Description: PNG Library
+ PNG Library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Libpng
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libpng12
+Homepage: http://www.libpng.org/
+Depends: libz1 (>= 1.2.7), libc6 (>= 2.15)
+Source: http://downloads.sourceforge.net/project/libpng/libpng12/1.2.50/libpng-1.2.50.tar.xz

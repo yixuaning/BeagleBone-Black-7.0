@@ -1,0 +1,13 @@
+Package: matrix-gui-oprofile-demos
+Version: 2.0-r21.2
+Description: matrix-gui-oprofile-demos version 2.0-r21.2
+ Oprofile demo applications for Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: all
+OE: matrix-gui-oprofile-demos
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Depends: oprofile, matrix-gui-submenus-oprofile, matrix-gui-apps-images, oprofile-example
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

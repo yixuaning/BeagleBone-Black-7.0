@@ -1,0 +1,15 @@
+Package: gconf-dev
+Version: 3.2.6-r0
+Description: gconf version 3.2.6-r0 - Development files
+ GNOME configuration system  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gconf
+Homepage: unknown
+Depends: gconf (= 3.2.6-r0)
+Recommends: libdbus-glib-1-dev, libz-dev, dbus-lib-dev, libglib-2.0-dev, libffi-dev, libc6-dev, dbus-dev, gobject-introspection-stub-dev, libxml2-dev
+Source: http://ftp.gnome.org/pub/GNOME/sources/GConf/3.2/GConf-3.2.6.tar.xz;name=archive file://remove_plus_from_invalid_characters_list.patch

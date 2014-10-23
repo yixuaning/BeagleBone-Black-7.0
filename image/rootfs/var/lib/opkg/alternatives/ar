@@ -1,0 +1,3 @@
+/usr/bin/ar
+/bin/busybox 50
+arm-oe-linux-gnueabi-ar 100

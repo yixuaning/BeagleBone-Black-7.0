@@ -1,0 +1,15 @@
+Package: wl18xx-firmware
+Version: r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b
+Description: wl18xx-firmware version r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b
+ Firmware files for use with TI wl18xx
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-TSPA
+Architecture: all
+OE: wl18xx-firmware
+Homepage: unknown
+Provides: wl12xx-firmware
+Replaces: wl12xx-firmware
+Conflicts: wl12xx-firmware
+Source: git://github.com/TI-OpenLink/wl18xx_fw.git;protocol=git file://0001-Add-Makefile-for-SDK.patch

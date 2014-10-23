@@ -1,0 +1,13 @@
+Package: libjson0
+Version: 0.9-r0
+Description: libjson version 0.9-r0
+ JSON-C - A JSON implementation in C
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libjson
+Homepage: http://oss.metaparadigm.com/json-c/
+Depends: libc6 (>= 2.15)
+Source: http://oss.metaparadigm.com/json-c/json-c-0.9.tar.gz

@@ -1,0 +1,14 @@
+<h1> ARM AAC Audio Decode </h1>
+
+<p> This example demonstrates audio content decoding capability of Cortex-A8 core using AAC codec. The Multimedia framework used is GStreamer and gst-ffmpeg plug-in is used to call into open source FFmpeg codec libraries. </p>
+<p>
+<span style="color:red">NOTE: Please make sure audio line out is connected to the main processor board. </span>
+</p>
+<h2> Multimedia Pipeline </h2>
+<p>
+gst-launch <br>
+&nbsp;|_ faad <br>
+&nbsp; &nbsp;|_ alsasink <br>
+</p>
+
+

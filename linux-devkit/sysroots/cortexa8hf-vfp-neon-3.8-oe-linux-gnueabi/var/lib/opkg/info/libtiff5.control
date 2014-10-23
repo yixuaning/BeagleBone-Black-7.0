@@ -1,0 +1,13 @@
+Package: libtiff5
+Version: 4.0.3-r0-arago0
+Description: tiff version 4.0.3-r0-arago0
+ This software provides support for the Tag Image File Format (TIFF)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: tiff
+Homepage: http://www.remotesensing.org/libtiff/
+Depends: libz1 (>= 1.2.7), libjpeg8 (>= 8d+1.2.1), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz file://libtool2.patch file://libtiff-CVE-2013-1960.patch file://libtiff-CVE-2013-4232.patch file://libtiff-CVE-2013-4243.patch

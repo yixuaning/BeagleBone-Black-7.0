@@ -1,0 +1,22 @@
+# @name linaro cpufreq tests
+# @desc cpufreq functional tests from git://git.linaro.org/tools/pm-qa.git
+# @requires power_mgr/cpufreq
+
+POWERMGR_S_FUNC_LINAROCPUFREQ01 cpufreq_01.sh 
+
+POWERMGR_S_FUNC_LINAROCPUFREQ02 cpufreq_02.sh  
+
+POWERMGR_S_FUNC_LINAROCPUFREQ03 cpufreq_03.sh  
+
+POWERMGR_S_FUNC_LINAROCPUFREQ04 cpufreq_04.sh  
+
+POWERMGR_S_FUNC_LINAROCPUFREQ05 cpufreq_05.sh  
+
+POWERMGR_S_FUNC_LINAROCPUFREQ06 cpufreq_06.sh  
+
+POWERMGR_S_FUNC_LINAROCPUFREQ07 cpufreq_07.sh  
+
+POWERMGR_S_FUNC_LINAROCPUFREQ08 cpufreq_08.sh  
+
+POWERMGR_S_FUNC_LINAROCPUFREQ09 cpufreq_09.sh  
+

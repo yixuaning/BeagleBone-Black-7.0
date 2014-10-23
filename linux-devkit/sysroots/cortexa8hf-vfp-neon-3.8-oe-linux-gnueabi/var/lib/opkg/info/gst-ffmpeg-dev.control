@@ -1,0 +1,15 @@
+Package: gst-ffmpeg-dev
+Version: 0.10.13-r6-arago0
+Description: gst-ffmpeg version 0.10.13-r6-arago0 - Development files
+ FFmpeg-based GStreamer plug-in  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2+ & (GPLv2+ & LGPLv2.1+)
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gst-ffmpeg
+Homepage: http://www.gstreamer.net/
+Depends: gst-ffmpeg (= 0.10.13-r6-arago0)
+Recommends: orc-dev, libgcc-s-dev, gstreamer-dev, libz-dev, libgstaudio-0.10-dev, libffi-dev, bzip2-dev, libavcodec-dev, libavutil-dev, libswscale-dev, libbz2-dev, liborc-0.4-dev, libgstpbutils-0.10-dev, gst-plugins-base-dev, libpostproc-dev, libgstinterfaces-0.10-dev, libav-dev, libgstvideo-0.10-dev, libc6-dev, libavformat-dev, libxml2-dev, libglib-2.0-dev
+Source: http://gstreamer.freedesktop.org/src/gst-ffmpeg/gst-ffmpeg-0.10.13.tar.bz2 file://lower-rank.diff file://configure-fix.patch file://h264_qpel_mmx.patch file://libav_e500mc.patch file://gst-ffmpeg-CVE-2013-3674.patch

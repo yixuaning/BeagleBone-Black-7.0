@@ -1,0 +1,3636 @@
+Package: shadow-securetty
+Version: 4.1.4.3-r2-arago0
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: gst-ffmpeg-dev
+Version: 0.10.13-r6-arago0
+Depends: gst-ffmpeg (= 0.10.13-r6-arago0)
+Recommends: orc-dev, libgcc-s-dev, gstreamer-dev, libz-dev, libgstaudio-0.10-dev, libffi-dev, bzip2-dev, libavcodec-dev, libavutil-dev, libswscale-dev, libbz2-dev, liborc-0.4-dev, libgstpbutils-0.10-dev, gst-plugins-base-dev, libpostproc-dev, libgstinterfaces-0.10-dev, libav-dev, libgstvideo-0.10-dev, libc6-dev, libavformat-dev, libxml2-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libqt3supporte-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqt3supporte4
+Recommends: libgcc-s-dev, gstreamer-dev, libz-dev, libqtsqle-dev, libqtcoree-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libqtxmle-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libtiff-dev, gst-plugins-base-dev, libqtnetworke-dev, jpeg-dev, directfb-dev, libstdc++-dev, libc6-dev, pulseaudio-dev, libpng16-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libbz2-0
+Version: 1.0.6-r5
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libqt3supporte4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libqtcoree4 (>= 4.8.4), libqtxmle4 (>= 4.8.4), libqtsqle4 (>= 4.8.4), libqtguie4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: directfb-dev
+Version: 1.6.1-r0.2
+Depends: directfb (= 1.6.1-r0.2)
+Recommends: libgcc-s-dev, libjpeg-dev, libz-dev, jpeg-dev, sysfsutils-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libpng16-dev, libfreetype-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: kernel-3.12.10-ti2013.12.01
+Version: 3.12.10-r21k+gitrAUTOINC+2325bb5680986b6914d8fd0b5d0bdc20081fe8d3-arago6-amsdk2
+Depends: kernel-image-3.12.10-ti2013.12.01, am33x-cm3, kernel-devicetree
+Provides: kernel-3.12.10-ti2013.12.01
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libtheora
+Version: 1.1.1-r1
+Depends: libogg0 (>= 1.3.0), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: bluez4-dev
+Version: 4.101-r5-arago1
+Depends: bluez4, bluez-hcidump
+Recommends: libdbus-glib-1-dev, libgcc-s-dev, libusb-dev, libc6-dev, udev-dev, dbus-lib-dev, libglib-2.0-dev, libreadline-dev, libusb-0.1-dev, libasound-dev, libcheck-dev, alsa-lib-dev, bluez-hcidump-dev, libsndfile-dev, libusb-1.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: directfb
+Version: 1.6.1-r0.2
+Depends: libts-1.0-0 (>= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0), libstdc++6 (>= 4.7.3), libpng16-16 (>= 1.6.0), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libc6 (>= 2.15), libjpeg8 (>= 8d+1.2.1), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: avahi
+Version: 0.6.31-r6.1
+Recommends: update-rc.d, libnss-mdns
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libgstfft-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libav
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libswscale2 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavcodec53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavformat53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libsdl-1.2-0 (>= 1.2.15), libavdevice53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libc6 (>= 2.15), libavfilter2 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libpostproc52 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgcc-s1 (>= 4.7.3)
+Suggests: mplayer
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libgles-omap3
+Version: 5.01.01.01-r38.0
+Depends: libgles-omap3-flipwsegl, devmem2, libstdc++6 (>= 4.7.3), libgles-omap3-linuxfbwsegl, fbset, libc6 (>= 2.15), libgles-omap3-blitwsegl, libgles-omap3-frontwsegl, libgcc-s1 (>= 4.7.3)
+Recommends: omap3-sgx-modules, update-rc.d, libgles-omap3-es9, libgles-omap3-es8, libgles-omap3-es6, libgles-omap3-es5, libgles-omap3-es3
+Provides: libEGL.so, libegl, libsrv_um.so, libglslcompiler.so, libsrv_um_dri.so, libIMGegl.so, libGLESv2.so, libgles1, libgles2, libpvr2d.so, libsrv_init.so, libGLES_CM.so
+Replaces: libegl, libgles2, libgles1
+Conflicts: libegl, libgles2, libgles1
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Conffiles:
+ /etc/powervr.ini 0e6110282173e1073105acac1a5fbda2
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: libc6
+Version: 2.15-r2-arago5
+Provides: rtld(GNU_HASH), glibc
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233194
+Auto-Installed: yes
+
+Package: opkg
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Depends: opkg-config-base, update-alternatives-cworth, libopkg1 (>= 0.1.8+svnr649), libc6 (>= 2.15)
+Replaces: opkg-nogpg
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: util-linux-mkfs
+Version: 2.22.2-r3
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libqtsqle-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtsqle4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+
+Package: libnl-3-dev
+Version: 1:3.2.21-r0
+Depends: libnl-route-3-200, libnl-3-cli, libnl-3-200 (= 1:3.2.21-r0), libnl-3-genl, libc6 (>= 2.15), libnl-nf-3-200
+Recommends: libnl-route-dev, libgcc-s-dev, libc6-dev, libnl-genl-dev, libnl-cli-dev, libnl-nf-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: gst-plugins-good-dev
+Version: 0.10.31-r8-arago2
+Depends: gst-plugins-good (= 0.10.31-r8-arago2)
+Recommends: libcairo-dev, gst-plugins-base-dev, libid3tag-dev, gstreamer-dev, libsoup-2.4-dev, libz-dev, jpeg-dev, libpng16-dev, flac-dev, speex-dev, pulseaudio-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libpci-dev
+Version: 3.1.10-r0
+Depends: libpci3
+Recommends: libc6-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libavformat-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavformat53, libav-dev
+Recommends: libtheora-dev, libgcc-s-dev, libavcodec-dev, libz-dev, bzip2-dev, libavutil-dev, libvorbis-dev, libc6-dev, libogg-dev, libbz2-dev, libvpx-dev, libx264-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libgstrtp-0.10-0
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libqtsqle4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+
+Package: alsa-lib
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libgles-omap3-blitwsegl
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Recommends: libgles-omap3-blitwsegl-es6, libgles-omap3-blitwsegl-es5, libgles-omap3-blitwsegl-es3, libgles-omap3-blitwsegl-es9, libgles-omap3-blitwsegl-es8
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: gconf
+Version: 3.2.6-r0
+Depends: libdbus-glib-1-2 (>= 0.100.2), libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libdbus-1-3 (>= 1.6.8), libz1 (>= 1.2.7), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: util-linux-umount
+Version: 2.22.2-r3
+Depends: libmount1 (>= 2.22.2), update-alternatives-cworth, libblkid1 (>= 2.22.2), libuuid1 (>= 2.22.2), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: gst-plugins-base-dev
+Version: 0.10.36-r7
+Depends: libgstriff-0.10-0, libgstpbutils-0.10-0, libgstaudio-0.10-0, libgstvideo-0.10-0, libgstapp-0.10-0, libgstnetbuffer-0.10-0, libgstfft-0.10-0, libgstinterfaces-0.10-0, libgsttag-0.10-0, libgstrtp-0.10-0, libgstsdp-0.10-0, libgstcdda-0.10-0, libgstrtsp-0.10-0, gst-plugins-base (= 0.10.36-r7)
+Recommends: libtheora-dev, gstreamer-dev, libvorbis-dev, libogg-dev, alsa-lib-dev, libvorbisidec-dev, libfreetype-dev, liboil-dev, util-linux-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: tslib-conf
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Provides: libts-0.0-conf
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: gst-plugins-good
+Version: 0.10.31-r8-arago2
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libssl1.0.0
+Version: 1.0.1e-r15.0-arago9
+Depends: libcrypto1.0.0 (>= 1.0.1e), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libqtxmlpatternse4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libphonone-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libphonone4
+Recommends: libqtcoree-dev, gstreamer-dev, libpulse-dev, libz-dev, libgcc-s-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libqtxmle-dev, gst-plugins-base-dev, libqtnetworke-dev, jpeg-dev, directfb-dev, libqtdbuse-dev, libstdc++-dev, libc6-dev, pulseaudio-dev, libpng16-dev, libglib-2.0-dev, libpulse-mainloop-glib-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libavahi-gobject0
+Version: 0.6.31-r6.1
+Depends: libavahi-common3 (>= 0.6.31), libdbus-1-3 (>= 1.6.8), libffi6 (>= 3.0.11), libavahi-client3 (>= 0.6.31), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libavahi-glib1 (>= 0.6.31)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: opkg-config-base
+Version: 1.0-r1
+Status: install ok installed
+Architecture: am335x_evm
+Conffiles:
+ /etc/opkg/arch.conf 7e4d90c1b357f46efed2a5ab48db1abd
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: packagegroup-arago-tisdk-graphics-sdk-target
+Version: 1.0-r3
+Depends: libgles-omap3-dev
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libqtnetworke4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libz1 (>= 1.2.7), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+
+Package: libavformat53
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavcodec53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libz1 (>= 1.2.7), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libbz2-0 (>= 1.0.6)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libgstsignalprocessor-0.10-23
+Version: 0.10.23-r4-arago5
+Depends: gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libgstaudio-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: liborc-test-0.4-0
+Version: 0.4.16-r1.0
+Depends: liborc-0.4-0 (>= 0.4.16), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libproxy-dev
+Version: 0.4.7-r6
+Depends: libproxy (= 0.4.7-r6)
+Recommends: libc6-dev, libglib-2.0-dev, libgcc-s-dev, libstdc++-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libpulse-simple0
+Version: 3.0-r0-arago0
+Depends: libpulse0 (>= 3.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 3.0), libcap2 (>= 2.22), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.15), libjson0 (>= 0.9)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: packagegroup-arago-gst-sdk-target
+Version: 1.0-r5
+Depends: gst-plugins-base-dev, gst-ffmpeg-dev, gstreamer-dev, gst-plugins-bad-dev, gst-plugins-good-dev
+Status: install ok installed
+Architecture: all
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libpng16-dev
+Version: 1.6.0-r0
+Depends: libpng16-16 (= 1.6.0-r0)
+Recommends: libc6-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: libnl-3-200
+Version: 1:3.2.21-r0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Replaces: libnl2
+Conflicts: libnl2
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libbz2-dev
+Version: 1.0.6-r5
+Depends: libbz2-0 (= 1.0.6-r5)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libgcrypt11
+Version: 1.5.0-r2
+Depends: libcap2 (>= 2.22), libgpg-error0 (>= 1.11), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: bash
+Version: 3.2.48-r11-arago0
+Depends: update-alternatives-cworth, libtinfo5 (>= 5.9), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libusb-0.1-4
+Version: 1:0.1.4-r1
+Depends: libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libvpx-dev
+Version: 0.9.5-r3.0
+Depends: libvpx (= 0.9.5-r3.0)
+Recommends: libc6-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libffi6
+Version: 3.0.11-r1
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233202
+Auto-Installed: yes
+
+Package: alsa-states
+Version: 0.2.0-r3-arago0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: openssl
+Version: 1.0.1e-r15.0-arago9
+Depends: libssl1.0.0 (>= 1.0.1e), libc6 (>= 2.15), libcrypto1.0.0 (>= 1.0.1e)
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: libavdevice53
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavcodec53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavformat53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libc6 (>= 2.15), libasound2 (>= 1.0.26), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: dbus-1
+Version: 1.6.8-r6.0-arago1
+Depends: base-passwd, shadow, libexpat1 (>= 2.1.0), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.15)
+Recommends: update-rc.d
+Provides: dbus-x11
+Replaces: dbus-x11
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Conffiles:
+ /etc/dbus-1/system.conf 121a57a9ef97cd7cfb1e0a1ebe7dc60e
+ /etc/dbus-1/session.conf 3ec4497bcff6f8e1445db64b23bda595
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: speex-dev
+Version: 1.2rc1-r2
+Depends: speex (= 1.2rc1-r2)
+Recommends: libc6-dev, libogg-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: libqtcoree-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtcoree4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+
+Package: libflac++6
+Version: 1.2.1-r4
+Depends: libogg0 (>= 1.3.0), libstdc++6 (>= 4.7.3), libflac8 (>= 1.2.1), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: libgstcdda-0.10-0
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libgsttag-0.10-0 (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libticw5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: libstdc++-dev
+Version: 4.7.3-r2-arago5
+Depends: libstdc++6
+Recommends: libc6-dev, libgcc-s-dev, linux-libc-headers-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233202
+Auto-Installed: yes
+
+Package: libqtscripte4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libgnutlsxx27
+Version: 2.12.23-r8.4-arago0
+Depends: libstdc++6 (>= 4.7.3), libcap2 (>= 2.22), libz1 (>= 1.2.7), libgnutls26 (>= 2.12.23), libc6 (>= 2.15), libtasn1-3 (>= 2.14), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libgles-omap3-linuxfbwsegl-es3
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: acl
+Version: 2.2.51-r3
+Depends: libattr1 (>= 2.4.46), libacl1 (>= 2.2.51), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgles-omap3-linuxfbwsegl-es5
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-linuxfbwsegl-es6
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libavutil51
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: alsa-utils-amixer
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libgles-omap3-linuxfbwsegl-es8
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-linuxfbwsegl-es9
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libjpeg8
+Version: 8d+1.2.1-r6
+Depends: libc6 (>= 2.15)
+Provides: jpeg
+Replaces: jpeg
+Conflicts: jpeg
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libcap-dev
+Version: 2.22-r5
+Depends: libcap2 (= 2.22-r5)
+Recommends: libc6-dev, attr-dev, libattr-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libopkg1
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libusb-1.0-0
+Version: 1.0.9-r1
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libuuid1
+Version: 2.22.2-r3
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: pulseaudio-dev
+Version: 3.0-r0-arago0
+Depends: libpulse0, libpulse-mainloop-glib0, libpulse-simple0, pulseaudio (= 3.0-r0-arago0)
+Recommends: dbus-lib-dev, pulseaudio-module-card-restore-dev, base-passwd-dev, libltdl-dev, speex-dev, bluez4-dev, libz-dev, pulseaudio-module-filter-apply-dev, pulseaudio-module-intended-roles-dev, libpulsecore-dev, pulseaudio-lib-alsa-util-dev, libffi-dev, libavahi-client-dev, alsa-lib-dev, libgcc-s-dev, libudev-dev, pulseaudio-module-alsa-sink-dev, libpulse-dev, pulseaudio-module-filter-heuristics-dev, pulseaudio-lib-cli-dev, pulseaudio-lib-avahi-wrap-dev, pulseaudio-module-stream-restore-dev, pulseaudio-module-null-sink-dev, pulseaudio-module-detect-dev, libcap-dev, pulseaudio-module-native-protocol-unix-dev, pulseaudio-lib-rtp-dev, sbc-dev, dbus-dev, pulseaudio-module-default-device-restore-dev, pulseaudio-module-always-sink-dev, libavahi-common-dev, udev-dev, pulseaudio-lib-protocol-esound-dev, libpulsecommon-dev, libdbus-glib-1-dev, gconf-dev, libc6-dev, pulseaudio-module-role-cork-dev, libasound-dev, pulseaudio-module-device-restore-dev, libpulse-simple-dev, pulseaudio-lib-protocol-cli-dev, libsndfile-dev, pulseaudio-module-alsa-card-dev, pulseaudio-lib-protocol-native-dev, pulseaudio-module-alsa-source-dev, pulseaudio-module-augment-properties-dev, shadow-dev, pulseaudio-module-switch-on-port-available-dev, shadow-sysroot-dev, pulseaudio-lib-protocol-http-dev, pulseaudio-lib-bluetooth-util-dev, libglib-2.0-dev, consolekit-dev, pulseaudio-module-udev-detect-dev, liboil-dev, libpulse-mainloop-glib-dev, libgdbm-dev, pulseaudio-lib-protocol-simple-dev, pulseaudio-module-position-event-sounds-dev, libjson-dev, pulseaudio-lib-oss-util-dev, pulseaudio-module-rescue-streams-dev, avahi-dev, libtool-dev, pulseaudio-module-suspend-on-idle-dev, libatomics-ops-dev, libsamplerate0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: liboil-dev
+Version: 0.3.17-r5
+Depends: liboil (= 0.3.17-r5)
+Recommends: libc6-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: opkg-config-base-dev
+Version: 1.0-r1
+Depends: opkg-config-base (= 1.0-r1)
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: sysfsutils
+Version: 2.1.0-r5
+Depends: libsysfs2 (>= 2.1.0), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libsoup-2.4-dev
+Version: 2.40.2-r1
+Depends: libsoup-2.4-1 (= 2.40.2-r1)
+Recommends: libz-dev, libglib-2.0-dev, libproxy-dev, libffi-dev, libc6-dev, libgnutls-dev, libxml2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libtiff-dev
+Version: 4.0.3-r0-arago0
+Depends: libtiff5 (= 4.0.3-r0-arago0)
+Recommends: jpeg-dev, libc6-dev, libgcc-s-dev, libjpeg-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: kernel-devicetree
+Version: 3.12.10-r21k+gitrAUTOINC+2325bb5680986b6914d8fd0b5d0bdc20081fe8d3-arago6-amsdk2
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libnl-3-cli
+Version: 1:3.2.21-r0
+Depends: libnl-route-3-200 (>= 3.2.21), libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.15), libnl-nf-3-200 (>= 3.2.21), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: pulseaudio
+Version: 3.0-r0-arago0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: liboil
+Version: 0.3.17-r5
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: alsa-conf-base
+Version: 1.0.26-r0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+
+Package: util-macros-dev
+Version: 1:1.17-r0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libqtsvge-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtsvge4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libqtnetworke-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libpng16-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233208
+Auto-Installed: yes
+
+Package: sysvinit-inittab
+Version: 2.88dsf-r9
+Status: install ok installed
+Architecture: am335x_evm
+Conffiles:
+ /etc/inittab 9cec6ce80169703e8ab3e622544574b5
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: update-rc.d-dev
+Version: 0.7-r5
+Depends: update-rc.d (= 0.7-r5)
+Status: install ok installed
+Architecture: all
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libqtsvge4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libqtcoree4 (>= 4.8.4), libz1 (>= 1.2.7), libqtguie4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libxml2-dev
+Version: 2.9.0-r1.1
+Depends: libxml2 (= 2.9.0-r1.1)
+Recommends: libc6-dev, libgcc-s-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: util-linux-sfdisk
+Version: 2.22.2-r3
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libqtdesignercomponentse4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtcoree4 (>= 4.8.4), libqtxmle4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtdesignere4 (>= 4.8.4), libqtscripte4 (>= 4.8.4), libqtguie4 (>= 4.8.4), libc6 (>= 2.15), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: openssl-dev
+Version: 1.0.1e-r15.0-arago9
+Depends: libcrypto1.0.0, openssl (= 1.0.1e-r15.0-arago9), libssl1.0.0
+Recommends: libc6-dev, libgcc-s-dev, libcrypto-dev, libssl-dev, cryptodev-dev
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: devmem2
+Version: 1.0-r7
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233194
+Auto-Installed: yes
+
+Package: libglib-2.0-utils
+Version: 1:2.34.3-r2
+Depends: libglib-2.0-0 (>= 2.34.3), libffi6 (>= 3.0.11), libz1 (>= 1.2.7), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 4.7.3-r2-arago5
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: libgstbasevideo-0.10-23
+Version: 0.10.23-r4-arago5
+Depends: libffi6 (>= 3.0.11), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: wpa-supplicant-cli
+Version: 2.0-devel-ti-r6b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libogg-dev
+Version: 1.3.0-r1
+Depends: libogg0 (= 1.3.0-r1)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libgles-omap3-blitwsegl-es3
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgstcodecparsers-0.10-23
+Version: 0.10.23-r4-arago5
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libgles-omap3-blitwsegl-es5
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libdbus-1-3
+Version: 1.6.8-r6.0-arago1
+Depends: libc6 (>= 2.15)
+Recommends: dbus-1
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libnl-3-genl
+Version: 1:3.2.21-r0
+Depends: libnl-route-3-200 (>= 3.2.21), libnl-3-cli (>= 3.2.21), libnl-nf-3-200 (>= 3.2.21), libnl-3-200 (>= 3.2.21), libc6 (>= 2.15)
+Replaces: libnl-genl2, libnl-genl-3-200
+Conflicts: libnl-genl2, libnl-genl-3-200
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libgles-omap3-blitwsegl-es6
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-blitwsegl-es8
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-blitwsegl-es9
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: attr-dev
+Version: 2.4.46-r4
+Depends: attr (= 2.4.46-r4)
+Recommends: libc6-dev, ncurses-dev, libattr-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: usbutils-dev
+Version: 006-r0
+Depends: usbutils (= 006-r0)
+Recommends: libc6-dev, usbutils-ids-dev, libz-dev, libusb-1.0-dev, libusb-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: alsa-utils-alsaloop
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libsamplerate0 (>= 0.1.8), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: bzip2
+Version: 1.0.6-r5
+Depends: update-alternatives-cworth, libbz2-0 (>= 1.0.6), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: pciutils
+Version: 3.1.10-r0
+Depends: pciutils-ids, libz1 (>= 1.2.7), libpci3 (>= 3.1.10), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgstapp-0.10-0
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233206
+Auto-Installed: yes
+
+Package: libqtteste4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libtool
+Version: 2.4.2-r6.0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: sbc
+Version: 1.0-r0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libmount1
+Version: 2.22.2-r3
+Depends: libblkid1 (>= 2.22.2), libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: usbutils
+Version: 006-r0
+Depends: libz1 (>= 1.2.7), usbutils-ids, libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: attr
+Version: 2.4.46-r4
+Depends: libattr1 (>= 2.4.46), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: util-linux-mount
+Version: 2.22.2-r3
+Depends: update-alternatives-cworth, libmount1 (>= 2.22.2), libc6 (>= 2.15), libblkid1 (>= 2.22.2), libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libqtmultimediae4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtcoree4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtguie4 (>= 4.8.4), libc6 (>= 2.15), libasound2 (>= 1.0.26), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libcrypto1.0.0
+Version: 1.0.1e-r15.0-arago9
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libjpeg-dev
+Version: 8d+1.2.1-r6
+Depends: libjpeg8 (= 8d+1.2.1-r6)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libtinfo5
+Version: 5.9-r15.1
+Depends: libc6 (>= 2.15)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libqtclucenee-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtclucenee4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: alsa-lib-dev
+Version: 1.0.26-r0
+Depends: alsa-lib (= 1.0.26-r0), libasound2
+Recommends: libc6-dev, libasound-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: gconf-dev
+Version: 3.2.6-r0
+Depends: gconf (= 3.2.6-r0)
+Recommends: libdbus-glib-1-dev, libz-dev, dbus-lib-dev, libglib-2.0-dev, libffi-dev, libc6-dev, dbus-dev, gobject-introspection-stub-dev, libxml2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libqtdbuse-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtdbuse4
+Recommends: libglib-2.0-dev, gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libqtxmle-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libtiff-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: kernel-module-bufferclass-ti
+Version: 5.01.01.01-r21a
+Depends: kernel-3.12.10-ti2013.12.01, kernel-module-pvrsrvkm
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: util-linux-swaponoff
+Version: 2.22.2-r3
+Depends: update-alternatives-cworth, libmount1 (>= 2.22.2), libc6 (>= 2.15), libblkid1 (>= 2.22.2), libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: gst-plugins-bad-dev
+Version: 0.10.23-r4-arago5
+Depends: gst-plugins-bad (= 0.10.23-r4-arago5), libgstphotography-0.10-23, libgstbasecamerabinsrc-0.10-23, libgstbasevideo-0.10-23, libgstcodecparsers-0.10-23, libgstsignalprocessor-0.10-23
+Recommends: gst-plugins-base-dev, faad2-dev, curl-dev, glib-2.0-utils-dev, bzip2-dev, gstreamer-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libjson-dev
+Version: 0.9-r0
+Depends: libjson0 (= 0.9-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libjson0
+Version: 0.9-r0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: eglibc-utils
+Version: 2.15-r2-arago5
+Provides: glibc-utils
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libqtxmle4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: update-alternatives-cworth
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Provides: update-alternatives
+Conflicts: update-alternatives-dpkg
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: libopkg-dev
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Depends: libopkg1
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: libgstsdp-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libudev-dev
+Version: 182-r7-arago2
+Depends: libudev0
+Recommends: libgcc-s-dev, libusb-dev, libc6-dev, module-init-tools-dev, libglib-2.0-dev, pciutils-dev, usbutils-dev, acl-dev, util-linux-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libpvrqwswsegl1
+Version: 4.8.4-r52.3-arago5.0
+Depends: libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libgstvideo-0.10-0
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233206
+Auto-Installed: yes
+
+Package: libvorbis
+Version: 1.3.3-r1
+Depends: libogg0 (>= 1.3.0), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: pointercal
+Version: 0.0-r11
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libvorbisidec1
+Version: 20120314-r1
+Depends: libogg0 (>= 1.3.0), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: alsa-utils-alsaconf
+Version: 1.0.26-r0
+Depends: bash
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libgles-omap3-linuxfbwsegl
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Recommends: libgles-omap3-linuxfbwsegl-es6, libgles-omap3-linuxfbwsegl-es5, libgles-omap3-linuxfbwsegl-es3, libgles-omap3-linuxfbwsegl-es9, libgles-omap3-linuxfbwsegl-es8
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: libts-1.0-0
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Depends: tslib-conf, libc6 (>= 2.15)
+Recommends: pointercal
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libpng16-16
+Version: 1.6.0-r0
+Depends: libz1 (>= 1.2.7), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+
+Package: libproxy
+Version: 0.4.7-r6
+Depends: libglib-2.0-0 (>= 2.34.3), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libcurl-dev
+Version: 7.29.0-r1-arago2
+Depends: libcurl5
+Recommends: libgcc-s-dev, libz-dev, libssl-dev, openssl-dev, libcrypto-dev, libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.9.0-r1.1
+Depends: libz1 (>= 1.2.7), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233205
+Auto-Installed: yes
+
+Package: libcairo-perf-utils
+Version: 1.12.14-r0
+Depends: libz1 (>= 1.2.7), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libphonone4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libpulse0 (>= 3.0), libqtcoree4 (>= 4.8.4), libqtxmle4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtdbuse4 (>= 4.8.4), libqtguie4 (>= 4.8.4), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libpulse-mainloop-glib0 (>= 3.0), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libqt-embeddeduitools4-dev
+Version: 4.8.4-r52.3-arago5.0
+Recommends: gst-plugins-base-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libavahi-common3
+Version: 0.6.31-r6.1
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: alsa-utils-dev
+Version: 1.0.26-r0
+Depends: alsa-utils (= 1.0.26-r0)
+Recommends: alsa-utils-iecset-dev, libgcc-s-dev, ncurses-libtinfo-dev, ncurses-libncursesw-dev, alsa-lib-dev, alsa-utils-alsaucm-dev, alsa-utils-midi-dev, alsa-utils-speakertest-dev, bash-dev, ncurses-libformw-dev, udev-dev, ncurses-libpanelw-dev, alsa-utils-aconnect-dev, libc6-dev, libasound-dev, alsa-utils-amixer-dev, ncurses-dev, alsa-utils-aseqdump-dev, alsa-utils-alsaconf-dev, ncurses-libmenuw-dev, alsa-utils-alsaloop-dev, alsa-utils-alsamixer-dev, alsa-utils-aseqnet-dev, alsa-utils-aplay-dev, alsa-utils-alsactl-dev, libsamplerate0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libblkid1
+Version: 2.22.2-r3
+Depends: libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: gst-ffmpeg
+Version: 0.10.13-r6-arago0
+Depends: libz1 (>= 1.2.7), libswscale2 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgstpbutils-0.10-0 (>= 0.10.36), libavcodec53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgstvideo-0.10-0 (>= 0.10.36), libavformat53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libxml2 (>= 2.9.0), gstreamer (>= 0.10.36), libpostproc52 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libffi6 (>= 3.0.11), libgstaudio-0.10-0 (>= 0.10.36), libbz2-0 (>= 1.0.6), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgstinterfaces-0.10-0 (>= 0.10.36), liborc-0.4-0 (>= 0.4.16), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libthread-db1
+Version: 2.15-r2-arago5
+Depends: libc6 (>= 2.15)
+Provides: glibc-thread-db
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233200
+Auto-Installed: yes
+
+Package: libsdl-1.2-0
+Version: 1.2.15-r2
+Depends: libts-1.0-0 (>= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libdaemon-dev
+Version: 0.14-r0
+Depends: libdaemon0 (= 0.14-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libsqlite3-0
+Version: 3071502-r0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233206
+Auto-Installed: yes
+
+Package: libav-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libav (= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1)
+Recommends: libavformat-dev, libtheora-dev, libgcc-s-dev, libavcodec-dev, libavutil-dev, bzip2-dev, libpostproc-dev, libavfilter-dev, libvorbis-dev, libc6-dev, libogg-dev, libswscale-dev, libsdl-1.2-dev, libz-dev, libvpx-dev, libx264-dev, libavdevice-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libqtxmle-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtxmle4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: gdbserver
+Version: 7.5.1-r0.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Recommends: glibc-thread-db
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: base-passwd-dev
+Version: 3.5.26-r2
+Depends: base-passwd (= 3.5.26-r2)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: linux-libc-headers-dev
+Version: 3.8-r0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233201
+Auto-Installed: yes
+
+Package: cryptodev-dev
+Version: 1.6-r0-arago1
+Depends: cryptodev (= 1.6-r0-arago1)
+Recommends: kernel-3.12.10-ti2013.12.01-dev, kernel-module-cryptodev-dev
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: udev-utils
+Version: 182-r7-arago2
+Depends: libkmod2 (>= 9), libblkid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgstrtsp-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libgpg-error-dev
+Version: 1.11-r0
+Depends: libgpg-error0 (= 1.11-r0), libgpg-error0 (>= 1.11), libc6 (>= 2.15)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libcairo-script-interpreter2
+Version: 1.12.14-r0
+Depends: libpng16-16 (>= 1.6.0), libpixman-1-0 (>= 0.29.2), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libcairo2 (>= 1.12.14), libc6 (>= 2.15), libexpat1 (>= 2.1.0), libgcc-s1 (>= 4.7.3), libfontconfig1 (>= 2.10.2)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libqtscripttoolse4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtcoree4 (>= 4.8.4), libc6 (>= 2.15), libqtscripte4 (>= 4.8.4), libqtguie4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libgles-omap3-frontwsegl-es3
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-frontwsegl-es5
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-frontwsegl-es6
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-frontwsegl-es8
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-frontwsegl-es9
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-flipwsegl
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Recommends: libgles-omap3-flipwsegl-es6, libgles-omap3-flipwsegl-es5, libgles-omap3-flipwsegl-es3, libgles-omap3-flipwsegl-es9, libgles-omap3-flipwsegl-es8
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233194
+Auto-Installed: yes
+
+Package: libtic5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: alsa-dev
+Version: 1.0.26-r0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: alsa-utils-alsaucm
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libcheck
+Version: 0.9.9-r1
+Depends: gawk, libc6 (>= 2.15)
+Replaces: check (<= 0.9.5)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: curl
+Version: 7.29.0-r1-arago2
+Depends: libcurl5 (>= 7.29.0), libcrypto1.0.0 (>= 1.0.1e), libz1 (>= 1.2.7), libc6 (>= 2.15), libssl1.0.0 (>= 1.0.1e)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libavutil-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavutil51, libav-dev
+Recommends: libtheora-dev, libgcc-s-dev, libz-dev, libx264-dev, libvorbis-dev, libc6-dev, libogg-dev, libvpx-dev, bzip2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libvorbis-dev
+Version: 1.3.3-r1
+Depends: libvorbis (= 1.3.3-r1)
+Recommends: libc6-dev, libogg-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libsoup-2.4-1
+Version: 2.40.2-r1
+Depends: libglib-2.0-0 (>= 2.34.3), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), libz1 (>= 1.2.7), libc6 (>= 2.15)
+Recommends: glib-networking
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libqthelpe4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtguie4 (>= 4.8.4), libc6 (>= 2.15), libqtcoree4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtclucenee4 (>= 4.8.4), libqtsqle4 (>= 4.8.4), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: bash-dev
+Version: 3.2.48-r11-arago0
+Depends: bash (= 3.2.48-r11-arago0)
+Recommends: libc6-dev, update-alternatives-cworth-dev, libgcc-s-dev, ncurses-libtinfo-dev, ncurses-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: libpulse0
+Version: 3.0-r0-arago0
+Depends: libsndfile1 (>= 1.0.25), libjson0 (>= 0.9), libcap2 (>= 2.22), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.15), libgcc-s1 (>= 4.7.3), libpulsecommon (>= 3.0)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libqtscripttoolse-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtscripttoolse4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, libqtscripte-dev, libqtnetworke-dev, libz-dev, jpeg-dev, directfb-dev, libglib-2.0-dev, libts-1.0-dev, libstdc++-dev, libpng16-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, openssl-dev, gstreamer-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: pciutils-dev
+Version: 3.1.10-r0
+Depends: pciutils (= 3.1.10-r0)
+Recommends: libc6-dev, libpci-dev, pciutils-ids-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libqtwebkite4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libgstpbutils-0.10-0 (>= 0.10.36), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), gstreamer (>= 0.10.36), libgstapp-0.10-0 (>= 0.10.36), libstdc++6 (>= 4.7.3), libgstinterfaces-0.10-0 (>= 0.10.36), libqtcoree4 (>= 4.8.4), libsqlite3-0 (>= 3071502), libqtguie4 (>= 4.8.4), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: i2c-tools
+Version: 3.1.0-r0
+Depends: libc6 (>= 2.15), perl
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libpanel5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: faad2
+Version: 2.7-r1
+Depends: libfaad2 (>= 2.7), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libtool-dev
+Version: 2.4.2-r6.0
+Depends: libtool (= 2.4.2-r6.0)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libqtdbuse4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtxmle4 (>= 4.8.4), libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libncursesw5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libatomics-ops
+Version: 7.2-r1
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libreadline-dev
+Version: 5.2-r9
+Depends: libreadline5 (= 5.2-r9)
+Recommends: libc6-dev, ncurses-libtinfo-dev, ncurses-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libgles-omap3-frontwsegl
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Recommends: libgles-omap3-frontwsegl-es5, libgles-omap3-frontwsegl-es6, libgles-omap3-frontwsegl-es8, libgles-omap3-frontwsegl-es9, libgles-omap3-frontwsegl-es3
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: libblkid-dev
+Version: 2.22.2-r3
+Recommends: libc6-dev, libgcc-s-dev, libuuid-dev, ncurses-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: liblzo2-dev
+Version: 2.06-r1
+Depends: liblzo2-2 (= 2.06-r1)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: alsa-utils-midi
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libfontconfig-dev
+Version: 2.10.2-r1
+Depends: libfontconfig1 (= 2.10.2-r1)
+Recommends: libc6-dev, libfreetype-dev, libexpat-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: alsa-utils-alsamixer
+Version: 1.0.26-r0
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.15), libpanelw5 (>= 5.9), libmenuw5 (>= 5.9), libasound2 (>= 1.0.26), libformw5 (>= 5.9)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libavcodec53
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libz1 (>= 1.2.7), libx264-129 (>= r2230+git), libc6 (>= 2.15), libvorbis (>= 1.3.3), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgcc-s1 (>= 4.7.3), libtheora (>= 1.1.1)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libsamplerate0
+Version: 0.1.8-r1
+Depends: libsndfile1 (>= 1.0.25), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libqtnetworke-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtnetworke4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libgles-omap3-dev
+Version: 5.01.01.01-r38.0
+Depends: libgles-omap3 (= 5.01.01.01-r38.0)
+Recommends: libgcc-s-dev, libgles-omap3-linuxfbwsegl-dev, fbset-dev, libstdc++-dev, libc6-dev, libgles-omap3-blitwsegl-dev, devmem2-dev, libgles-omap3-frontwsegl-dev, libgles-omap3-flipwsegl-dev
+Provides: libgles1-dev, libgles2-dev, libegl-dev
+Replaces: libgles1-dev, libgles2-dev, libegl-dev
+Conflicts: libgles1-dev, libgles2-dev, libegl-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libavahi-glib1
+Version: 0.6.31-r6.1
+Depends: libglib-2.0-0 (>= 2.34.3), libavahi-common3 (>= 0.6.31), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libpostproc-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libpostproc52, libav-dev
+Recommends: libtheora-dev, libz-dev, libx264-dev, libavutil-dev, libvorbis-dev, libc6-dev, libogg-dev, libvpx-dev, bzip2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libmenu5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: kernel-module-omaplfb
+Version: 5.01.01.01-r21a
+Depends: kernel-3.12.10-ti2013.12.01, kernel-module-pvrsrvkm
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: orc
+Version: 0.4.16-r1.0
+Depends: liborc-0.4-0 (>= 0.4.16), liborc-test-0.4-0 (>= 0.4.16), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: usbutils-ids
+Version: 006-r0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: alsa-utils-iecset
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libavdevice-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavdevice53, libav-dev
+Recommends: libtheora-dev, libgcc-s-dev, libavcodec-dev, libz-dev, bzip2-dev, libavutil-dev, libvorbis-dev, libc6-dev, libogg-dev, libasound-dev, libavformat-dev, libvpx-dev, libx264-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libc6-dbg
+Version: 2.15-r2-arago5
+Recommends: libgcc-dbg, libc6 (= 2.15-r2-arago5)
+Provides: libc-dbg, glibc-dbg
+Replaces: libc-dbg
+Conflicts: libc-dbg
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: wpa-supplicant-wl18xx-dev
+Version: 2.0-devel-ti-r6b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+Depends: wpa-supplicant-wl18xx (= 2.0-devel-ti-r6b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058)
+Recommends: wpa-supplicant-passphrase-dev, libssl-dev, openssl-dev, libnl-genl-dev, libcrypto-dev, libc6-dev, wpa-supplicant-cli-dev, libgnutls-dev, libnl-3-dev, dbus-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: libqtwebkite-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtwebkite4
+Recommends: libqtcoree-dev, gstreamer-dev, libz-dev, libgcc-s-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libgstpbutils-0.10-dev, gst-plugins-base-dev, libqtnetworke-dev, jpeg-dev, directfb-dev, libgstinterfaces-0.10-dev, libstdc++-dev, libgstvideo-0.10-dev, libc6-dev, libsqlite3-dev, pulseaudio-dev, libxml2-dev, libpng16-dev, libglib-2.0-dev, libgstapp-0.10-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libkmod2
+Version: 9-r0.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libacl1
+Version: 2.2.51-r3
+Depends: libattr1 (>= 2.4.46), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: fbset-modes
+Version: 0.1.0-r6
+Status: install ok installed
+Architecture: am335x_evm
+Conffiles:
+ /etc/fb.modes b8de2484fab6925beba7fc258292ea2d
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: base-passwd
+Version: 3.5.26-r2
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: libsysfs-dev
+Version: 2.1.0-r5
+Depends: libsysfs2
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: omap3-sgx-modules
+Version: 5.01.01.01-r21a
+Depends: kernel-module-bufferclass-ti, kernel-module-pvrsrvkm, kernel-module-omaplfb
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libpixman-1-dev
+Version: 1:0.29.2-r0
+Depends: libpixman-1-0 (= 1:0.29.2-r0)
+Recommends: libz-dev, libpng16-dev, util-macros-dev, libgcc-s-dev, libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libgstnetbuffer-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libfaad-dev
+Version: 2.7-r1
+Depends: libfaad2
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libreadline5
+Version: 5.2-r9
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libgstpbutils-0.10-0
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233206
+Auto-Installed: yes
+
+Package: gst-plugins-bad
+Version: 0.10.23-r4-arago5
+Depends: libglib-2.0-utils
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: gawk-dev
+Version: 4.0.2-r0
+Depends: gawk (= 4.0.2-r0)
+Recommends: libc6-dev, libgcc-s-dev, update-alternatives-cworth-dev, gawk-common-dev, libreadline-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libform5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: libcairo-gobject2
+Version: 1.12.14-r0
+Depends: libz1 (>= 1.2.7), libpng16-16 (>= 1.6.0), libpixman-1-0 (>= 0.29.2), libffi6 (>= 3.0.11), libfreetype6 (>= 2.4.11), libcairo2 (>= 1.12.14), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libexpat1 (>= 2.1.0), libgcc-s1 (>= 4.7.3), libfontconfig1 (>= 2.10.2)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libexpat-dev
+Version: 2.1.0-r0
+Depends: libexpat1 (= 2.1.0-r0)
+Recommends: libc6-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: shadow
+Version: 4.1.4.3-r13
+Depends: update-alternatives-cworth, shadow-securetty, base-passwd, libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: i2c-tools-dev
+Version: 3.1.0-r0
+Depends: i2c-tools (= 3.1.0-r0)
+Recommends: libc6-dev, perl-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: packagegroup-arago-qte-toolchain-target
+Version: 1.0-r6
+Depends: libqtcoree-dev, libqtsqle-dev, libqtmultimediae-dev, libqtteste-dev, libqthelpe-dev, libphonone-dev, libqtnetworke-dev, libqtxmle-dev, libqtguie-dev, libqtwebkite-dev, libqtxmlpatternse-dev, libqtdbuse-dev, libqt-embeddeduitools4-dev, libsqlite3-dev, libqtscripte-dev, libqtclucenee-dev, libpvrqwswsegl-dev, libqtopengle-dev, libqtsvge-dev, libqtdesignere-dev, libqtdeclarativee-dev, libqtscripttoolse-dev, libqt3supporte-dev, packagegroup-arago-standalone-sdk-target, libqtdesignercomponentse-dev, qt4-embedded-mkspecs
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libgstinterfaces-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233206
+Auto-Installed: yes
+
+Package: libsegfault
+Version: 2.15-r2-arago5
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libacl-dev
+Version: 2.2.51-r3
+Depends: libacl1
+Recommends: libc6-dev, attr-dev, libattr-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: gstreamer-dev
+Version: 0.10.36-r2
+Depends: gstreamer (= 0.10.36-r2)
+Recommends: libgcc-s-dev, libz-dev, libglib-2.0-dev, libffi-dev, libc6-dev, libxml2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: flac
+Version: 1.2.1-r4
+Depends: libogg0 (>= 1.3.0), libflac8 (>= 1.2.1), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: libmount-dev
+Version: 2.22.2-r3
+Recommends: libgcc-s-dev, ncurses-dev, libz-dev, libc6-dev, libuuid-dev, libblkid-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libdbus-glib-1-dev
+Version: 0.100.2-r0
+Depends: libdbus-glib-1-2 (= 0.100.2-r0), libdbus-glib-1-2 (>= 0.100.2), libffi6 (>= 3.0.11), libdbus-1-3 (>= 1.6.8), libz1 (>= 1.2.7), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libexpat1 (>= 2.1.0)
+Recommends: libz-dev, dbus-lib-dev, libglib-2.0-dev, libffi-dev, libc6-dev, libexpat-dev, dbus-dev, dbus-x11-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgnutls26
+Version: 2.12.23-r8.4-arago0
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.7), libc6 (>= 2.15), libtasn1-3 (>= 2.14), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libgles-omap3-flipwsegl-es3
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libqtscripte-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtscripte4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libgles-omap3-flipwsegl-es5
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libid3tag0
+Version: 0.15.1b-r7
+Depends: libz1 (>= 1.2.7), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libgles-omap3-flipwsegl-es6
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgettextsrc
+Version: 0.16.1-r6
+Depends: libgettextlib (>= 0.16.1), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: gettext
+Version: 0.16.1-r6
+Depends: libgcc-s1 (>= 4.7.3), libstdc++6 (>= 4.7.3), libgettextsrc (>= 0.16.1), libgettextlib (>= 0.16.1), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libgles-omap3-flipwsegl-es8
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libgles-omap3-flipwsegl-es9
+Version: 5.01.01.01-r38.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: orc-dev
+Version: 0.4.16-r1.0
+Depends: liborc-0.4-0, liborc-test-0.4-0, orc (= 0.4.16-r1.0)
+Recommends: libc6-dev, liborc-test-0.4-dev, liborc-0.4-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libffi-dev
+Version: 3.0.11-r1
+Depends: libffi6 (= 3.0.11-r1)
+Recommends: libc6-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libswscale2
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: libc6-dev
+Version: 2.15-r2-arago5
+Depends: libthread-db1, libc6 (= 2.15-r2-arago5)
+Recommends: linux-libc-headers-dev
+Provides: glibc-dev, libc-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233200
+Auto-Installed: yes
+
+Package: libgdbm-dev
+Version: 1.8.3-r4
+Depends: libgdbm3 (= 1.8.3-r4)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libpixman-1-0
+Version: 1:0.29.2-r0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: perl-dev
+Version: 5.14.3-r1
+Depends: libperl5, perl (= 5.14.3-r1)
+Recommends: perl-module-log-message-dev, perl-module-time-tm-dev, perl-module-extutils-constant-base-dev, perl-module-scalar-util-dev, perl-module-io-socket-inet-dev, perl-module-io-uncompress-adapter-bunzip2-dev, perl-module-pod-perldoc-getoptsoo-dev, perl-module-pluggable-dev, perl-module-io-file-dev, perl-module-if-dev, perl-module-ipc-cmd-dev, perl-module-tap-harness-dev, perl-module-locale-codes-dev, perl-module-warnings-dev, perl-module-loaded-dev, perl-module-scalar-util-pp-dev, perl-module-time-hires-dev, perl-module-b-dev, perl-module-tie-hash-dev, perl-module-extutils-constant-utils-dev, perl-module-b-concise-dev, perl-module-file-spec-unix-dev, libz-dev, perl-module-inc-latest-dev, perl-module-log-message-config-dev, perl-module-extutils-constant-proxysubs-dev, perl-module-errno-dev, perl-module-io-compress-zlib-extra-dev, perl-module-tap-parser-result-bailout-dev, perl-module-file-basename-dev, perl-module-b-deparse-dev, perl-module-cwd-dev, perl-module-object-accessor-dev, perl-module-bytes-dev, perl-module-params-check-dev, perl-module-file-fetch-dev, perl-module-pod-simple-pullparserendtoken-dev, perl-module-devel-innerpackage-dev, perl-module-tap-parser-iterator-array-dev, perl-module-extutils-mm-dev, perl-module-extutils-manifest-dev, perl-module-term-ui-history-dev, perl-module-io-uncompress-rawinflate-dev, perl-module-load-dev, perl-module-bigint-dev, perl-module-io-seekable-dev, perl-module-locale-codes-language-dev, perl-module-io-pipe-dev, perl-module-time-seconds-dev, perl-module-io-socket-unix-dev, perl-module-encode-jp-jis7-dev, perl-module-integer-dev, perl-module-file-stat-dev, perl-module-tie-refhash-dev, perl-module-encode-config-dev, perl-module-test-harness-dev, perl-module-carp-dev, perl-module-archive-tar-constant-dev, perl-lib-dev, perl-module-hash-util-fieldhash-dev, perl-module-tap-formatter-session-dev, perl-module-attributes-dev, perl-module-filter-util-call-dev, perl-module-io-uncompress-inflate-dev, perl-module-feature-dev, perl-module-tap-parser-result-plan-dev, perl-module-test-builder-dev, perl-module-extutils-mm-win32-dev, perl-module-locale-codes-script-dev, perl-module-unicode-normalize-dev, perl-module-text-balanced-dev, perl-module-net-ftp-a-dev, perl-module-encode-dev, perl-module-extutils-makemaker-dev, perl-module-tap-formatter-base-dev, perl-module-autosplit-dev, perl-module-exporter-dev, perl-module-io-select-dev, perl-module-locale-maketext-simple-dev, perl-module-term-ui-dev, perl-module-encode-cjkconstants-dev, perl-module-ipc-open3-dev, perl-module-app-prove-state-result-dev, perl-module-archive-tar-file-dev, perl-module-file-glob-dev, perl-module-cpan-dev, perl-module-file-temp-dev, perl-module-i18n-langtags-dev, perl-module-io-compress-adapter-deflate-dev, perl-module-i18n-langinfo-dev, perl-module-mro-dev, perl-module-pod-inputobjects-dev, perl-module-text-wrap-dev, perl-module-file-globmapper-dev, perl-module-symbol-dev, perl-module-tap-parser-utils-dev, perl-module-vmsish-dev, perl-module-extutils-cbuilder-dev, perl-module-version-dev, perl-module-encode-encoding-dev, perl-module-ipc-sysv-dev, perl-module-app-prove-state-result-test-dev, perl-module-tap-parser-sourcehandler-executable-dev, perl-module-extutils-mm-any-dev, perl-module-tap-parser-iterator-dev, perl-module-tap-parser-iteratorfactory-dev, perl-module-inc-latest-private-dev, perl-module-storable-dev, perl-modules-dev, perl-module-pod-simple-blackbox-dev, perl-module-unicode-collate-dev, perl-module-opcode-dev, perl-module-io-compress-rawdeflate-dev, perl-module-sdbm-file-dev, perl-module-cpanplus-dev, perl-module-compress-raw-bzip2-dev, perl-module-digest-dev, perl-module-getopt-std-dev, perl-module-pod-select-dev, perl-module-shellwords-dev, perl-module-mime-quotedprint-dev, perl-module-net-netrc-dev, perl-module-file-compare-dev, perl-module-test-builder-module-dev, perl-module-io-compress-gzip-constants-dev, perl-module-tap-parser-scheduler-job-dev, perl-module-extutils-mm-unix-dev, perl-module-io-uncompress-unzip-dev, perl-module-digest-base-dev, perl-module-list-util-pp-dev, perl-module-io-uncompress-base-dev, perl-module-tap-base-dev, perl-module-xsloader-dev, perl-module-tap-parser-sourcehandler-file-dev, perl-module-pod-man-dev, perl-module-extutils-liblist-dev, perl-module-pod-parseutils-dev, perl-module-extutils-packlist-dev, perl-module-encode-mime-name-dev, perl-module-extutils-mkbootstrap-dev, perl-module-tap-formatter-file-session-dev, perl-module-pod-plaintext-dev, perl-module-tap-parser-result-yaml-dev, perl-module-test-builder-tester-dev, perl-module-tap-parser-aggregator-dev, perl-module-term-ansicolor-dev, perl-module-math-bigfloat-dev, perl-module-threads-dev, perl-module-subs-dev, perl-module-tap-parser-result-dev, perl-module-test-dev, perl-module-io-compress-gzip-dev, perl-module-threads-shared-dev, perl-module-pod-simple-linksection-dev, perl-module-safe-dev, perl-module-pod-perldoc-topod-dev, perl-module-vars-dev, perl-module-package-constants-dev, perl-module-carp-heavy-dev, perl-module-pod-simple-tiedoutfh-dev, perl-module-bytes-heavy-dev, perl-module-tap-parser-resultfactory-dev, perl-module-getopt-long-dev, perl-module-tap-parser-result-test-dev, perl-module-cgi-dev, perl-module-io-socket-dev, perl-module-base-dev, perl-module-pod-parser-dev, perl-module-tap-parser-yamlish-writer-dev, perl-module-encode-cn-hz-dev, perl-module-tie-handle-dev, perl-module-extutils-constant-dev, perl-module-overload-dev, perl-module-autoloader-dev, perl-module-extutils-cbuilder-platform-unix-dev, libgdbm-dev, perl-module-term-cap-dev, perl-module-tap-formatter-console-session-dev, perl-module-tap-object-dev, perl-module-pod-simple-pullparser-dev, perl-module-math-bigint-dev, perl-module-i18n-langtags-detect-dev, perl-module-archive-tar-dev, perl-module-extutils-cbuilder-base-dev, perl-module-file-path-dev, perl-module-io-compress-zip-constants-dev, perl-module-compress-raw-zlib-dev, perl-module-extutils-makemaker-config-dev, perl-module-tap-formatter-color-dev, perl-module-config-dev, perl-module-tap-parser-source-dev, perl-module-lib-dev, perl-module-file-copy-dev, perl-module-io-handle-dev, perl-module-locale-codes-country-dev, perl-module-net-ping-dev, perl-module-tie-stdhandle-dev, perl-module-io-zlib-dev, perl-module-locale-maketext-dev, perl-module-math-bigint-calc-dev, perl-module-data-dumper-dev, perl-module-cgi-util-dev, perl-doc-dev, perl-module-tap-parser-iterator-process-dev, perl-module-extutils-mksymlists-dev, perl-module-pod-simple-dev, perl-module-io-uncompress-adapter-inflate-dev, perl-module-tap-parser-sourcehandler-rawtap-dev, perl-module-tap-parser-grammar-dev, perl-module-selectsaver-dev, perl-module-mime-base64-dev, perl-module-pod-simple-transcode-dev, perl-module-extutils-installed-dev, perl-module-io-dev, perl-module-extutils-constant-xs-dev, perl-module-tap-parser-sourcehandler-perl-dev, perl-module-extutils-makemaker-yaml-dev, perl-module-locale-codes-currency-dev, perl-module-sys-hostname-dev, perl-module-pod-simple-methody-dev, perl-module-net-cmd-dev, perl-module-benchmark-dev, perl-module-hash-util-dev, perl-module-tap-parser-sourcehandler-handle-dev, perl-module-extutils-liblist-kid-dev, perl-module-fcntl-dev, perl-module-pod-simple-pullparsertoken-dev, perl-module-tie-scalar-dev, perl-module-tap-parser-result-unknown-dev, perl-module-term-readline-dev, perl-module-fatal-dev, libgcc-s-dev, perl-module-strict-dev, perl-module-net-config-dev, perl-module-charnames-dev, perl-module-posix-dev, perl-module-io-compress-base-dev, perl-module-extutils-my-dev, perl-module-locale-constants-dev, perl-module-io-uncompress-gunzip-dev, perl-module-math-complex-dev, perl-module-tap-parser-result-version-dev, perl-module-archive-extract-dev, perl-module-extutils-install-dev, perl-module-dirhandle-dev, perl-module-text-parsewords-dev, perl-module-utf8-heavy-dev, perl-module-encode-jp-h2z-dev, perl-module-tap-parser-scheduler-spinner-dev, perl-module-list-util-dev, perl-module-build-dev, perl-module-io-compress-bzip2-dev, perl-module-autodie-exception-system-dev, perl-module-io-uncompress-adapter-identity-dev, perl-module-extutils-command-dev, perl-module-re-dev, perl-module-io-compress-base-common-dev, perl-module-tap-parser-sourcehandler-dev, perl-module-class-struct-dev, perl-module-exporter-heavy-dev, perl-module-pod-simple-pullparsertexttoken-dev, perl-module-net-ftp-i-dev, perl-module-io-compress-adapter-identity-dev, perl-module-dynaloader-dev, perl-module-cgi-cookie-dev, perl-module-pod-simple-pullparserstarttoken-dev, perl-module-math-bigrat-dev, perl-module-log-message-item-dev, perl-module-tap-parser-result-pragma-dev, perl-module-test-more-dev, perl-module-tap-parser-result-comment-dev, perl-module-overload-numbers-dev, perl-module-encode-unicode-dev, perl-module-tap-parser-iterator-stream-dev, perl-module-log-message-handlers-dev, libc6-dev, perl-module-utf8-dev, perl-misc-dev, perl-module-io-compress-zlib-constants-dev, perl-module-math-bigint-trace-dev, perl-module-encode-configlocal-pm-dev, perl-module-tap-parser-yamlish-reader-dev, perl-module-math-bigfloat-trace-dev, perl-module-file-find-dev, perl-module-warnings-register-dev, perl-module-file-spec-functions-dev, perl-module-corelist-dev, perl-module-b-terse-dev, perl-module-pod-text-dev, perl-module-app-prove-state-dev, perl-module-io-compress-adapter-bzip2-dev, perl-module-encoding-dev, perl-module-text-tabs-dev, perl-module-perlio-dev, perl-module-pod-usage-dev, perl-module-pod-escapes-dev, perl-module-encode-alias-dev, perl-module-encode-kr-2022-kr-dev, perl-module-time-local-dev, perl-module-autodie-hints-dev, perl-module-net-ftp-dataconn-dev, perl-module-selfloader-dev, perl-module-constant-dev, perl-module-filehandle-dev, perl-module-file-spec-dev, perl-module-socket-dev, perl-module-pod-checker-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: alsa-utils-aplay
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libgdbm3
+Version: 1.8.3-r4
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libsocketcan2
+Version: 0.0.8-r0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: libavfilter2
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libswscale2 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavcodec53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavformat53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libc6 (>= 2.15), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libqtdesignere4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtcoree4 (>= 4.8.4), libqtxmle4 (>= 4.8.4), libc6 (>= 2.15), libqtscripte4 (>= 4.8.4), libqtguie4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233208
+Auto-Installed: yes
+
+Package: libgstbasecamerabinsrc-0.10-23
+Version: 0.10.23-r4-arago5
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgstapp-0.10-0 (>= 0.10.36)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: glib-networking
+Version: 2.28.7-r3
+Depends: libffi6 (>= 3.0.11), libcap2 (>= 2.22), libz1 (>= 1.2.7), libgnutls26 (>= 2.12.23), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libtasn1-3 (>= 2.14), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: perl
+Version: 5.14.3-r1
+Depends: libperl5 (>= 5.14.3), libc6 (>= 2.15)
+Provides: perl-module-strict, perl-module-config, perl-module-warnings, perl-module-vars, perl-module-warnings-register
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: udev
+Version: 182-r7-arago2
+Depends: libkmod2 (>= 9), libblkid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Recommends: update-rc.d, udev-utils, pciutils-ids, udev-extraconf, usbutils-ids
+Provides: hotplug
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: sysvinit-dev
+Version: 2.88dsf-r11
+Depends: sysvinit (= 2.88dsf-r11)
+Recommends: libc6-dev, sysvinit-pidof-dev, sysvinit-inittab-dev, update-alternatives-cworth-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: bluez4
+Version: 4.101-r5-arago1
+Depends: libdbus-1-3 (>= 1.6.8), libreadline5 (>= 5.2), libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libusb-0.1-4 (>= 0.1.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgstphotography-0.10-23
+Version: 0.10.23-r4-arago5
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libcheck-dev
+Version: 0.9.9-r1
+Depends: libcheck (= 0.9.9-r1)
+Recommends: gawk-dev, libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libsdl-1.2-dev
+Version: 1.2.15-r2
+Depends: libsdl-1.2-0 (= 1.2.15-r2)
+Recommends: libc6-dev, libgcc-s-dev, libts-1.0-dev, alsa-lib-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: bluez-hcidump-dev
+Version: 2.5-r1
+Depends: bluez-hcidump (= 2.5-r1)
+Recommends: libc6-dev, libgcc-s-dev, bluez4-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: packagegroup-arago-tisdk-addons-sdk-target
+Version: 1.0-r3
+Depends: canutils-dev
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: libpulsecommon
+Version: 3.0-r0-arago0
+Depends: libcap2 (>= 2.22), libsndfile1 (>= 1.0.25), libdbus-1-3 (>= 1.6.8), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: avahi-daemon
+Version: 0.6.31-r6.1
+Depends: libdaemon0 (>= 0.14), libcap2 (>= 2.22), libavahi-core7 (>= 0.6.31), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.15), sysvinit-pidof, libavahi-common3 (>= 0.6.31), shadow, libexpat1 (>= 2.1.0), base-passwd
+Recommends: libnss-mdns
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Conffiles:
+ /etc/avahi/avahi-daemon.conf aef4943065ce0314732e1e5322bbdbe3
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libnl-route-3-200
+Version: 1:3.2.21-r0
+Depends: libnl-3-200 (>= 3.2.21), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: kernel-module-pvrsrvkm
+Version: 5.01.01.01-r21a
+Depends: kernel-3.12.10-ti2013.12.01
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libncurses5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: libqtguie-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtguie4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libqtnetworke-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233205
+Auto-Installed: yes
+
+Package: libpanelw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: ncurses-terminfo-base
+Version: 5.9-r15.1
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: util-linux-cfdisk
+Version: 2.22.2-r3
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.15), libblkid1 (>= 2.22.2), libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libglib-2.0-dev
+Version: 1:2.34.3-r2
+Depends: libglib-2.0-0 (= 1:2.34.3-r2)
+Recommends: libc6-dev, libgcc-s-dev, libffi-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libattr1
+Version: 2.4.46-r4
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: sysvinit-pidof
+Version: 2.88dsf-r11
+Depends: update-alternatives-cworth, libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libusb-0.1-dev
+Version: 1:0.1.4-r1
+Depends: libusb-0.1-4 (= 1:0.1.4-r1)
+Recommends: libc6-dev, libusb-1.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: gawk
+Version: 4.0.2-r0
+Depends: update-alternatives-cworth, gawk-common, libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libsndfile1
+Version: 1.0.25-r1
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libgcc-s-dev
+Version: 4.7.3-r2-arago5
+Recommends: libc6-dev, linux-libc-headers-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233199
+Auto-Installed: yes
+
+Package: bzip2-dev
+Version: 1.0.6-r5
+Depends: bzip2 (= 1.0.6-r5)
+Recommends: libc6-dev, update-alternatives-cworth-dev, libbz2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libfontconfig1
+Version: 2.10.2-r1
+Depends: libexpat1 (>= 2.1.0), libfreetype6 (>= 2.4.11), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: update-rc.d
+Version: 0.7-r5
+Status: install ok installed
+Architecture: all
+Installed-Time: 1396233197
+Auto-Installed: yes
+
+Package: alsa-utils-aconnect
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: util-linux-fdisk
+Version: 2.22.2-r3
+Depends: update-alternatives-cworth, libblkid1 (>= 2.22.2), libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libqtguie4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libpng16-16 (>= 1.6.0), libqtcoree4 (>= 4.8.4), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libglib-2.0-0 (>= 2.34.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.22-r5
+Depends: libattr1 (>= 2.4.46), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libqtdesignere-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtdesignere4
+Recommends: libgcc-s-dev, gstreamer-dev, libz-dev, libqtcoree-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libqtxmle-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libtiff-dev, gst-plugins-base-dev, libqtnetworke-dev, jpeg-dev, directfb-dev, libstdc++-dev, libc6-dev, libqtscripte-dev, pulseaudio-dev, libpng16-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233208
+Auto-Installed: yes
+
+Package: libsocketcan-dev
+Version: 0.0.8-r0
+Depends: libsocketcan2 (= 0.0.8-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: libsamplerate0-dev
+Version: 0.1.8-r1
+Depends: libsamplerate0 (= 0.1.8-r1)
+Recommends: flac-dev, libc6-dev, libsndfile-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libsysfs2
+Version: 2.1.0-r5
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libcurl5
+Version: 7.29.0-r1-arago2
+Depends: libssl1.0.0 (>= 1.0.1e), libz1 (>= 1.2.7), libc6 (>= 2.15), libgcc-s1 (>= 4.7.3), libcrypto1.0.0 (>= 1.0.1e)
+Recommends: curl-certs
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libsndfile-dev
+Version: 1.0.25-r1
+Depends: libsndfile1 (= 1.0.25-r1)
+Recommends: libgcc-s-dev, libc6-dev, libsqlite3-dev, sqlite3-dev, alsa-lib-dev, libasound-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: gstreamer
+Version: 0.10.36-r2
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233206
+Auto-Installed: yes
+
+Package: libqtteste-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtteste4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: packagegroup-arago-tisdk-crypto-sdk-target
+Version: 1.0-r3
+Depends: openssl-dev, cryptodev-dev
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: libqtxmlpatternse-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtxmlpatternse4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libqtnetworke-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libcairo-dev
+Version: 1.12.14-r0
+Depends: libcairo-gobject2, libcairo-script-interpreter2, libcairo2 (= 1.12.14-r0), libcairo-perf-utils
+Recommends: libpixman-1-dev, libfontconfig-dev, libgcc-s-dev, libz-dev, libpng16-dev, cairo-gobject-dev, libglib-2.0-dev, libffi-dev, libc6-dev, libexpat-dev, cairo-perf-utils-dev, cairo-script-interpreter-dev, libfreetype-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: qt4-embedded-mkspecs
+Version: 4.8.4-r52.3-arago5.0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: avahi-dev
+Version: 0.6.31-r6.1
+Depends: libavahi-common3, libavahi-client3, libavahi-gobject0, libavahi-core7, avahi (= 0.6.31-r6.1), libavahi-glib1
+Recommends: libdaemon-dev, libcap-dev, libglib-2.0-dev, update-rc.d-dev, libexpat-dev, gettext-dev, dbus-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: liborc-0.4-0
+Version: 0.4.16-r1.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: pciutils-ids
+Version: 3.1.10-r0
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: acl-dev
+Version: 2.2.51-r3
+Depends: acl (= 2.2.51-r3)
+Recommends: libc6-dev, libattr-dev, attr-dev, libacl-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgcrypt-dev
+Version: 1.5.0-r2
+Depends: libcap2 (>= 2.22), libgcrypt11 (= 1.5.0-r2), libc6 (>= 2.15)
+Recommends: libgpg-error-dev, libc6-dev, libcap-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libz-dev
+Version: 1.2.7-r0
+Depends: libz1 (= 1.2.7-r0)
+Recommends: libc6-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: opkg-dev
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Depends: opkg (= 1:0.1.8+svnr649-r13.0-arago0)
+Recommends: libc6-dev, update-alternatives-cworth-dev, opkg-config-base-dev, libopkg-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libavahi-client3
+Version: 0.6.31-r6.1
+Depends: libavahi-common3 (>= 0.6.31), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: udev-dev
+Version: 182-r7-arago2
+Depends: udev (= 182-r7-arago2)
+Recommends: libgcc-s-dev, libusb-dev, libc6-dev, module-init-tools-dev, libglib-2.0-dev, pciutils-dev, usbutils-dev, libblkid-dev, libkmod-dev, acl-dev, util-linux-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libz1
+Version: 1.2.7-r0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233202
+Auto-Installed: yes
+
+Package: libts-1.0-dev
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Depends: libts-1.0-0 (= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1)
+Recommends: libc6-dev, tslib-conf-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libusb-1.0-dev
+Version: 1.0.9-r1
+Depends: libusb-1.0-0 (= 1.0.9-r1)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 1:2.34.3-r2
+Depends: libffi6 (>= 3.0.11), libz1 (>= 1.2.7), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233202
+Auto-Installed: yes
+
+Package: canutils-dev
+Version: 4.0.6+gitr0+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0
+Depends: canutils (= 4.0.6+gitr0+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0)
+Recommends: libc6-dev, libsocketcan-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: libqtdeclarativee-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtdeclarativee4
+Recommends: libqtcoree-dev, gstreamer-dev, libz-dev, libqtsqle-dev, libgcc-s-dev, libfreetype-dev, libqtxmlpatternse-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, gst-plugins-base-dev, libqtnetworke-dev, jpeg-dev, directfb-dev, libstdc++-dev, libc6-dev, libqtscripte-dev, pulseaudio-dev, libqtsvge-dev, libpng16-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233208
+Auto-Installed: yes
+
+Package: libtiff5
+Version: 4.0.3-r0-arago0
+Depends: libz1 (>= 1.2.7), libjpeg8 (>= 8d+1.2.1), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: libqthelpe-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqthelpe4
+Recommends: libgcc-s-dev, gstreamer-dev, libz-dev, libqtsqle-dev, libqtcoree-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, gst-plugins-base-dev, libqtnetworke-dev, jpeg-dev, directfb-dev, libstdc++-dev, libc6-dev, libqtclucenee-dev, pulseaudio-dev, libpng16-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libavcodec-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavcodec53, libav-dev
+Recommends: libtheora-dev, libgcc-s-dev, libz-dev, libx264-dev, libavutil-dev, libvorbis-dev, libc6-dev, libogg-dev, libvpx-dev, bzip2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libqtmultimediae-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtmultimediae4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libqtnetworke-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libpng16-dev, libc6-dev, libasound-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: dbus-dev
+Version: 1.6.8-r6.0-arago1
+Depends: dbus-1 (= 1.6.8-r6.0-arago1), libdbus-1-3
+Recommends: base-passwd-dev, shadow-dev, shadow-sysroot-dev, dbus-lib-dev, libc6-dev, libexpat-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: am33x-cm3
+Version: 05.00.00.03-r0
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: libqtcoree4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libglib-2.0-0 (>= 2.34.3), libz1 (>= 1.2.7), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233202
+Auto-Installed: yes
+
+Package: libtasn1-3
+Version: 2.14-r1
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libattr-dev
+Version: 2.4.46-r4
+Depends: libattr1
+Recommends: libc6-dev, ncurses-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libid3tag-dev
+Version: 0.15.1b-r7
+Depends: libid3tag0 (= 0.15.1b-r7)
+Recommends: libc6-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: cryptodev
+Version: 1.6-r0-arago1
+Depends: kernel-module-cryptodev
+Conflicts: ocf-linux
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: wpa-supplicant-wl18xx
+Version: 2.0-devel-ti-r6b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+Depends: libssl1.0.0 (>= 1.0.1e), wpa-supplicant-cli, libcrypto1.0.0 (>= 1.0.1e), libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.15), wpa-supplicant-passphrase
+Recommends: wpa-supplicant-cli, wpa-supplicant-passphrase
+Provides: wpa-supplicant
+Replaces: wpa-supplicant
+Conflicts: wpa-supplicant
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: curl-dev
+Version: 7.29.0-r1-arago2
+Depends: curl (= 7.29.0-r1-arago2)
+Recommends: libcurl-dev, libz-dev, libssl-dev, openssl-dev, libcrypto-dev, libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: canutils
+Version: 4.0.6+gitr0+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0
+Depends: libsocketcan2 (>= 0.0.8), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: ncurses-dev
+Version: 5.9-r15.1
+Depends: libtinfo5, ncurses (= 5.9-r15.1), libpanelw5, libform5, libtic5, libmenuw5, libformw5, libpanel5, libmenu5, libticw5
+Recommends: ncurses-libmenu-dev, ncurses-libpanel-dev, update-alternatives-cworth-dev, ncurses-libtinfo-dev, ncurses-libform-dev, libc6-dev, ncurses-libncursesw-dev, ncurses-libtic-dev, ncurses-libncurses-dev, ncurses-libmenuw-dev, ncurses-terminfo-base-dev, ncurses-libpanelw-dev, ncurses-libformw-dev, ncurses-libticw-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: fbset
+Version: 2.1-r4
+Depends: update-alternatives-cworth, libc6 (>= 2.15)
+Recommends: fbset-modes
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: devmem2-dev
+Version: 1.0-r7
+Depends: devmem2 (= 1.0-r7)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233202
+Auto-Installed: yes
+
+Package: liblzo2-2
+Version: 2.06-r1
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: kernel-image-3.12.10-ti2013.12.01
+Version: 3.12.10-r21k+gitrAUTOINC+2325bb5680986b6914d8fd0b5d0bdc20081fe8d3-arago6-amsdk2
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233196
+Auto-Installed: yes
+
+Package: ncurses
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: gst-plugins-base
+Version: 0.10.36-r7
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: util-linux-dev
+Version: 2.22.2-r3
+Depends: libmount1, util-linux (= 2.22.2-r3), libuuid1, libblkid1
+Recommends: update-alternatives-cworth-dev, ncurses-libtinfo-dev, ncurses-dev, libz-dev, util-linux-umount-dev, ncurses-libncursesw-dev, libc6-dev, libuuid-dev, libmount-dev, libblkid-dev, libgcc-s-dev, util-linux-losetup-dev, util-linux-swaponoff-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.1.0-r0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: faad2-dev
+Version: 2.7-r1
+Depends: faad2 (= 2.7-r1)
+Recommends: libfaad-dev, libc6-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libvorbisidec-dev
+Version: 20120314-r1
+Depends: libvorbisidec1 (= 20120314-r1)
+Recommends: libc6-dev, libogg-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: alsa-utils-alsactl
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Recommends: alsa-states
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libnl-nf-3-200
+Version: 1:3.2.21-r0
+Depends: libnl-route-3-200 (>= 3.2.21), libnl-3-200 (>= 3.2.21), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: gettext-dev
+Version: 0.16.1-r6
+Depends: libgettextlib, gettext (= 0.16.1-r6), libgettextsrc
+Recommends: libgettextlib-dev, libc6-dev, libgettextsrc-dev, libgcc-s-dev, libstdc++-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libatomics-ops-dev
+Version: 7.2-r1
+Depends: libatomics-ops (= 7.2-r1)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libasound2
+Version: 1.0.26-r0
+Depends: libgcc-s1 (>= 4.7.3), alsa-conf-base, libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: util-linux-losetup
+Version: 2.22.2-r3
+Depends: update-alternatives-cworth, libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libgstriff-0.10-0
+Version: 0.10.36-r7
+Depends: gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libgstaudio-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libgsttag-0.10-0 (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libx264-dev
+Version: r2230+git-r1
+Depends: libx264-129 (= r2230+git-r1)
+Recommends: libc6-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: alsa-utils-speakertest
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libpvrqwswsegl-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libpvrqwswsegl1
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libc6-dev, libtiff-dev, sqlite3-dev, libpng16-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: util-linux
+Version: 2.22.2-r3
+Depends: update-alternatives-cworth, libz1 (>= 1.2.7), libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), util-linux-swaponoff, libmount1 (>= 2.22.2), libc6 (>= 2.15), util-linux-losetup, libblkid1 (>= 2.22.2), util-linux-umount, libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3)
+Recommends: util-linux-sfdisk, util-linux-cfdisk, util-linux-mount, util-linux-fdisk, util-linux-mkfs, util-linux-readprofile
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: libperl5
+Version: 5.14.3-r1
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Provides: perl-module-config-heavy, perl-module-arm-oe-linux-gnueabi-config-heavy, libperl5, perl-module-arm-oe-linux-gnueabi-config, perl-module-config
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libgstaudio-0.10-0
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libgstpbutils-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libgstinterfaces-0.10-0 (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: sbc-dev
+Version: 1.0-r0
+Depends: sbc (= 1.0-r0)
+Recommends: libc6-dev, libgcc-s-dev, libsndfile-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libqtdesignercomponentse-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtdesignercomponentse4
+Recommends: libqtcoree-dev, gstreamer-dev, libz-dev, libgcc-s-dev, libfreetype-dev, openssl-dev, libts-1.0-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, dbus-dev, libqtxmle-dev, gst-plugins-base-dev, libqtnetworke-dev, jpeg-dev, directfb-dev, libstdc++-dev, libc6-dev, libqtscripte-dev, pulseaudio-dev, libqtdesignere-dev, libpng16-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: libpci3
+Version: 3.1.10-r0
+Depends: libz1 (>= 1.2.7), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libtheora-dev
+Version: 1.1.1-r1
+Depends: libtheora (= 1.1.1-r1)
+Recommends: libc6-dev, libogg-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libpulse-mainloop-glib0
+Version: 3.0-r0-arago0
+Depends: libpulse0 (>= 3.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 3.0), libcap2 (>= 2.22), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgcc-s1 (>= 4.7.3), libjson0 (>= 0.9)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libgsttag-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libgettextlib
+Version: 0.16.1-r6
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libqtclucenee4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libc6 (>= 2.15), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libqtcoree4 (>= 4.8.4)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233204
+Auto-Installed: yes
+
+Package: libswscale-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libswscale2, libav-dev
+Recommends: libtheora-dev, libgcc-s-dev, libz-dev, libx264-dev, libavutil-dev, libvorbis-dev, libc6-dev, libogg-dev, libvpx-dev, bzip2-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libvpx
+Version: 0.9.5-r3.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libfaad2
+Version: 2.7-r1
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libcairo2
+Version: 1.12.14-r0
+Depends: libpng16-16 (>= 1.6.0), libpixman-1-0 (>= 0.29.2), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libc6 (>= 2.15), libexpat1 (>= 2.1.0), libgcc-s1 (>= 4.7.3), libfontconfig1 (>= 2.10.2)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: libmenuw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libuuid-dev
+Version: 2.22.2-r3
+Recommends: libc6-dev, libgcc-s-dev, ncurses-dev, libz-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libudev0
+Version: 182-r7-arago2
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libgpg-error0
+Version: 1.11-r0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libltdl7
+Version: 2.4.2-r6.0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: alsa-utils
+Version: 1.0.26-r0
+Depends: alsa-utils-alsamixer, alsa-utils-alsactl, alsa-utils-iecset, alsa-utils-speakertest, alsa-utils-amixer, alsa-utils-midi, alsa-utils-aseqnet, alsa-utils-aconnect, alsa-utils-alsaconf, alsa-utils-alsaloop, alsa-utils-aplay, alsa-utils-alsaucm, alsa-utils-aseqdump
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: speex
+Version: 1.2rc1-r2
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: libflac8
+Version: 1.2.1-r4
+Depends: libogg0 (>= 1.3.0), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: libfreetype-dev
+Version: 2.4.11-r0-arago0
+Depends: libfreetype6 (= 2.4.11-r0-arago0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libqtopengle-dev
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtopengle4
+Recommends: gst-plugins-base-dev, libgcc-s-dev, gstreamer-dev, libqtnetworke-dev, libz-dev, jpeg-dev, directfb-dev, openssl-dev, libts-1.0-dev, libstdc++-dev, libpng16-dev, libc6-dev, libtiff-dev, sqlite3-dev, libqtguie-dev, libqtcoree-dev, libfreetype-dev, pulseaudio-dev, dbus-dev, libglib-2.0-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libx264-129
+Version: r2230+git-r1
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: sysfsutils-dev
+Version: 2.1.0-r5
+Depends: sysfsutils (= 2.1.0-r5)
+Recommends: libc6-dev, libsysfs-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233214
+Auto-Installed: yes
+
+Package: libformw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233209
+Auto-Installed: yes
+
+Package: libpostproc52
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: libqtdeclarativee4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtsvge4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtcoree4 (>= 4.8.4), libc6 (>= 2.15), libqtxmlpatternse4 (>= 4.8.4), libqtscripte4 (>= 4.8.4), libqtguie4 (>= 4.8.4), libqtsqle4 (>= 4.8.4), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233208
+Auto-Installed: yes
+
+Package: alsa-utils-aseqnet
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: packagegroup-arago-toolchain-tisdk-target
+Version: 1.0-r5
+Depends: packagegroup-arago-tisdk-graphics-sdk-target, packagegroup-arago-qte-toolchain-target, packagegroup-arago-tisdk-multimedia-sdk-target, packagegroup-arago-tisdk-connectivity-sdk-target, packagegroup-arago-tisdk-addons-sdk-target, packagegroup-arago-tisdk-crypto-sdk-target
+Status: install user installed
+Architecture: am335x_evm
+Installed-Time: 1396233223
+
+Package: wpa-supplicant-passphrase
+Version: 2.0-devel-ti-r6b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+Depends: libcrypto1.0.0 (>= 1.0.1e), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233222
+Auto-Installed: yes
+
+Package: libavfilter-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Depends: libavfilter2, libav-dev
+Recommends: libtheora-dev, libgcc-s-dev, libavcodec-dev, libz-dev, bzip2-dev, libavutil-dev, libvorbis-dev, libc6-dev, libogg-dev, libswscale-dev, libavformat-dev, libvpx-dev, libx264-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233221
+Auto-Installed: yes
+
+Package: fbset-dev
+Version: 2.1-r4
+Depends: fbset (= 2.1-r4)
+Recommends: libc6-dev, update-alternatives-cworth-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233201
+Auto-Installed: yes
+
+Package: kernel-module-cryptodev
+Version: 1.6-r0-arago1
+Depends: kernel-3.12.10-ti2013.12.01
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: libsqlite3-dev
+Version: 3071502-r0
+Depends: libsqlite3-0
+Recommends: libc6-dev, libgcc-s-dev, ncurses-libncurses-dev, libreadline-dev, ncurses-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: packagegroup-arago-standalone-sdk-target
+Version: 1.0-r5
+Depends: glibc-thread-db, libjpeg-dev, libz-dev, alsa-utils-dev, i2c-tools-dev, alsa-lib-dev, opkg-dev, libfreetype-dev, libgcc-s1, alsa-dev, util-linux-dev, glibc, libts-1.0-dev, libreadline-dev, libstdc++6, glibc-dev, liblzo2-dev, curl-dev, libstdc++-dev, sysvinit-dev, libusb-0.1-dev, libsegfault, glibc-utils, linux-libc-headers-dev, glibc-dbg, ncurses-dev, libopkg-dev, gdbserver, libgcc-s-dev, libusb-1.0-dev, libpng16-dev
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233212
+Auto-Installed: yes
+
+Package: sysvinit
+Version: 2.88dsf-r11
+Depends: update-alternatives-cworth, sysvinit-pidof, sysvinit-inittab, libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233211
+Auto-Installed: yes
+
+Package: packagegroup-arago-tisdk-connectivity-sdk-target
+Version: 1.0-r7
+Depends: wpa-supplicant-wl18xx-dev, bluez4-dev
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233223
+Auto-Installed: yes
+
+Package: alsa-utils-aseqdump
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233210
+Auto-Installed: yes
+
+Package: libdbus-glib-1-2
+Version: 0.100.2-r0
+Depends: libglib-2.0-0 (>= 2.34.3), libffi6 (>= 3.0.11), libdbus-1-3 (>= 1.6.8), libz1 (>= 1.2.7), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: sysvinit-inittab-dev
+Version: 2.88dsf-r9
+Depends: sysvinit-inittab (= 2.88dsf-r9)
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: shadow-dev
+Version: 4.1.4.3-r13
+Depends: shadow (= 4.1.4.3-r13)
+Recommends: libc6-dev, base-passwd-dev, libgcc-s-dev, shadow-securetty-dev, update-alternatives-cworth-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libltdl-dev
+Version: 2.4.2-r6.0
+Depends: libltdl7
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233215
+Auto-Installed: yes
+
+Package: libgcc-s1
+Version: 4.7.3-r2-arago5
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233195
+Auto-Installed: yes
+
+Package: packagegroup-arago-tisdk-multimedia-sdk-target
+Version: 1.0-r3
+Depends: packagegroup-arago-gst-sdk-target
+Status: install ok installed
+Architecture: all
+Installed-Time: 1396233220
+Auto-Installed: yes
+
+Package: bluez-hcidump
+Version: 2.5-r1
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libqtopengle4
+Version: 4.8.4-r52.3-arago5.0
+Depends: libqtcoree4 (>= 4.8.4), libc6 (>= 2.15), libqtguie4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233207
+Auto-Installed: yes
+
+Package: libdaemon0
+Version: 0.14-r0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: gawk-common
+Version: 4.0.2-r0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: flac-dev
+Version: 1.2.1-r4
+Depends: libflac8, flac (= 1.2.1-r4), libflac++6
+Recommends: libgcc-s-dev, libflac-dev, libflac++-dev, libc6-dev, libogg-dev, libstdc++-dev
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233219
+Auto-Installed: yes
+
+Package: libogg0
+Version: 1.3.0-r1
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233213
+Auto-Installed: yes
+
+Package: libgles-omap3-es3
+Version: 5.01.01.01-r38.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233199
+Auto-Installed: yes
+
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r2-arago0
+Depends: shadow-securetty (= 4.1.4.3-r2-arago0)
+Status: install ok installed
+Architecture: am335x_evm
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgles-omap3-es5
+Version: 5.01.01.01-r38.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233199
+Auto-Installed: yes
+
+Package: libnss-mdns
+Version: 0.10-r7
+Depends: avahi-daemon, libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233218
+Auto-Installed: yes
+
+Package: libgles-omap3-es6
+Version: 5.01.01.01-r38.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233198
+Auto-Installed: yes
+
+Package: udev-extraconf
+Version: 1.0-r8-arago1
+Depends: udev
+Provides: udev-extra-rules
+Replaces: udev-extra-rules
+Conflicts: udev-extra-rules
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Conffiles:
+ /etc/udev/mount.blacklist e9d30e0c326a0ab6bbe3f5d3085e1769
+Installed-Time: 1396233216
+Auto-Installed: yes
+
+Package: libgles-omap3-es8
+Version: 5.01.01.01-r38.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233198
+Auto-Installed: yes
+
+Package: libgles-omap3-es9
+Version: 5.01.01.01-r38.0
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233197
+Auto-Installed: yes
+
+Package: libavahi-core7
+Version: 0.6.31-r6.1
+Depends: libavahi-common3 (>= 0.6.31), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233217
+Auto-Installed: yes
+
+Package: libfreetype6
+Version: 2.4.11-r0-arago0
+Depends: libc6 (>= 2.15)
+Status: install ok installed
+Architecture: cortexa8hf-vfp-neon-3.8
+Installed-Time: 1396233203
+Auto-Installed: yes
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=MPEG-4 + AAC Dec
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/multimedia-icon.png
+Type=Application
+Exec=runMpeg4AacDec.sh
+Categories=multimedia
+ProgramType=gui
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/arm_multimedia_mpeg4aacdec/desc_arm_multimedia_mpeg4aacdec.html

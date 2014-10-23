@@ -1,0 +1,15 @@
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r2-arago0
+Description: Provider of the machine specific securetty file - Development files
+ Provider of the machine specific securetty file  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: shadow-securetty
+Homepage: unknown
+Depends: shadow-securetty (= 4.1.4.3-r2-arago0)
+Source: file://securetty

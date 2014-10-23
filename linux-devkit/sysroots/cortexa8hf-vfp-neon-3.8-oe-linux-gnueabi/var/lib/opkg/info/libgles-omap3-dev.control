@@ -1,0 +1,18 @@
+Package: libgles-omap3-dev
+Version: 5.01.01.01-r38.0
+Description: libgles-omap3 version 5.01.01.01-r38.0 - Development files
+ libGLES for the omap3  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TSPA
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libgles-omap3
+Homepage: unknown
+Depends: libgles-omap3 (= 5.01.01.01-r38.0)
+Recommends: libgcc-s-dev, libgles-omap3-linuxfbwsegl-dev, fbset-dev, libstdc++-dev, libc6-dev, libgles-omap3-blitwsegl-dev, devmem2-dev, libgles-omap3-frontwsegl-dev, libgles-omap3-flipwsegl-dev
+Provides: libgles1-dev, libgles2-dev, libegl-dev
+Replaces: libgles1-dev, libgles2-dev, libegl-dev
+Conflicts: libgles1-dev, libgles2-dev, libegl-dev
+Source: http://software-dl.ti.com/dsps/dsps_public_sw/gfxsdk/5_01_01_01/exports/Graphics_SDK_setuplinux_hardfp_5_01_01_01.bin file://cputype file://rc.pvr file://99-bufferclass.rules

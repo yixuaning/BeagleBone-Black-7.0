@@ -1,0 +1,13 @@
+Package: matrix-3d-demo-film
+Version: 2.0-r21.2
+Description: matrix-gui-3d-demos version 2.0-r21.2
+ 3D demo descriptions for Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: matrix-gui-3d-demos
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Depends: libgles-omap3-rawdemos, matrix-gui-submenus-3d, matrix-gui-apps-images
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

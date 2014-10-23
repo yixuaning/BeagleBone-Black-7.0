@@ -1,0 +1,30 @@
+<h1> DDR <-> ARM memory Bandwidth  </h1>
+
+<h2> Purpose: </h2>
+<p>  The purpose of this test is to measure bandwidth for several combinations
+read/write, such as rd, rdwr, cp, frd, fcp, bzero, bcopy  </p>
+<h2> Output: </h2>
+<p> This test outputs how the lmbench function is called followed by the data:
+</p>
+<p>The first data is the size of the block moved in MB. The second is the data rate 
+in MB/s.
+</p>
+<h2> Additional Information </h2>
+<p> This test is setup to move 1MB of data between ARM and DDR in various ways: 
+</p>
+<p> From the command line: bw_mem 1M [rd | rdwr | cp | frd | fcp | bzero | bcopy]
+</p>
+<p> rd - measures the time to read data into the processor. It computes the sum of an array of integer values. It accesses every fourth word. 
+</p>
+<p> rdwr - measures the time to read data into memory and then write data to the same memory location. For each element in an array it adds the current value to a running sum before assigning a new (constant) value to the element. It accesses every fourth word. 
+</p>
+<p> cp - measures the time to copy data from one location to another. It does an array copy: dest[i] = source[i]. It accesses every fourth word.
+</p>
+<p> frd - measures the time to read data into the processor. It computes the sum of an array of integer values. 
+</p>
+<p> fcp - measures the time to copy data from one location to another. It does an array copy: dest[i] = source[i].
+</p>
+<p> bzero - measures how fast the system can bzero memory.
+</p>
+<p> bcopy - measures how fast the system can bcopy data.
+</p>

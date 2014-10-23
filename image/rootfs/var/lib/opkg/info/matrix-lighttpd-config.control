@@ -1,0 +1,13 @@
+Package: matrix-lighttpd-config
+Version: 1.0-r2
+Description: matrix-lighttpd-config version 1.0-r2
+ Lighttpd config for Matrix
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: all
+OE: matrix-lighttpd-config
+Homepage: unknown
+Depends: lighttpd, lighttpd-module-setenv
+Source: file://lighttpd.conf.matrix file://COPYING

@@ -1,0 +1,16 @@
+Package: flac-dev
+Version: 1.2.1-r4
+Description: Free Lossless Audio Codec - Development files
+ FLAC stands for Free Lossless Audio Codec, an audio format similar to
+ MP3, but lossless.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: flac
+Homepage: http://flac.sourceforge.net/
+Depends: libflac8, flac (= 1.2.1-r4), libflac++6
+Recommends: libgcc-s-dev, libflac-dev, libflac++-dev, libc6-dev, libogg-dev, libstdc++-dev
+Source: http://downloads.sourceforge.net/flac/flac-1.2.1.tar.gz file://disable-xmms-plugin.patch file://flac-gcc43-fixes.patch file://xmms.m4 file://0001-No-AltiVec-on-SPE.patch file://asm-pic.patch file://obsolete_automake_macros.patch

@@ -1,0 +1,12 @@
+/usr/bin/ranlib
+/usr/bin/c++filt
+/usr/bin/ld
+/usr/bin/objcopy
+/usr/bin/nm
+/usr/bin/strip
+/usr/bin/readelf
+/usr/bin/size
+/usr/bin/gprof
+/usr/bin/objdump
+/usr/bin/addr2line
+/usr/bin/as

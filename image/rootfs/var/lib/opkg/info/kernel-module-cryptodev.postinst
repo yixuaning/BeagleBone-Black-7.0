@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ -z "$D" ]; then
+	depmod -a 3.12.10-ti2013.12.01
+else
+	depmodwrapper -a -b $D 3.12.10-ti2013.12.01
+fi
+
+if [ x"$D" = "x" ]; then
+	modprobe cryptodev || true
+fi

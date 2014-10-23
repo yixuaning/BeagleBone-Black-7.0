@@ -1,0 +1,17 @@
+Package: bluez4-dev
+Version: 4.101-r5-arago1
+Description: Linux Bluetooth Stack Userland V4 - Development files
+ Linux Bluetooth stack V4 userland components.  These include a system
+ configurations, daemons, tools and system libraries.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: bluez4
+Homepage: http://www.bluez.org
+Depends: bluez4, bluez-hcidump
+Recommends: libdbus-glib-1-dev, libgcc-s-dev, libusb-dev, libc6-dev, udev-dev, dbus-lib-dev, libglib-2.0-dev, libreadline-dev, libusb-0.1-dev, libasound-dev, libcheck-dev, alsa-lib-dev, bluez-hcidump-dev, libsndfile-dev, libusb-1.0-dev
+Source: http://kernel.org/pub/linux/bluetooth/bluez-4.101.tar.gz file://bluetooth.conf file://sbc_mmx.patch file://fix-udev-paths.patch file://obsolete_automake_macros.patch file://bluez4-fix-synchronization-between-bluetoothd-and-dr.patch file://0001-socket-enable-for-bluez-4_98.patch file://0001-bluez-enable-source-interface.patch

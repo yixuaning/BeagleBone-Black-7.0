@@ -1,0 +1,13 @@
+Package: alsa-utils-alsaloop
+Version: 1.0.26-r0
+Description: alsa-utils version 1.0.26-r0
+ ALSA Utilities
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Depends: libasound2 (>= 1.0.26), libsamplerate0 (>= 0.1.8), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.26.tar.bz2 file://uclibc-exp10-replacement.patch file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://obsolete_automake_macros.patch

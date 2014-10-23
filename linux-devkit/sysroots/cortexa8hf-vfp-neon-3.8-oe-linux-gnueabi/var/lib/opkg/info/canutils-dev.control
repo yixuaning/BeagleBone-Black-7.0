@@ -1,0 +1,15 @@
+Package: canutils-dev
+Version: 4.0.6+gitr0+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0
+Description: canutils version 4.0.6+gitrAUTOINC+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0 - Development files
+ canutils (PTX flavour)  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: canutils
+Homepage: http://www.pengutronix.de
+Depends: canutils (= 4.0.6+gitr0+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0)
+Recommends: libc6-dev, libsocketcan-dev
+Source: git://git.pengutronix.de/git/tools/canutils.git;protocol=git;tag=bab595e38295dcafcfc17a011d3d51f2df1618e6

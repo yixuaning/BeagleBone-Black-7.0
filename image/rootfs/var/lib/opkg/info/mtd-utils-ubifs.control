@@ -1,0 +1,13 @@
+Package: mtd-utils-ubifs
+Version: 1.5.0-r3
+Description: mtd-utils version 1.5.0-r3
+ Tools for managing memory technology devices.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: mtd-utils
+Homepage: http://www.linux-mtd.infradead.org/
+Depends: libz1 (>= 1.2.7), liblzo2-2 (>= 2.06), libuuid1 (>= 2.22.2), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: git://git.infradead.org/mtd-utils.git;protocol=git file://add-exclusion-to-mkfs-jffs2-git-2.patch file://mtd-utils-fix-corrupt-cleanmarker-with-flash_erase--j-command.patch

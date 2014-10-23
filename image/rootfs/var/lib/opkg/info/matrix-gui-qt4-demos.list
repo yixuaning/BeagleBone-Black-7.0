@@ -1,0 +1,12 @@
+/usr/share/matrix-gui-2.0/apps/qt4_deform/
+/usr/share/matrix-gui-2.0/apps/qt4_deform/qt4_deform.desktop
+/usr/share/matrix-gui-2.0/apps/calculator/calculator.desktop
+/usr/share/matrix-gui-2.0/apps/browser/browser.desktop
+/usr/bin/browser.sh
+/usr/share/matrix-gui-2.0/apps/qt4_animated_tiles/qt4_animated_tiles.desktop
+/usr/bin/runAnimatedTiles.sh
+/usr/share/matrix-gui-2.0/apps/calculator/
+/usr/bin/runDeform.sh
+/usr/share/matrix-gui-2.0/apps/browser/
+/usr/bin/runCalculator.sh
+/usr/share/matrix-gui-2.0/apps/qt4_animated_tiles/

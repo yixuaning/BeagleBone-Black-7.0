@@ -1,0 +1,5 @@
+/usr/bin/libusb-config
+/lib/libusb.la
+/usr/lib/pkgconfig/libusb.pc
+/lib/libusb.so
+/usr/include/usb.h

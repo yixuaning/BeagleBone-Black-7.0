@@ -1,0 +1,12 @@
+#!/bin/sh
+if [ "x$D" != "x" ] && [ -f $D/var/lib/opkg/status ]; then
+	install -d $D/home/yixuan/Embedded/BeagleBone-Black/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/etc/rcS.d
+
+	# this happens at S98 where our good 'ole packages script used to run
+	echo "#!/bin/sh
+opkg-cl configure >/var/log/postinstall.log 2>&1
+rm -f //home/yixuan/Embedded/BeagleBone-Black/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/etc/rcS.d/S98run-postinsts
+" > $D/home/yixuan/Embedded/BeagleBone-Black/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/etc/rcS.d/S98run-postinsts
+	chmod 0755 $D/home/yixuan/Embedded/BeagleBone-Black/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/etc/rcS.d/S98run-postinsts
+fi
+	update-alternatives --install /home/yixuan/Embedded/BeagleBone-Black/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/usr/bin/opkg opkg /home/yixuan/Embedded/BeagleBone-Black/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/usr/bin/opkg-cl 100

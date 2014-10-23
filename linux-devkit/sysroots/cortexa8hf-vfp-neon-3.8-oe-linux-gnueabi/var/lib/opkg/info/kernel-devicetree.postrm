@@ -1,0 +1,7 @@
+	cd /boot
+	for DTB_FILE in am335x-evm.dtb am335x-evmsk.dtb am335x-bone.dtb am335x-boneblack.dtb
+	do
+		DTB_BASE_NAME=`basename ${DTB_FILE} | awk -F "." '{print $1}'`
+		DTB_SYMLINK_NAME=`echo zImage-am335x-evm | sed "s/am335x-evm/${DTB_BASE_NAME}/g"`
+		update-alternatives --remove ${DTB_BASE_NAME}.dtb devicetree-${DTB_SYMLINK_NAME}.dtb 31210 || true
+	done

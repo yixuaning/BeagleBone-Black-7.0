@@ -1,0 +1,17 @@
+# @name suspend/standby resume tests
+# @desc Test suspend/standby resume 
+# @requires power_mgr 
+# @setup_requires nousbhost
+
+POWERMGR_S_FUNC_SIMPLE_SUSPEND_NOUSB source 'functions.sh'; suspend -i 2 -p "mem"
+
+POWERMGR_M_FUNC_SIMPLE_SUSPEND_NOUSB source 'functions.sh'; suspend -i 10 -p "mem"
+
+POWERMGR_L_STRESS_SIMPLE_SUSPEND_NOUSB source 'functions.sh'; suspend -i 100 -p "mem"
+
+POWERMGR_S_FUNC_SIMPLE_STANDBY_NOUSB source 'functions.sh'; suspend -i 2 -p "standby"
+
+POWERMGR_M_FUNC_SIMPLE_STANDBY_NOUSB source 'functions.sh'; suspend -i 10 -p "standby"
+
+POWERMGR_L_STRESS_SIMPLE_STANDBY_NOUSB source 'functions.sh'; suspend -i 100 -p "standby"
+

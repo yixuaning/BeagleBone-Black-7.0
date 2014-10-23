@@ -1,0 +1,13 @@
+# @name I2C write read stress test on slave device
+# @desc I2C write read stress test on slave device 
+# @notes There is a default slave device for each platform. Its address can be
+#	found in 'get_i2c_slave_addr'. If you pass slave device name, this 
+# 	script can return the addr for that slave device
+# @requires i2c/non_eeprom 
+
+I2C_L_STRESS_RW_SETGET source 'common.sh'; do_cmd "i2c_setget.sh -l 10" 
+
+
+
+
+

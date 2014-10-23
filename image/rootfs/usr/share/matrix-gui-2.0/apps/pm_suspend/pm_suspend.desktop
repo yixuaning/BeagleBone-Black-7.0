@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Suspend/Resume
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/power-icon.png
+Type=Application
+Exec=warnonpm.sh pm_suspend.sh
+Categories=power
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/pm_suspend/desc_pm_suspend.html

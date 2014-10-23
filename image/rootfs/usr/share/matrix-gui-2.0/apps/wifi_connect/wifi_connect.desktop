@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=WPA
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/wireless-icon.png
+Type=Application
+Exec=wpatest.sh wpa_gui-e -geometry 480x240+0+0
+Categories=wifi
+ProgramType=gui
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/wifi_connect/desc_wifi_connect.html

@@ -1,0 +1,23 @@
+armv7l
+am37x
+beagleboard
+sdma
+graphics/fb0/omapfb
+i2c/non_eeprom
+mmc_host/sd/mmci-omap-hs
+mmc_host/mmc/mmci-omap-hs
+mmc_host/sdhc/mmci-omap-hs
+net/eth100M
+power_mgr/cpufreq/userspace
+power_mgr/cpufreq/performance
+power_mgr/cpufreq/powersave
+power_mgr/cpufreq/ondemand
+power_mgr/cpuidle
+rtc/rtc_twl
+sound/capture/alsa
+sound/playback/alsa
+usb/host/msc
+video/display/*/v4l2/omap_vout
+video/capture/*/v4l2/OMAP3 ISP CCDC output
+
+

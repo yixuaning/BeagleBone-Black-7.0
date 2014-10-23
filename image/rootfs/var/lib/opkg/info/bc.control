@@ -1,0 +1,13 @@
+Package: bc
+Version: 1.06-r2-arago0
+Description: bc version 1.06-r2-arago0
+ An arbitrary precision calculator language.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: bc
+Homepage: http://www.gnu.org/software/bc/bc.html
+Depends: update-alternatives-cworth, libc6 (>= 2.15)
+Source: ftp://ftp.gnu.org/gnu/bc/bc-1.06.tar.gz file://bc-1.06-fixes-1.patch

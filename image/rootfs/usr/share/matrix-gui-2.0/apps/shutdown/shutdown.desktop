@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=System Shutdown
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/power-icon.png
+Type=Application
+Exec=runSystemShutdown.sh
+Categories=settings
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/shutdown/desc_shutdown.html

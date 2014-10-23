@@ -1,0 +1,6 @@
+/usr/include/proxy.h
+/usr/share/cmake/Modules/
+/usr/lib/pkgconfig/libproxy-1.0.pc
+/usr/lib/libproxy.so
+/usr/share/cmake/
+/usr/share/cmake/Modules/Findlibproxy.cmake

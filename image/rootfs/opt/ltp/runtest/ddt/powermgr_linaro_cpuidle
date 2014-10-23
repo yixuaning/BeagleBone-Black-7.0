@@ -1,0 +1,11 @@
+# @name linaro cpuidle tests
+# @desc cpuidle functional tests from git://git.linaro.org/tools/pm-qa.git
+# @requires power_mgr/cpuidle
+
+POWERMGR_S_FUNC_LINAROCPUIDLE01 cpuidle_01.sh
+
+POWERMGR_S_FUNC_LINAROCPUIDLE02 cpuidle_02.sh
+
+POWERMGR_S_FUNC_LINAROCPUIDLE03 cpuidle_03.sh
+
+POWERMGR_S_FUNC_LINAROCPUIDLE04 cpuidle_04.sh

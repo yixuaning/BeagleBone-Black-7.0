@@ -1,0 +1,22 @@
+<h1> Audio Capture and Playback </h1>
+
+<p> This example demonstrates the audio capture and playback ability of this EVM. The Multimedia framework used is GStreamer </p>
+<p>
+<span style="color:red">NOTE: Please make sure a listening device is connected to the audio line out and a audio source, such as an MP3 player, is connected to the audio line in. If a microphone is used as an input, the amplitude of the signal it produces may not be strong enough to be audible in the demo. If your EVM does not have an audio in, empty buffers will be recorded.</span>
+</p>
+<h2> Multimedia Pipelines </h2>
+<p>
+<h3>Capture</h3>
+gst-launch <br>
+&nbsp;|_ alsasrc<br>
+&nbsp; &nbsp;|_ wavenc <br>
+&nbsp; &nbsp; &nbsp;|_ filesink <br>
+</p>
+
+<p>
+<h3>Playback</h3>
+gst-launch <br>
+&nbsp;|_ filesrc <br>
+&nbsp; &nbsp;|_ wavparse <br>
+&nbsp; &nbsp; &nbsp;|_ alsasink <br>
+</p>

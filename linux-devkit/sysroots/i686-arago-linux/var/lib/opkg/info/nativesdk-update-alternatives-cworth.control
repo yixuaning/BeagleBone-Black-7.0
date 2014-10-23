@@ -1,0 +1,14 @@
+Package: nativesdk-update-alternatives-cworth
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Description: nativesdk-opkg version 0.1.8+svnr649-r13.0-arago0
+ Update alternatives
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: nativesdk-opkg
+Homepage: http://code.google.com/p/opkg/
+Provides: nativesdk-update-alternatives
+Conflicts: nativesdk-update-alternatives-dpkg
+Source: svn://opkg.googlecode.com/svn;module=trunk;protocol=http file://obsolete_automake_macros.patch file://0001-opkg_message-send-Collected-errors-messages-to-stder.patch

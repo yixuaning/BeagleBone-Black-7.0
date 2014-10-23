@@ -1,0 +1,13 @@
+Package: sbc
+Version: 1.0-r0
+Description: SBC Audio Codec
+ Bluetooth low-complexity, subband codec (SBC) library.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: sbc
+Homepage: https://www.bluez.org
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://kernel.org/pub/linux/bluetooth/sbc-1.0.tar.xz

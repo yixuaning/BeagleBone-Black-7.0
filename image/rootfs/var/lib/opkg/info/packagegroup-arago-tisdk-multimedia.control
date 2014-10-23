@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-multimedia
+Version: 1.0-r7
+Description: packagegroup-arago-tisdk-multimedia version 1.0-r7
+ Task to add multimedia related packages
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-tisdk-multimedia
+Homepage: unknown
+Depends: packagegroup-arago-gst, amsdk-av-files
+Source: None

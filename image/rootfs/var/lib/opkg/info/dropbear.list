@@ -1,0 +1,11 @@
+/var/
+/usr/bin/dbclient
+/usr/sbin/dropbearmulti
+/etc/dropbear/
+/etc/init.d/dropbear
+/usr/sbin/dropbearkey
+/etc/init.d/
+/usr/sbin/dropbearconvert
+/usr/sbin/dropbear
+/usr/sbin/
+/etc/default/

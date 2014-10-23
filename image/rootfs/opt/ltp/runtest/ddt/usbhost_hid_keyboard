@@ -1,0 +1,7 @@
+#@name USB HID class tests
+#@desc Test cases corresponding to USB Host Mouse/Keyboard class.
+# @requires usb/host/hid
+# @setup_requires usbhosthid_keyboard
+
+USBHOST_S_FUNC_HID_Keyboard_Detection_Test source 'common.sh'; do_cmd install_modules.sh 'usb'; do_cmd usb_host_hid_keyboard.sh
+

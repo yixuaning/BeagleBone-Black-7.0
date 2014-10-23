@@ -1,0 +1,10 @@
+# @name
+#       IPC MailBox modular test with hardware loopback enabled.
+# @desc
+#       modprobe mbox_test converts mailboxes into MPU loopback.
+#       Module changes the user, Tx and Rx fifo numbers of the slaves to cause
+#       the MPU to receive the messages destined for the slaves.
+# @requires ipc
+
+IPC_S_FUNC_MBOX source "common.sh"; input_count=5; dmesg -c && insmod ddt/mbox_test.ko name=mbox1-loop count=$input_count; sleep 10; rmmod mbox_test.ko && reading_count=`dmesg | grep -c 'msg'` && if [ $reading_count -eq $input_count ]; then exit 0; else exit 1; fi
+

@@ -1,0 +1,13 @@
+Package: gst-plugins-bad-videofiltersbad
+Version: 0.10.23-r4-arago5
+Description: gst-plugins-bad version 0.10.23-r4-arago5
+ GStreamer plugin for videofiltersbad
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2+ & LGPLv2.1+ 
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gst-plugins-bad
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gst-plugins-bad, gstreamer (>= 0.10.36), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libffi6 (>= 3.0.11), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-0.10.23.tar.bz2 file://0001-gstfbdevsink-Fix-depth-value-for-GST_VIDEO_CAPS_RGB_.patch file://0001-sys-fbdevsink-fixing-calculation-of-bytes-per-pixel.patch

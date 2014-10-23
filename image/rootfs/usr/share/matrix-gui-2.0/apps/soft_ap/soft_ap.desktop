@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Soft AP
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/wireless-icon.png
+Type=Application
+Exec=aptest.sh
+Categories=wifi
+ProgramType=gui
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/soft_ap/desc_soft_ap.html

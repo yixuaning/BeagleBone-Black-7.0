@@ -1,0 +1,14 @@
+Package: libopkg-dev
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Description: opkg version 0.1.8+svnr649-r13.0-arago0
+ Open Package Manager
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: opkg
+Homepage: http://code.google.com/p/opkg/
+Depends: libopkg1
+Recommends: libc6-dev
+Source: svn://opkg.googlecode.com/svn;module=trunk;protocol=http file://obsolete_automake_macros.patch file://0001-opkg_message-send-Collected-errors-messages-to-stder.patch

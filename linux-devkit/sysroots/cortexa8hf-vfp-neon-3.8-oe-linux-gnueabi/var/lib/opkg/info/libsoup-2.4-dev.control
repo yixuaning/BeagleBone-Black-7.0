@@ -1,0 +1,16 @@
+Package: libsoup-2.4-dev
+Version: 2.40.2-r1
+Description: libsoup-2.4 version 2.40.2-r1 - Development files
+ An HTTP library implementation in C  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libsoup-2.4
+Homepage: http://www.gnome.org/
+Depends: libsoup-2.4-1 (= 2.40.2-r1)
+Recommends: libz-dev, libglib-2.0-dev, libproxy-dev, libffi-dev, libc6-dev, libgnutls-dev, libxml2-dev
+Source: http://ftp.gnome.org/pub/GNOME/sources/libsoup/2.40/libsoup-2.40.2.tar.xz

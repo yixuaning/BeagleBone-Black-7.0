@@ -1,0 +1,16 @@
+Package: libtiff-dev
+Version: 4.0.3-r0-arago0
+Description: tiff version 4.0.3-r0-arago0 - Development files
+ This software provides support for the Tag Image File Format (TIFF)  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: tiff
+Homepage: http://www.remotesensing.org/libtiff/
+Depends: libtiff5 (= 4.0.3-r0-arago0)
+Recommends: jpeg-dev, libc6-dev, libgcc-s-dev, libjpeg-dev, libz-dev
+Source: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz file://libtool2.patch file://libtiff-CVE-2013-1960.patch file://libtiff-CVE-2013-4232.patch file://libtiff-CVE-2013-4243.patch

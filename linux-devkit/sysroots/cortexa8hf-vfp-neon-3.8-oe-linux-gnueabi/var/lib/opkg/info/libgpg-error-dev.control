@@ -1,0 +1,16 @@
+Package: libgpg-error-dev
+Version: 1.11-r0
+Description: libgpg-error version 1.11-r0 - Development files
+ a small library that defines common error values for all GnuPG components
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libgpg-error0 (= 1.11-r0), libgpg-error0 (>= 1.11), libc6 (>= 2.15)
+Recommends: libc6-dev
+Source: ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.11.tar.bz2 file://pkgconfig.patch

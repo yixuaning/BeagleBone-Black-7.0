@@ -1,0 +1,13 @@
+Package: matrix-gui-usb-demos
+Version: 2.0-r21.1
+Description: matrix-gui-usb-demos version 2.0-r21.1
+ USB demo descriptions for Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: all
+OE: matrix-gui-usb-demos
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Depends: matrix-gui-submenus-usb, bonnie++, matrix-gui-apps-images
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

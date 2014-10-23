@@ -1,0 +1,12 @@
+Package: cpuloadgen
+Version: 0.93-r0
+Description: cpuloadgen version 0.93-r0
+ Utility to generate specified CPU Load
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: cpuloadgen
+Homepage: https://github.com/ptitiano/cpuloadgen
+Source: git://github.com/ptitiano/cpuloadgen.git;protocol=git;branch=master

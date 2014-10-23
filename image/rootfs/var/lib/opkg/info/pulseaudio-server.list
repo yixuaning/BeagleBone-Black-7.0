@@ -1,0 +1,12 @@
+/etc/default/volatiles/volatiles.04_pulse
+/etc/pulse/
+/etc/pulse/daemon.conf
+/etc/pulse/default.pa
+/usr/bin/pulseaudio
+/usr/bin/pactl
+/lib/udev/
+/etc/pulse/system.pa
+/lib/udev/rules.d/90-pulseaudio.rules
+/lib/udev/rules.d/
+/etc/dbus-1/system.d/pulseaudio-system.conf
+/etc/pulse/client.conf

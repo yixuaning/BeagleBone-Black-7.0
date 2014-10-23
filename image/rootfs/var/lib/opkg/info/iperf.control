@@ -1,0 +1,14 @@
+Package: iperf
+Version: 2.0.5-r0
+Description: iperf version 2.0.5-r0
+ Iperf is a tool to measure maximum TCP bandwidth, allowing the tuning of
+ various parameters and UDP characteristics
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: NewBSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: iperf
+Homepage: http://dast.nlanr.net/Projects/Iperf/
+Depends: libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://downloads.sourceforge.net/iperf/iperf-2.0.5.tar.gz file://000-Iperf_Fix-CPU-Usage.diff file://001-cast-to-max_size_t-instead-of-int.patch file://003-fix-hyphen-used-as-minus-sign.patch file://005-iperf-die-on-bind-fail.patch file://007-iperf-reporter-deadlock.patch file://008-numofreport.patch

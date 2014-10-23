@@ -1,0 +1,5 @@
+/usr/sbin/lspci
+/usr/sbin/setpci
+/usr/sbin/update-pciids
+/usr/sbin/pcimodules
+/usr/bin/lspci

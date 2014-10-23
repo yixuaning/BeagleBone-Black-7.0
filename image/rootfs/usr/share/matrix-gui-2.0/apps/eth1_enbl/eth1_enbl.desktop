@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=eth1 enable
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/network-icon.png
+Type=Application
+Exec=eth1_up.sh
+Categories=ethernet
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/eth1_enbl/desc_eth1_enable.html
+X-MATRIX-DisplayPriority=1

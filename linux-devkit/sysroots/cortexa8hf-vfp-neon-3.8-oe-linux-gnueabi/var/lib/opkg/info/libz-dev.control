@@ -1,0 +1,17 @@
+Package: libz-dev
+Version: 1.2.7-r0
+Description: Zlib Compression Library - Development files
+ Zlib is a general-purpose, patent-free, lossless data compression library
+ which is used by many different programs.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Zlib
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: zlib
+Homepage: http://zlib.net/
+Depends: libz1 (= 1.2.7-r0)
+Recommends: libc6-dev, libgcc-s-dev
+Source: http://www.zlib.net/zlib-1.2.7.tar.bz2 file://remove.ldconfig.call.patch

@@ -1,0 +1,13 @@
+Package: gst-plugins-good-rtsp
+Version: 0.10.31-r8-arago2
+Description: gst-plugins-good version 0.10.31-r8-arago2
+ GStreamer plugin for rtsp
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gst-plugins-good
+Homepage: http://gstreamer.freedesktop.org/
+Depends: libffi6 (>= 3.0.11), libc6 (>= 2.15), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libgstinterfaces-0.10-0 (>= 0.10.36), gst-plugins-good, libgstrtp-0.10-0 (>= 0.10.36), libgstsdp-0.10-0 (>= 0.10.36), libglib-2.0-0 (>= 2.34.3), libgstrtsp-0.10-0 (>= 0.10.36), libgcc-s1 (>= 4.7.3)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-0.10.31.tar.bz2 file://0001-v4l2-fix-build-with-recent-kernels-the-v4l2_buffer-i.patch

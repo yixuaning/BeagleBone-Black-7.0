@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=DDR Bandwidth
+GenericName=Benchmark
+Icon=/usr/share/matrix-gui-2.0/apps/images/arm-icon.png
+Type=Application
+Exec=runLmDDRBandwidth.sh
+Categories=arm
+ProgramType=console
+X-MATRIX-Lock=benchmarks
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/arm_ddr_bandwidth/desc_arm_ddr_bandwidth.html
+

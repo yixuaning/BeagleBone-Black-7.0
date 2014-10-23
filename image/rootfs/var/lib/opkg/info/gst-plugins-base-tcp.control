@@ -1,0 +1,13 @@
+Package: gst-plugins-base-tcp
+Version: 0.10.36-r7
+Description: gst-plugins-base version 0.10.36-r7
+ GStreamer plugin for tcp
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gst-plugins-base
+Homepage: http://gstreamer.freedesktop.org/
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), gst-plugins-base, libgcc-s1 (>= 4.7.3)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-0.10.36.tar.bz2 file://gst-plugins-base-tremor.patch file://configure.ac-fix-subparse-plugin.patch

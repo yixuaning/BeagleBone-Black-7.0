@@ -1,0 +1,13 @@
+Package: gst-ffmpeg
+Version: 0.10.13-r6-arago0
+Description: gst-ffmpeg version 0.10.13-r6-arago0
+ FFmpeg-based GStreamer plug-in
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2+ & (GPLv2+ & LGPLv2.1+)
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gst-ffmpeg
+Homepage: http://www.gstreamer.net/
+Depends: libz1 (>= 1.2.7), libswscale2 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgstpbutils-0.10-0 (>= 0.10.36), libavcodec53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgstvideo-0.10-0 (>= 0.10.36), libavformat53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libxml2 (>= 2.9.0), gstreamer (>= 0.10.36), libpostproc52 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libffi6 (>= 3.0.11), libgstaudio-0.10-0 (>= 0.10.36), libbz2-0 (>= 1.0.6), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libgstinterfaces-0.10-0 (>= 0.10.36), liborc-0.4-0 (>= 0.4.16), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libgcc-s1 (>= 4.7.3)
+Source: http://gstreamer.freedesktop.org/src/gst-ffmpeg/gst-ffmpeg-0.10.13.tar.bz2 file://lower-rank.diff file://configure-fix.patch file://h264_qpel_mmx.patch file://libav_e500mc.patch file://gst-ffmpeg-CVE-2013-3674.patch

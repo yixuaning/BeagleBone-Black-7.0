@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=H.264 Decode
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/multimedia-icon.png
+Type=Application
+Exec=runH264Dec.sh
+Categories=multimedia
+ProgramType=gui
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/arm_multimedia_h264dec/desc_arm_multimedia_h264dec.html
+

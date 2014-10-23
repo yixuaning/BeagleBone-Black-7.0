@@ -1,0 +1,13 @@
+Package: kernel-module-pvrsrvkm
+Version: 5.01.01.01-r21a
+Description: omap3-sgx-modules version 5.01.01.01-r21a
+ pvrsrvkm kernel module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am335x_evm
+OE: omap3-sgx-modules
+Homepage: unknown
+Depends: kernel-3.12.10-ti2013.12.01
+Source: http://software-dl.ti.com/dsps/dsps_public_sw/gfxsdk/5_01_01_01/exports/Graphics_SDK_setuplinux_hardfp_5_01_01_01.bin

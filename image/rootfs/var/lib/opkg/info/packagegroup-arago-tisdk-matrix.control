@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-matrix
+Version: 1.0-r29
+Description: packagegroup-arago-tisdk-matrix version 1.0-r29
+ Task to include Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-tisdk-matrix
+Homepage: unknown
+Depends: matrix-gui-pm-demos-suspend, matrix-lighttpd-config, matrix-gui-usb-demos, matrix-gui-wifi-demos, matrix-gui-crypto-demos, matrix-gui-oprofile-demos, matrix-gui-browser, matrix-gui-apps-quick-playground, matrix-gui-submenus-ethernet, matrix-gui-armbenchmarks-demos, matrix-3d-demo-lantern, matrix-multimedia-demo-audiocapture, matrix-3d-demo-skull, matrix-gui-ethernet-demos, matrix-gui-generic-pm, ts-calibrate-init, matrix-gui-thermostat-demo, matrix-gui, matrix-multimedia-demo-mpeg4aacdec, matrix-gui-clocks, matrix-multimedia-demo-mpeg4dec, refresh-screen, matrix-gui-settings-demos, matrix-multimedia-demo-h264dec, matrix-3d-demo-film, matrix-multimedia-demo-aac, matrix-gui-qt4-demos, matrix-3d-demo-chameleon
+Source: None

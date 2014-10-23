@@ -1,0 +1,14 @@
+Package: libusb-0.1-4
+Version: 1:0.1.4-r1
+Description: libusb-compat version 0.1.4-r1
+ libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims
+ to look, feel and behave exactly like libusb-0.1
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libusb-compat
+Homepage: http://www.libusb.org/
+Depends: libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.15)
+Source: http://downloads.sourceforge.net/libusb/libusb-compat-0.1.4.tar.bz2 file://obsolete_automake_macros.patch

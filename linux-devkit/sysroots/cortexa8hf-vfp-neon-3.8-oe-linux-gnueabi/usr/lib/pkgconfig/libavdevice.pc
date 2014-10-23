@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=${prefix}/include
+
+Name: libavdevice
+Description: Libav device handling library
+Version: 53.2.0
+Requires: 
+Requires.private: libavformat = 53.21.0
+Conflicts:
+Libs: -L${libdir} -lavdevice 
+Libs.private: -ldl -lasound -lx264 -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lm -pthread -lbz2 -lz
+Cflags: -I${includedir}

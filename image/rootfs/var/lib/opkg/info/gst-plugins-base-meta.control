@@ -1,0 +1,13 @@
+Package: gst-plugins-base-meta
+Version: 0.10.36-r7
+Description: gst-plugins-base version 0.10.36-r7
+ gst-plugins-base meta package
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gst-plugins-base
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gst-plugins-base-theora, gst-plugins-base-app, libgstvideo-0.10-0, gst-plugins-base-gdp, gst-plugins-base-vorbis, gst-plugins-base-decodebin, gst-plugins-base-audiorate, gst-plugins-base-ivorbisdec, gst-plugins-base-videotestsrc, gst-plugins-base-playbin, libgstapp-0.10-0, gst-plugins-base-audiotestsrc, gst-plugins-base-typefindfunctions, libgstnetbuffer-0.10-0, libgstfft-0.10-0, libgstinterfaces-0.10-0, libgstsdp-0.10-0, libgstcdda-0.10-0, gst-plugins-base-videorate, libgstaudio-0.10-0, gst-plugins-base-audioresample, gst-plugins-base-decodebin2, gst-plugins-base-encodebin, gst-plugins-base-audioconvert, gst-plugins-base-alsa, gst-plugins-base-adder, gst-plugins-base-ffmpegcolorspace, libgstriff-0.10-0, gst-plugins-base-subparse, gst-plugins-base-apps, libgstpbutils-0.10-0, gst-plugins-base-volume, gst-plugins-base-videoscale, gst-plugins-base-ogg, libgsttag-0.10-0, gst-plugins-base-tcp, libgstrtp-0.10-0, libgstrtsp-0.10-0, gst-plugins-base-gio
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-0.10.36.tar.bz2 file://gst-plugins-base-tremor.patch file://configure.ac-fix-subparse-plugin.patch

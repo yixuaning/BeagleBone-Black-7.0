@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=${prefix}/include
+
+Name: libpostproc
+Description: Libav postprocessing library
+Version: 52.0.0
+Requires: 
+Requires.private: libavutil = 51.22.1
+Conflicts:
+Libs: -L${libdir} -lpostproc 
+Libs.private: 
+Cflags: -I${includedir}

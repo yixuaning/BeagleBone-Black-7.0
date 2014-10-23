@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Run Signal Parent Optimized
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/oprofile-icon.png
+Type=Application
+Exec=runOpSignalParentOpt.sh
+Categories=profiling
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/op_run_signal_parent_opt/desc_run_signal_parent_opt.html

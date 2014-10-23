@@ -1,0 +1,13 @@
+Package: matrix-gui-crypto-demos
+Version: 2.0-r21.8
+Description: matrix-gui-crypto-demos version 2.0-r21.8
+ Cryptography demo descriptions for Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: am335x_evm
+OE: matrix-gui-crypto-demos
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Depends: matrix-gui-apps-images, openssl, matrix-gui-submenus-cryptos, ti-crypto-examples
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master file://0001-openssl_perf.sh-remove-module-manipulation.patch;striplevel=2

@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Film TV
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/3d-film-icon.png
+Type=Application
+Exec=runOGLESFilmTV.sh -qaf=1000
+Categories=3d
+ProgramType=gui

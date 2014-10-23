@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=USB Bonnie
+GenericName=USB Bonnie
+Icon=/usr/share/matrix-gui-2.0/apps/images/usb-icon.png
+Type=Application
+Exec=runUsbBonnie.sh
+Categories=usb
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/usbbonnie/desc_usb_bonnie.html

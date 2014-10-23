@@ -1,0 +1,21 @@
+Package: libcairo-dev
+Version: 1.12.14-r0
+Description: The Cairo 2D vector graphics library - Development files
+ Cairo is a multi-platform library providing anti-aliased vector-based
+ rendering for multiple target backends. Paths consist of line segments
+ and cubic splines and can be rendered at any width with various join and
+ cap styles. All colors may be specified with optional translucence
+ (opacity/alpha) and combined using the extended Porter/Duff compositing
+ algebra as found in the X Render Extension.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MPL-1 & LGPLv2.1
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: cairo
+Homepage: http://cairographics.org
+Depends: libcairo-gobject2, libcairo-script-interpreter2, libcairo2 (= 1.12.14-r0), libcairo-perf-utils
+Recommends: libpixman-1-dev, libfontconfig-dev, libgcc-s-dev, libz-dev, libpng16-dev, cairo-gobject-dev, libglib-2.0-dev, libffi-dev, libc6-dev, libexpat-dev, cairo-perf-utils-dev, cairo-script-interpreter-dev, libfreetype-dev
+Source: http://cairographics.org/releases/cairo-1.12.14.tar.xz file://png.patch

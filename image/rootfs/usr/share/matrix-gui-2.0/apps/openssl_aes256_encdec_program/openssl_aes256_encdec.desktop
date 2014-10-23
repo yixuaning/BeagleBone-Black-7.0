@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=AES 256
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/encrypt-icon.png
+Type=Application
+Exec=/usr/bin/openssl_aes256_encdec.sh
+Categories=cryptos
+ProgramType=console
+X-MATRIX-LOCK=ssl
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/openssl_aes256_encdec_program/desc_openssl_aes256_encdec.html

@@ -1,0 +1,13 @@
+Package: am-sysinfo
+Version: git-r9
+Description: am-sysinfo version git-r9
+ AM SysInfo
+Section: system
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: am-sysinfo
+Homepage: https://gforge.ti.com/gf/project/am_sysinfo/
+Depends: libc6 (>= 2.15)
+Source: git://gitorious.org/am_sysinfo/am_sysinfo.git;protocol=git;branch=master

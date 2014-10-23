@@ -1,0 +1,13 @@
+Package: wpa-supplicant-passphrase
+Version: 2.0-devel-ti-r6b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+Description: wpa-supplicant-wl18xx version 2.0-devel-ti-r6b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+ A Client for Wi-Fi Protected Access (WPA).
+Section: network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 | BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: wpa-supplicant-wl18xx
+Homepage: http://hostap.epitest.fi/wpa_supplicant/
+Depends: libcrypto1.0.0 (>= 1.0.1e), libc6 (>= 2.15)
+Source: git://github.com/TI-OpenLink/hostap.git;protocol=git file://defconfig file://defaults-sane file://wpa-supplicant.sh file://wpa_supplicant.conf file://p2p_supplicant.conf file://wpa_supplicant.conf-sane file://99_wpa_supplicant file://wpa_supplicant.conf file://fi.epitest.hostap.WPASupplicant.service file://fi.w1.wpa_supplicant1.service

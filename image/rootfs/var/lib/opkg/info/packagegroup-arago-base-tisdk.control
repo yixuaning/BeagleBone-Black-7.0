@@ -1,0 +1,13 @@
+Package: packagegroup-arago-base-tisdk
+Version: 1.0-r13
+Description: packagegroup-arago-base-tisdk version 1.0-r13
+ Additional packages beyond console packages shared by TI SDKs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-base-tisdk
+Homepage: unknown
+Depends: iptables, psplash, libxml2, dbus-1, libpcre1, nfs-utils-client, arago-gpl-notice, libglib-2.0-0, iperf, libexpat1
+Source: None

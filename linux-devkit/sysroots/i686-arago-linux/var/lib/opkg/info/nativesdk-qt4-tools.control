@@ -1,0 +1,13 @@
+Package: nativesdk-qt4-tools
+Version: 4.8.4-r13.0-arago2
+Description: nativesdk-qt4-tools version 4.8.4-r13.0-arago2
+ SDK tools for Qt/[X11|Mac|Embedded] version 4.x
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: i686-nativesdk
+OE: nativesdk-qt4-tools
+Homepage: http://qt.nokia.com
+Depends: nativesdk-libz1 (>= 1.2.7), nativesdk-libc6 (>= 2.17), nativesdk-libgcc1 (>= 4.7.2), nativesdk-libstdc++6 (>= 4.7.2)
+Source: http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.4.tar.gz file://0001-qlibraryinfo-allow-to-set-qt.conf-from-the-outside-u.patch file://0004-configure-qmake-is-already-built-in-qt4-tools-native.patch file://0005-configure-set-LFLAGS-to-pick-up-zlib-from-staging.patch file://0006-configure-Use-OE_QMAKE_-values-to-specify-Qt-utility.patch file://0007-dbus-Remove-const-usage-that-causes-compile-failure-.patch file://0008-qmake.pro-Allow-building-a-separate-qmake-for-the-ta.patch file://g++.conf file://linux.conf file://0009-qmake-fix-source-file-references-in-qmake.pri.patch

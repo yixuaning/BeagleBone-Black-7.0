@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Dhrystone
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/arm-icon.png
+Type=Application
+Exec=runDhrystone
+Categories=arm
+ProgramType=console
+X-MATRIX-Lock=benchmarks
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/dhrystone/desc_dhrystone.html

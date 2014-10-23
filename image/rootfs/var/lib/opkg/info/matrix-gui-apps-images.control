@@ -1,0 +1,12 @@
+Package: matrix-gui-apps-images
+Version: 2.0-r21.0
+Description: matrix-gui-apps-images version 2.0-r21.0
+ Image package for Matrix GUI v2 Applications
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: all
+OE: matrix-gui-apps-images
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

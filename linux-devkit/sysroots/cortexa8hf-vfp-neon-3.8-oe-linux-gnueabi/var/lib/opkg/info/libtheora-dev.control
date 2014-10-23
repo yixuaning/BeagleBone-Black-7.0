@@ -1,0 +1,16 @@
+Package: libtheora-dev
+Version: 1.1.1-r1
+Description: Theora Video Codec - Development files
+ The libtheora reference implementation provides the standard encoder and
+ decoder under a BSD license.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libtheora
+Homepage: http://xiph.org/
+Depends: libtheora (= 1.1.1-r1)
+Recommends: libc6-dev, libogg-dev, libgcc-s-dev
+Source: http://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.bz2 file://no-docs.patch

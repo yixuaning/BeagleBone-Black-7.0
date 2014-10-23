@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Cryptos
+GenericName=Cryptos
+Icon=/usr/share/matrix-gui-2.0/apps/images/encrypt-icon.png
+Type=Directory
+X-MATRIX-CategoryTarget=cryptos

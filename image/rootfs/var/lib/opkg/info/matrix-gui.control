@@ -1,0 +1,14 @@
+Package: matrix-gui
+Version: 2.0-r16
+Description: matrix-gui version 2.0-r16
+ Matrix GUI Application launcher
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD MIT
+Architecture: am335x_evm
+OE: matrix-gui
+Homepage: https://gforge.ti.com/gf/project/matrix-gui-v2/
+Depends: matrix-lighttpd-config, lighttpd-module-compress, refresh-screen, php-cgi, lighttpd, lighttpd-module-cgi, lighttpd-module-expire, php-cli, php, matrix-gui-browser
+Recommends: update-rc.d
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2.git;protocol=git;branch=master file://init file://php.ini

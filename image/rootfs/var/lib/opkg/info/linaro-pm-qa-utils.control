@@ -1,0 +1,13 @@
+Package: linaro-pm-qa-utils
+Version: 0.4.4-r2
+Description: linaro-pm-qa-utils version 0.4.4-r2
+ Utilities from Linaro for testing Power Management
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: linaro-pm-qa-utils
+Homepage: https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/TestSuite/PmQa
+Depends: libc6 (>= 2.15)
+Source: git://git.linaro.org/tools/pm-qa.git;protocol=git;branch=master

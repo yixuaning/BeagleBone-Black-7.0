@@ -1,0 +1,13 @@
+Package: mmc-utils
+Version: 1.0-r0
+Description: mmc-utils version 1.0-r0
+ Userspace tools for MMC/SD devices
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: mmc-utils
+Homepage: http://git.kernel.org/cgit/linux/kernel/git/cjb/mmc-utils.git/
+Depends: libc6 (>= 2.15)
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/cjb/mmc-utils.git;protocol=git;branch=master

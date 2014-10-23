@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-amsdk
+Version: 1.0-r9
+Description: packagegroup-arago-tisdk-amsdk version 1.0-r9
+ Task to install additional packages only used in the Arago SDK
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-tisdk-amsdk
+Homepage: unknown
+Depends: gadget-init, parse-ip, screenshot
+Source: None

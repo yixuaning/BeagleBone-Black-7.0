@@ -1,0 +1,7 @@
+# @name CPUIDLE Tests
+# @desc Check DUT after being idle for some time
+# @requires power_mgr/cpuidle
+
+POWERMGR_S_FUNC_quick_idle st=`date +%s`; echo 'Going to sleep for 1 minute...'; sleep 1m; et=`date +%s`; dt=$(($et - $st - (60))); dt=${dt#-}; echo "start time:$st"; echo "end time:$et"; echo "deviation time:$dt"; [ $dt -lt 2 ] 
+
+POWERMGR_XXL_STRESS_2days_idle st=`date +%s`; echo 'Going to sleep for 2 days...'; sleep 2d; et=`date +%s`; dt=$(($et - $st - (60*60*24*2))); dt=${dt#-}; echo "start time:$st"; echo "end time:$et"; echo "deviation time:$dt"; [ $dt -lt 60 ]

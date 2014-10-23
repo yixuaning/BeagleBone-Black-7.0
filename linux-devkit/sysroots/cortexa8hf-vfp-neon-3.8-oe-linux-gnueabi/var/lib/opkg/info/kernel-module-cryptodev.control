@@ -1,0 +1,13 @@
+Package: kernel-module-cryptodev
+Version: 1.6-r0-arago1
+Description: Linux Cryptodev KERNEL MODULE
+ cryptodev kernel module; CryptoDev driver
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am335x_evm
+OE: cryptodev
+Homepage: unknown
+Depends: kernel-3.12.10-ti2013.12.01
+Source: git://github.com/nmav/cryptodev-linux.git;protocol=git file://0001-allow-for-cross-compiling-cryptodev.patch

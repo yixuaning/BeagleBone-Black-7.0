@@ -1,0 +1,12 @@
+Package: amsdk-av-files
+Version: 1.1-r2
+Description: amsdk-av-files version 1.1-r2
+ AMSDK multimedia support files
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-NC-ND-3.0
+Architecture: am335x_evm
+OE: amsdk-av-files
+Homepage: https://gforge.ti.com/gf/project/am_multimedia/
+Source: https://gforge.ti.com/gf/download/frsrelease/564/5179/amsdk-av-files_1.1.tar.gz;name=avfilestarball

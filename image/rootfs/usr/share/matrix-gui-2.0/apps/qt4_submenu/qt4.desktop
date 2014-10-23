@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Qt4
+GenericName=2D Graphics
+Icon=/usr/share/matrix-gui-2.0/apps/images/qt-icon.png
+Type=Directory
+X-MATRIX-CategoryTarget=qt4

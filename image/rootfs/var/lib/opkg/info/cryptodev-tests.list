@@ -1,0 +1,16 @@
+/usr/bin/tests_cryptodev/sha_speed
+/usr/bin/tests_cryptodev/cipher
+/usr/bin/tests_cryptodev/async_cipher
+/usr/bin/tests_cryptodev/hmac_comp
+/usr/bin/tests_cryptodev/cipher_comp
+/usr/bin/tests_cryptodev/cipher-aead-srtp
+/usr/bin/tests_cryptodev/cipher-gcm
+/usr/bin/tests_cryptodev/hmac
+/usr/bin/tests_cryptodev/speed
+/usr/bin/tests_cryptodev/hashcrypt_speed
+/usr/bin/tests_cryptodev/async_speed
+/usr/bin/tests_cryptodev/async_hmac
+/usr/bin/tests_cryptodev/
+/usr/bin/tests_cryptodev/hash_comp
+/usr/bin/tests_cryptodev/cipher-aead
+/usr/bin/tests_cryptodev/fullspeed

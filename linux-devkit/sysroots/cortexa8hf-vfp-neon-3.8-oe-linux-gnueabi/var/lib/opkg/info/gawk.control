@@ -1,0 +1,14 @@
+Package: gawk
+Version: 4.0.2-r0
+Description: gawk version 4.0.2-r0
+ A program that you can use to select particular records in a file and
+ perform operations upon them.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gawk
+Homepage: www.gnu.org/software/gawk
+Depends: update-alternatives-cworth, gawk-common, libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: ftp://ftp.gnu.org/gnu/gawk/gawk-4.0.2.tar.gz

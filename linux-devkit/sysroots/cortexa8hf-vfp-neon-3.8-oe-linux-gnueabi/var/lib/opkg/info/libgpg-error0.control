@@ -1,0 +1,13 @@
+Package: libgpg-error0
+Version: 1.11-r0
+Description: libgpg-error version 1.11-r0
+ a small library that defines common error values for all GnuPG components
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libc6 (>= 2.15)
+Source: ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.11.tar.bz2 file://pkgconfig.patch

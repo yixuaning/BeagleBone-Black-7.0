@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=SHA1 Hash
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/encrypt-icon.png
+Type=Application
+Exec=/usr/bin/openssl_gen_sha1hash.sh
+Categories=cryptos
+ProgramType=console
+X-MATRIX-LOCK=ssl
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/openssl_gen_sha1hash_program/desc_openssl_gen_sha1hash.html
+

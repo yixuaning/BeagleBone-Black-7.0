@@ -1,0 +1,22 @@
+# @name Test scenario name (i.e. Nand Write/Read Performance test)
+# @desc Test scenario description.
+# @requires nand 
+# @setup_requires 
+
+# PLEASE READ "DDT TESTS IMPLEMENTATION GUIDELINES" section in
+# <ltp-ddt-root>/README-DDT file before writing test cases.
+
+# The test step pass if the commands return zero, it fails otherwise.
+
+# Below you can see a real test scenario example.
+# common.sh defines:
+#  do_cmd(): Use to execute a command and check for return value
+#  die(): Print error message and fails the test (i.e exit e/ non-zero value)
+#  get_return_value(): Use to extract value in cases where a function returns 
+#                      multiple values in a file using key=value pairs.
+# There is a collection of scripts that implement well-defined 'atomic' actions,
+# users are encouraged to check available scripts at 
+# <ltp-ddt-root>testcases/ddt/scripts/ before implementing their own.
+
+NAND_S_FUNC_DD_RW_0001 source 'common.sh'; part=`get_mtd_partition_number.sh "nand"` || die "error getting mtd part number: $part"; size=`get_mtd_erase_size.sh "$part"` || die "error getting mtd erase size: $size"; blk_device_dd_readwrite_test.sh -f "jffs2" -b "$size" -c 10 -d "nand"
+

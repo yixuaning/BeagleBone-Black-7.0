@@ -1,0 +1,16 @@
+Package: libblkid-dev
+Version: 2.22.2-r3
+Description: A suite of basic system administration utilities.
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+ & BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: util-linux
+Homepage: unknown
+Recommends: libc6-dev, libgcc-s-dev, libuuid-dev, ncurses-dev, libz-dev
+Source: http://kernel.org/pub/linux/utils/util-linux/v2.22/util-linux-2.22.2.tar.bz2 file://MCONFIG file://defines.h file://make_include file://swapargs.h file://util-linux-ng-replace-siginterrupt.patch file://util-linux-ng-2.16-mount_lock_path.patch file://uclibc-__progname-conflict.patch file://configure-sbindir.patch file://fix-configure.patch file://mbsalign-license.patch

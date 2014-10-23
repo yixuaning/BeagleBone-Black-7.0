@@ -1,0 +1,10 @@
+armv7l
+tci6614
+tci6614-evm
+nand/davinci_nand
+net/eth1G
+spi_master/mtd/spi_davinci
+jffs2
+watchdog
+ubifs
+i2c/eeprom

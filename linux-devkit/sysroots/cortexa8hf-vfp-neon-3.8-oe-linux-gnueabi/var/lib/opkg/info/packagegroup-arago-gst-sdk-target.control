@@ -1,0 +1,13 @@
+Package: packagegroup-arago-gst-sdk-target
+Version: 1.0-r5
+Description: packagegroup-arago-gst-sdk-target version 1.0-r5
+ Task to build and install header and libs in sdk
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-gst-sdk-target
+Homepage: unknown
+Depends: gst-plugins-base-dev, gst-ffmpeg-dev, gstreamer-dev, gst-plugins-bad-dev, gst-plugins-good-dev
+Source: None

@@ -1,0 +1,13 @@
+Package: evtest
+Version: 1.25-r0
+Description: evtest version 1.25-r0
+ Simple tool for input event debugging.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: evtest
+Homepage: http://people.freedesktop.org/~whot/evtest/
+Depends: libxml2 (>= 2.9.0), libc6 (>= 2.15)
+Source: http://cgit.freedesktop.org/~whot/evtest/snapshot/evtest-1.25.tar.bz2;name=archive

@@ -1,0 +1,14 @@
+Package: gdbserver
+Version: 7.5.1-r0.0
+Description: gdb version 7.5.1-r0.0
+ gdb - GNU debugger
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gdb
+Homepage: http://www.gnu.org/software/gdb/
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Recommends: glibc-thread-db
+Source: ftp://ftp.gnu.org/gnu/gdb/gdb-7.5.1.tar.gz file://kill_arm_map_symbols.patch file://gdbserver-cflags-last.diff;striplevel=0 file://renesas-sh-native-support.patch

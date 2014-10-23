@@ -1,0 +1,6 @@
+# @name Ethernet Modular Test
+# @desc Insert/Remove ethernet modules
+# @requires net
+
+ETH_S_FUNC_INSMOD_RMMOD source 'common.sh'; do_cmd install_modules.sh 'net'; do_cmd do_modular_common.sh -l "10" -d "net" 
+ETH_L_STRESS_INSMOD_RMMOD source 'common.sh'; do_cmd install_modules.sh 'net'; do_cmd do_modular_common.sh -l "100" -d "net" 

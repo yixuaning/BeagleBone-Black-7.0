@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Certificate Generation
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/encrypt-icon.png
+Type=Application
+Exec=/usr/bin/openssl_gen_cert.sh
+Categories=cryptos
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/openssl_gen_cert_program/desc_openssl_gen_cert.html

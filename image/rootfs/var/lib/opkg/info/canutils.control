@@ -1,0 +1,13 @@
+Package: canutils
+Version: 4.0.6+gitr0+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0
+Description: canutils version 4.0.6+gitrAUTOINC+bab595e38295dcafcfc17a011d3d51f2df1618e6-r0-arago0
+ canutils (PTX flavour)
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: canutils
+Homepage: http://www.pengutronix.de
+Depends: libsocketcan2 (>= 0.0.8), libc6 (>= 2.15)
+Source: git://git.pengutronix.de/git/tools/canutils.git;protocol=git;tag=bab595e38295dcafcfc17a011d3d51f2df1618e6

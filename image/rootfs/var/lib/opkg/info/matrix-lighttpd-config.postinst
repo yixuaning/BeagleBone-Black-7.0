@@ -1,0 +1,6 @@
+if [ -f $D/etc/lighttpd.conf ] ; then
+	cp $D/etc/lighttpd.conf.matrix $D/etc/lighttpd.conf
+else
+	echo "No lighttpd.conf found, aborting"
+	exit 1
+fi

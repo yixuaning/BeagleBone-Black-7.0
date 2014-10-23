@@ -1,0 +1,13 @@
+Package: packagegroup-arago-toolchain-tisdk-target
+Version: 1.0-r5
+Description: packagegroup-arago-toolchain-tisdk-target version 1.0-r5
+ Task to build and install header and libs into the sdk
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-toolchain-tisdk-target
+Homepage: unknown
+Depends: packagegroup-arago-tisdk-graphics-sdk-target, packagegroup-arago-qte-toolchain-target, packagegroup-arago-tisdk-multimedia-sdk-target, packagegroup-arago-tisdk-connectivity-sdk-target, packagegroup-arago-tisdk-addons-sdk-target, packagegroup-arago-tisdk-crypto-sdk-target
+Source: None

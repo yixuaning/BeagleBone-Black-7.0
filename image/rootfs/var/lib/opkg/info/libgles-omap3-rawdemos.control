@@ -1,0 +1,13 @@
+Package: libgles-omap3-rawdemos
+Version: 5.01.01.01-r38.0
+Description: libgles-omap3 version 5.01.01.01-r38.0
+ libGLES for the omap3
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TSPA
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libgles-omap3
+Homepage: unknown
+Depends: libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://software-dl.ti.com/dsps/dsps_public_sw/gfxsdk/5_01_01_01/exports/Graphics_SDK_setuplinux_hardfp_5_01_01_01.bin file://cputype file://rc.pvr file://99-bufferclass.rules

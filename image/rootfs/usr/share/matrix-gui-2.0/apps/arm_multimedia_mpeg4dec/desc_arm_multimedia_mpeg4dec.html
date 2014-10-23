@@ -1,0 +1,17 @@
+<h1> ARM MPEG-4 Video Decode </h1>
+
+<p> This example demonstrates video decoding capability of Cortex-A8 core using MPEG-4 codec. The Multimedia framework used is GStreamer and gst-ffmpeg plug-in is used to call into open source FFmpeg codec libraries. The data file resolution has been modified to retain the original aspect ratio of 16:9. </p>
+
+<h2> Multimedia Pipeline </h2>
+<p>
+gst-launch <br>
+&nbsp;|_ mpeg4videoparse <br>
+&nbsp; &nbsp;|_ ffdec_mpeg4 <br>
+&nbsp; &nbsp; &nbsp;|_ v4l2/fbdev sink <br>
+</p>
+
+<h3> Plug-in Details </h3>
+<b> gst-ffmpeg </b> <br>
+Version:&nbsp; &nbsp; 0.10.11 <br>
+<b> FFmpeg </b> <br>
+Version:&nbsp; &nbsp; 0.6 <br>

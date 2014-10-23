@@ -1,0 +1,16 @@
+Package: tslib-calibrate
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Description: An abstraction layer for touchscreen panel events.
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events. Tslib is generally
+ used on embedded devices to provide a common user space interface to
+ touchscreen functionality.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: tslib
+Homepage: http://tslib.berlios.de/
+Depends: libts-1.0-0 (>= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0), libc6 (>= 2.15)
+Source: git://github.com/kergoth/tslib.git;protocol=git file://obsolete_automake_macros.patch file://ts.conf file://tslib.sh

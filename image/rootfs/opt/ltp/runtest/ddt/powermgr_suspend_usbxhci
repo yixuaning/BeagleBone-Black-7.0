@@ -1,0 +1,15 @@
+# @name suspend/standby resume tests
+# @desc Test suspend/standby resume after removing usbxhci module
+# @requires power_mgr && usbxhci
+
+POWERMGR_S_FUNC_SIMPLE_SUSPEND_REMOVE_USBXHCI source 'functions.sh'; usbdev=`get_modular_name.sh usbxhci`; suspend -i 2 -p "mem" -u 1 -m $usbdev
+
+POWERMGR_M_FUNC_SIMPLE_SUSPEND_REMOVE_USBXHCI source 'functions.sh'; usbdev=`get_modular_name.sh usbxhci`; suspend -i 10 -p "mem" -u 1 -m $usbdev
+
+POWERMGR_L_STRESS_SIMPLE_SUSPEND_REMOVE_USBXHCI source 'functions.sh'; usbdev=`get_modular_name.sh usbxhci`; suspend -i 100 -p "mem" -u 1 -m $usbdev
+
+POWERMGR_S_FUNC_SIMPLE_STANDBY_REMOVE_USBXHCI source 'functions.sh'; usbdev=`get_modular_name.sh usbxhci`; suspend -i 2 -p "standby" -u 1 -m $usbdev
+
+POWERMGR_M_FUNC_SIMPLE_STANDBY_REMOVE_USBXHCI source 'functions.sh'; usbdev=`get_modular_name.sh usbxhci`; suspend -i 10 -p "standby" -u 1 -m $usbdev
+
+POWERMGR_L_STRESS_SIMPLE_STANDBY_REMOVE_USBXHCI source 'functions.sh'; usbdev=`get_modular_name.sh usbxhci`; suspend -i 100 -p "standby" -u 1 -m $usbdev

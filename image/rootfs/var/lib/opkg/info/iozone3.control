@@ -1,0 +1,13 @@
+Package: iozone3
+Version: 263-r0
+Description: iozone3 version 263-r0
+ Filesystem and Disk Benchmarking Tool
+Section: console/tests
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: iozone3
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: iozone3
+Homepage: http://www.iozone.org/
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://www.iozone.org/src/current/iozone3_263.tar file://copyright.txt file://fileop-arm.patch

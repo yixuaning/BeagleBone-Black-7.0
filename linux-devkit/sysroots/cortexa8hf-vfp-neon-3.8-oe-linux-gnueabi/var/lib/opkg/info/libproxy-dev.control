@@ -1,0 +1,16 @@
+Package: libproxy-dev
+Version: 0.4.7-r6
+Description: libproxy version 0.4.7-r6 - Development files
+ A library that provides automatic proxy configuration management  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libproxy
+Homepage: http://code.google.com/p/libproxy/
+Depends: libproxy (= 0.4.7-r6)
+Recommends: libc6-dev, libglib-2.0-dev, libgcc-s-dev, libstdc++-dev
+Source: http://libproxy.googlecode.com/files/libproxy-0.4.7.zip file://g++-namepace.patch file://libproxy_fix_for_gcc4.7.patch file://libproxy-0.4.7-CVE-2012-4504.patch

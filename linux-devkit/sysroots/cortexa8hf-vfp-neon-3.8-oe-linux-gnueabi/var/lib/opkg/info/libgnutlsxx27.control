@@ -1,0 +1,13 @@
+Package: libgnutlsxx27
+Version: 2.12.23-r8.4-arago0
+Description: gnutls version 2.12.23-r8.4-arago0
+ GNU Transport Layer Security Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gnutls
+Homepage: http://www.gnu.org/software/gnutls/
+Depends: libstdc++6 (>= 4.7.3), libcap2 (>= 2.22), libz1 (>= 1.2.7), libgnutls26 (>= 2.12.23), libc6 (>= 2.15), libtasn1-3 (>= 2.14), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0), libgcc-s1 (>= 4.7.3)
+Source: ftp://ftp.gnutls.org/gcrypt/gnutls/v2.12/gnutls-2.12.23.tar.bz2 file://gnutls-openssl.patch file://correct_rpl_gettimeofday_signature.patch file://configure-fix.patch file://avoid_AM_PROG_MKDIR_P_warning_error_with_automake_1.12.patch file://CVE-2014-1959-rejection-of-v1-intermediate-cert.patch file://CVE-2014-0092-corrected-return-codes.patch file://25_updatedgdocfrommaster.diff

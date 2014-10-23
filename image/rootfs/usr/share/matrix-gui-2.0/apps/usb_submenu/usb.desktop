@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=USB
+GenericName=USB Benchmarks
+Icon=/usr/share/matrix-gui-2.0/apps/images/usb-icon.png
+Type=Directory
+X-MATRIX-CategoryTarget=usb

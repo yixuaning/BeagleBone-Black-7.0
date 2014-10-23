@@ -1,0 +1,13 @@
+Package: packagegroup-arago-gst
+Version: 1.0-r6
+Description: packagegroup-arago-gst version 1.0-r6
+ Task to add gstreamer and gstreamer plugins
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-gst
+Homepage: unknown
+Depends: gst-plugins-bad, gst-plugins-bad-meta, gstreamer, gst-plugins-good, gst-plugins-base-meta, gst-plugins-good-meta, gst-ffmpeg, gst-plugins-base
+Source: None

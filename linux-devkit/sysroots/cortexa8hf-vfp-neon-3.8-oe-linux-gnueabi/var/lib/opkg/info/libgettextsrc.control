@@ -1,0 +1,13 @@
+Package: libgettextsrc
+Version: 0.16.1-r6
+Description: gettext version 0.16.1-r6
+ The GNU internationalization library.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gettext
+Homepage: http://www.gnu.org/software/gettext/gettext.html
+Depends: libgettextlib (>= 0.16.1), libc6 (>= 2.15)
+Source: ftp://ftp.gnu.org/gnu/gettext/gettext-0.16.1.tar.gz file://gettext-vpath.patch file://linklib_from_0.17.patch file://gettext-autoconf-lib-link-no-L.patch file://disable_java.patch file://fix_aclocal_version.patch file://fix_gnu_source_circular.patch file://hardcode_macro_version.patch

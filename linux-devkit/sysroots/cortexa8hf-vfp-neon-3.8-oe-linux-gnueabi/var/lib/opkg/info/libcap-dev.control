@@ -1,0 +1,16 @@
+Package: libcap-dev
+Version: 2.22-r5
+Description: libcap version 2.22-r5 - Development files
+ support for getting/setting POSIX.1e capabilities  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD | GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libcap
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libcap2 (= 2.22-r5)
+Recommends: libc6-dev, attr-dev, libattr-dev
+Source: ftp://ftp.debian.org/debian/pool/main/libc/libcap2/libcap2_2.22.orig.tar.gz

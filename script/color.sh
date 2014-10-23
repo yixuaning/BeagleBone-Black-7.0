@@ -1,0 +1,10 @@
+#!/bin/bash
+
+CLR="\033[2J"
+HIGHLIGHT="\033[1m"
+BLINK="\033[5m"
+YELLOW="\033[33m"
+RED="\033[31m"
+RESET="\033[0m"
+WGRW="\033[47;31m"
+

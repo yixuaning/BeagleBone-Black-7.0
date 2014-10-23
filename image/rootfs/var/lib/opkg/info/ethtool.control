@@ -1,0 +1,14 @@
+Package: ethtool
+Version: 3.8-r0
+Description: Display or change ethernet card settings
+ A small utility for examining and tuning the settings of your ethernet-
+ based network interfaces.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: ethtool
+Homepage: http://www.kernel.org/pub/software/network/ethtool/
+Depends: libc6 (>= 2.15)
+Source: http://kernel.org/pub/software/network/ethtool/ethtool-3.8.tar.gz

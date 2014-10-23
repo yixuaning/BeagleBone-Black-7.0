@@ -1,0 +1,14 @@
+Package: opkg-config-base-dev
+Version: 1.0-r1
+Description: opkg-config-base version 1.0-r1 - Development files
+ Base configuration files for opkg  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: opkg-config-base
+Homepage: unknown
+Depends: opkg-config-base (= 1.0-r1)
+Source: None

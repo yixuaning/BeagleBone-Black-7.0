@@ -1,0 +1,36 @@
+# @name Ethernet ping test 
+# @desc Brings net iface up and pings default gw
+# @requires net
+
+ETH_S_FUNC_PING source 'common.sh'; iface=`get_eth_iface_name.sh` || die "error getting eth interface name"; do_cmd "ifconfig ${iface} up"; host=`get_eth_gateway.sh "-i ${iface}"` || die "error getting eth gateway address"; do_cmd "ping ${host} -c 3"
+
+ETH_M_STRESS_PING_MULTI-PKT-SIZES source 'common.sh'; iface=`get_eth_iface_name.sh` || die "error getting eth interface name"; do_cmd "ifconfig ${iface} up"; host=`get_eth_gateway.sh "-i ${iface}"` || die "error getting eth gateway address"; for size in 128 512 1024 4096 8192 16384; do do_cmd "ping ${host} -c 3 -s ${size}";done
+
+ETH_L_STRESS_PING_LONGTERM source 'common.sh'; iface=`get_eth_iface_name.sh` || die "error getting eth interface name"; do_cmd "ifconfig ${iface} up"; host=`get_eth_gateway.sh "-i ${iface}"` || die "error getting eth gateway address"; do_cmd "ping ${host} -c 84500 -w 86400"
+
+ETH_M_FUNC_PING_300S source 'common.sh'; iface=`get_eth_iface_name.sh` || die "error getting eth interface name"; do_cmd "ifconfig ${iface} up"; host=`get_eth_gateway.sh "-i ${iface}"` || die "error getting eth gateway address"; do_cmd "ping ${host} -w 300"
+
+ETH_M_STRESS_PING_1800S source 'common.sh'; iface=`get_eth_iface_name.sh` || die "error getting eth interface name"; do_cmd "ifconfig ${iface} up"; host=`get_eth_gateway.sh "-i ${iface}"` || die "error getting eth gateway address"; do_cmd "ping ${host} -w 1800"
+
+ETH_S_FUNC_MULTI_INTERFACE_UP_DOWN_ONE_AT_A_TIME source 'common.sh'; eth_multi.sh -l 2 -t 'ifupdown' -s 'one'
+ETH_S_FUNC_MULTI_INTERFACE_UP_DOWN_ALL_AT_A_TIME source 'common.sh'; eth_multi.sh -l 2 -t 'ifupdown' -s 'all'
+ETH_S_FUNC_MULTI_INTERFACE_UP_DOWN_REVERSE source 'common.sh'; eth_multi.sh -l 2 -t 'ifupdown' -s 'reverse'
+
+ETH_M_STRESS_MULTI_INTERFACE_UP_DOWN_ONE_AT_A_TIME source 'common.sh'; eth_multi.sh -l 100 -t 'ifupdown' -s 'one'
+ETH_M_STRESS_MULTI_INTERFACE_UP_DOWN_ALL_AT_A_TIME source 'common.sh'; eth_multi.sh -l 100 -t 'ifupdown' -s 'all'
+ETH_M_STRESS_MULTI_INTERFACE_UP_DOWN_REVERSE source 'common.sh'; eth_multi.sh -l 100 -t 'ifupdown' -s 'reverse'
+
+ETH_S_FUNC_MULTI_INTERFACE_PING_ONE_AT_A_TIME source 'common.sh'; eth_multi.sh -l 2 -t 'ping' -s 'one' -d 60
+ETH_S_FUNC_MULTI_INTERFACE_PING_ALL_AT_A_TIME source 'common.sh'; eth_multi.sh -l 2 -t 'ping' -s 'all' -d 60
+ETH_S_FUNC_MULTI_INTERFACE_PING_REVERSE source 'common.sh'; eth_multi.sh -l 2 -t 'ping' -s 'reverse' -d 60
+
+ETH_M_STRESS_MULTI_INTERFACE_PING_1800S_ONE_AT_A_TIME source 'common.sh'; eth_multi.sh -l 2 -t 'ping' -s 'one' -d 1800
+ETH_M_STRESS_MULTI_INTERFACE_PING_1800S_ALL_AT_A_TIME source 'common.sh'; eth_multi.sh -l 2 -t 'ping' -s 'all' -d 1800
+ETH_M_STRESS_MULTI_INTERFACE_PING_1800S_REVERSE source 'common.sh'; eth_multi.sh -l 2 -t 'ping' -s 'reverse' -d 1800
+
+ETH_S_FUNC_MULTI_INTERFACE_PING_UPDOWN source 'common.sh'; eth_multi.sh -l 5 -t 'ping_updown' -d 60
+ETH_S_FUNC_MULTI_INTERFACE_PING_DOWN source 'common.sh'; eth_multi.sh -l 5 -t 'ping_down' -d 60
+
+ETH_M_STRESS_MULTI_INTERFACE_PING_UPDOWN source 'common.sh'; eth_multi.sh -l 50 -t 'ping_updown' -d 1800
+ETH_M_STRESS_MULTI_INTERFACE_PING_DOWN source 'common.sh'; eth_multi.sh -l 50 -t 'ping_down' -d 1800
+

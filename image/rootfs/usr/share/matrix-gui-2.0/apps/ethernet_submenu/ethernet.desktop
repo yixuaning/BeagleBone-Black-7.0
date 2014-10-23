@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Ethernet
+GenericName=Ethernet
+Icon=/usr/share/matrix-gui-2.0/apps/images/network-icon.png
+Type=Directory
+X-MATRIX-CategoryTarget=ethernet

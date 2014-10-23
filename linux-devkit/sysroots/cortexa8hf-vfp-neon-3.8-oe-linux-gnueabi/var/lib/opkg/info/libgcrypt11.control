@@ -1,0 +1,13 @@
+Package: libgcrypt11
+Version: 1.5.0-r2
+Description: libgcrypt version 1.5.0-r2
+ A general purpose cryptographic library based on the code from GnuPG
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libgcrypt
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Depends: libcap2 (>= 2.22), libgpg-error0 (>= 1.11), libc6 (>= 2.15)
+Source: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.5.0.tar.gz file://add-pkgconfig-support.patch file://obsolete_automake_macros.patch

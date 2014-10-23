@@ -1,0 +1,15 @@
+Package: libvpx-dev
+Version: 0.9.5-r3.0
+Description: libvpx version 0.9.5-r3.0 - Development files
+ vpx Multi-Format Codec SDK  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libvpx
+Homepage: unknown
+Depends: libvpx (= 0.9.5-r3.0)
+Recommends: libc6-dev, libgcc-s-dev
+Source: http://webm.googlecode.com/files/libvpx-v0.9.5.tar.bz2 file://libvpx-configure-support-blank-prefix.patch file://do-not-hardcode-softfp-float-api.patch file://CVE-2010-4203.patch

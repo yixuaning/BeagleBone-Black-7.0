@@ -1,0 +1,12 @@
+/usr/bin/sensible-browser.debianutils
+/usr/sbin/add-shell.debianutils
+/usr/bin/sensible-editor.debianutils
+/usr/sbin/mkboot.debianutils
+/usr/bin/savelog.debianutils
+/bin/
+/usr/sbin/installkernel.debianutils
+/usr/sbin/remove-shell.debianutils
+/usr/bin/sensible-pager.debianutils
+/usr/bin/which.debianutils
+/bin/run-parts.debianutils
+/bin/tempfile.debianutils

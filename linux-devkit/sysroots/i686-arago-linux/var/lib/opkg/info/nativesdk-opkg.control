@@ -1,0 +1,14 @@
+Package: nativesdk-opkg
+Version: 1:0.1.8+svnr649-r13.0-arago0
+Description: nativesdk-opkg version 0.1.8+svnr649-r13.0-arago0
+ Open Package Manager
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: nativesdk-opkg
+Homepage: http://code.google.com/p/opkg/
+Depends: nativesdk-libopkg1 (>= 0.1.8+svnr649), nativesdk-update-alternatives-cworth, nativesdk-libc6 (>= 2.17)
+Replaces: nativesdk-opkg-nogpg
+Source: svn://opkg.googlecode.com/svn;module=trunk;protocol=http file://obsolete_automake_macros.patch file://0001-opkg_message-send-Collected-errors-messages-to-stder.patch

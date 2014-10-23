@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=AAC Decode
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/multimedia-icon.png
+Type=Application
+Exec=runAACDec.sh
+Categories=multimedia
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/arm_multimedia_aacdec/desc_arm_multimedia_aacdec.html

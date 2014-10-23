@@ -1,0 +1,10 @@
+/www/pages/dav/
+/etc/init.d/lighttpd
+/www/logs/
+/etc/lighttpd.conf
+/usr/sbin/lighttpd
+/usr/sbin/lighttpd-angel
+/www/
+/www/var/
+/www/pages/index.html
+/www/pages/

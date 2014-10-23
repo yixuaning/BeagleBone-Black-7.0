@@ -1,0 +1,13 @@
+Package: input-utils
+Version: 1.0-r0
+Description: input-utils version 1.0-r0
+ Utilities for the Linux input drivers
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: input-utils
+Homepage: http://packages.tanglu.org/source/aequorea/input-utils
+Depends: libc6 (>= 2.15)
+Source: http://ftp.de.debian.org/debian/pool/main/i/input-utils/input-utils_1.0.orig.tar.gz file://0001-autoconf-fix-for-cross-compilation-for-ARM.patch

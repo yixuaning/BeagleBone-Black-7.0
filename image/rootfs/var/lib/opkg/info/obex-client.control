@@ -1,0 +1,13 @@
+Package: obex-client
+Version: 0.34-r0-arago1
+Description: obexd version 0.34-r0-arago1
+ OBEX Server and Client
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: obexd
+Homepage: unknown
+Depends: libdbus-1-3 (>= 1.6.8), bluez4 (>= 4.101), libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.15), libglib-2.0-0 (>= 2.34.3), libopenobex1 (>= 1.5), libusb-0.1-4 (>= 0.1.4)
+Source: http://www.kernel.org/pub/linux/bluetooth/obexd-0.34.tar.gz file://0001-obexd-fix-UTF-conversions.patch file://0001-obexd-make-OPP-push-timeout-longer.patch

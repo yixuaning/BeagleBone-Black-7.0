@@ -1,0 +1,5 @@
+/usr/lib/crda/
+/lib/udev/rules.d/85-regulatory.rules
+/usr/lib/crda/regulatory.bin
+/sbin/crda
+/sbin/regdbdump

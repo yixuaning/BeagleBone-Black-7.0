@@ -1,0 +1,18 @@
+<h1> Oprofile Run signal_parent optimized Program </h1>
+
+<h2> Purpose: </h2>
+<p> Profile a simple parent/child applications, where the parent waits for the
+a child process to complete a task. There are two applications: this one, "signal_parent.opt" blocks and waits for a signal from the child to complete and the other application "signal_parent" continually polls while waiting for the child to complete.
+</p>
+<h2> Additional Information </h2>
+<p> Running this application will cause profile data to be stored.
+</p>
+<p> Run a report to see how much time is being spent running signal_parent.opt 
+</p>
+</p>
+<p> To run from the command line: </p>
+<p> root@device:/boot# opcontrol --reset </p>
+<p> root@device:/boot# opcontrol --start </p>
+<p> root@device:/boot# runOpSignalParent // Run any application that you want to profile here  </p>
+<p> root@device:/boot# opcontrol --stop </p>
+

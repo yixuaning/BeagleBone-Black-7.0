@@ -1,0 +1,13 @@
+Package: libmysqlclient16
+Version: 5.1.40-r11
+Description: mysql5 version 5.1.40-r11
+ The MySQL Open Source Database System
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: mysql5
+Homepage: http://www.mysql.com/
+Depends: libz1 (>= 1.2.7), libstdc++6 (>= 4.7.3), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://downloads.mysql.com/archives/mysql-5.1/mysql-5.1.40.tar.gz file://configure.in.patch file://plug.in.patch file://misc.m4.patch file://Makefile.am.patch file://fix_host_path.patch file://configure-ps-cache-check.patch file://fix-abi-check-gcc45.patch file://my.cnf file://mysqld.sh

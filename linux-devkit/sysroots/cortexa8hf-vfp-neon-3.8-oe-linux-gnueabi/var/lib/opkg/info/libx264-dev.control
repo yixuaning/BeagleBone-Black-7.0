@@ -1,0 +1,17 @@
+Package: libx264-dev
+Version: r2230+git-r1
+Description: x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC format - Development files
+ x264 is a free software library and application for encoding video
+ streams into the H.264/MPEG-4 AVC format  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: x264
+Homepage: http://www.videolan.org/developers/x264.html
+Depends: libx264-129 (= r2230+git-r1)
+Recommends: libc6-dev, libgcc-s-dev
+Source: git://git.videolan.org/x264.git file://don-t-default-to-cortex-a9-with-neon.patch

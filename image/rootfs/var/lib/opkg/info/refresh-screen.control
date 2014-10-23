@@ -1,0 +1,13 @@
+Package: refresh-screen
+Version: 2.0-r5
+Description: refresh-screen version 2.0-r5
+ Simple Application to force a screen refresh
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: refresh-screen
+Homepage: https://gitorious.org/matrix-gui-v2/refresh-screen
+Depends: libqtcoree4 (>= 4.8.4), libc6 (>= 2.15), libqtguie4 (>= 4.8.4), libstdc++6 (>= 4.7.3), libqtnetworke4 (>= 4.8.4), libgcc-s1 (>= 4.7.3), qt4-embedded-fonts
+Source: git://gitorious.org/matrix-gui-v2/refresh-screen.git;protocol=git;branch=master

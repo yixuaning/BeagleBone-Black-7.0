@@ -1,0 +1,13 @@
+Package: kernel-module-snd-soc-omap3pandora
+Version: 3.12.10-r21k+gitrAUTOINC+2325bb5680986b6914d8fd0b5d0bdc20081fe8d3-arago6-amsdk2
+Description: linux-ti-staging version 3.12.10-r21k+gitrAUTOINC+2325bb5680986b6914d8fd0b5d0bdc20081fe8d3-arago6-amsdk2
+ snd-soc-omap3pandora kernel module; ALSA SoC OMAP3 Pandora
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am335x_evm
+OE: linux-ti-staging
+Homepage: unknown
+Depends: kernel-module-snd-page-alloc, kernel-module-snd-pcm, kernel-module-snd-compress, kernel-module-snd, kernel-module-snd-soc-core, kernel-module-regmap-spi, kernel-3.12.10-ti2013.12.01, kernel-module-soundcore, kernel-module-snd-timer
+Source: git://git.ti.com/ti-linux-kernel/ti-linux-kernel.git;protocol=git;branch=ti-linux-3.12.y file://defconfig file://0001-omap2plus_defconfig-Update-defconfig-to-use-USERSPAC.patch file://0001-Not-for-merge-ARM-config-omap-Disable-SMP-for-AM335x.patch

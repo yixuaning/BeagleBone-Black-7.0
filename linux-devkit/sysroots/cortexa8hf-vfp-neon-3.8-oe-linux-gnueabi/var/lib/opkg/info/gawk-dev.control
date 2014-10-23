@@ -1,0 +1,16 @@
+Package: gawk-dev
+Version: 4.0.2-r0
+Description: gawk version 4.0.2-r0 - Development files
+ A program that you can use to select particular records in a file and
+ perform operations upon them.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gawk
+Homepage: www.gnu.org/software/gawk
+Depends: gawk (= 4.0.2-r0)
+Recommends: libc6-dev, libgcc-s-dev, update-alternatives-cworth-dev, gawk-common-dev, libreadline-dev
+Source: ftp://ftp.gnu.org/gnu/gawk/gawk-4.0.2.tar.gz

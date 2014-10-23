@@ -1,0 +1,16 @@
+Package: directfb
+Version: 1.6.1-r0.2
+Description: Graphics abstraction library for the Linux Framebuffer Device
+ DirectFB is a thin library that provides developers with hardware
+ graphics acceleration, input device handling and abstraction, an
+ integrated windowing system with support for translucent windows and
+ multiple display layers on top of the Linux framebuffer device.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: directfb
+Homepage: http://directfb.org
+Depends: libts-1.0-0 (>= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0), libstdc++6 (>= 4.7.3), libpng16-16 (>= 1.6.0), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libc6 (>= 2.15), libjpeg8 (>= 8d+1.2.1), libgcc-s1 (>= 4.7.3)
+Source: http://directfb.org/downloads/Core/DirectFB-1.6/DirectFB-1.6.1.tar.gz file://configurefix.patch file://mesa9.patch file://fix-compilation-with-zlib.patch file://rename-no-instrument-function-macro.patch file://fixsepbuild.patch

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Audio Capture
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/multimedia-icon.png
+Type=Application
+Exec=runAudioCapture.sh
+Categories=multimedia
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/arm_multimedia_audiocapture/desc_arm_multimedia_audiocapture.html

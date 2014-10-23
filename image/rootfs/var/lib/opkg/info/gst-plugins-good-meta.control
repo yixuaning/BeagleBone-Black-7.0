@@ -1,0 +1,13 @@
+Package: gst-plugins-good-meta
+Version: 0.10.31-r8-arago2
+Description: gst-plugins-good version 0.10.31-r8-arago2
+ gst-plugins-good meta package
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: gst-plugins-good
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gst-plugins-good-video4linux2, gst-plugins-good-cairo, gst-plugins-good-isomp4, gst-plugins-good-flxdec, gst-plugins-good-png, gst-plugins-good-level, gst-plugins-good-goom2k1, gst-plugins-good-matroska, gst-plugins-good-flac, gst-plugins-good-id3demux, gst-plugins-good-rtsp, gst-plugins-good-videobox, gst-plugins-good-audiofx, gst-plugins-good-auparse, gst-plugins-good-deinterlace, gst-plugins-good-jpeg, gst-plugins-good-interleave, gst-plugins-good-oss4audio, gst-plugins-good-alaw, gst-plugins-good-flv, gst-plugins-good-alphacolor, gst-plugins-good-autodetect, gst-plugins-good-shapewipe, gst-plugins-good-replaygain, gst-plugins-good-videocrop, gst-plugins-good-cutter, gst-plugins-good-rtpmanager, gst-plugins-good-audioparsers, gst-plugins-good-udp, gst-plugins-good-rtp, gst-plugins-good-alpha, gst-plugins-good-debug, gst-plugins-good-wavenc, gst-plugins-good-y4menc, gst-plugins-good-goom, gst-plugins-good-pulse, gst-plugins-good-equalizer, gst-plugins-good-multifile, gst-plugins-good-speex, gst-plugins-good-navigationtest, gst-plugins-good-smpte, gst-plugins-good-multipart, gst-plugins-good-effectv, gst-plugins-good-ossaudio, gst-plugins-good-imagefreeze, gst-plugins-good-videofilter, gst-plugins-good-mulaw, gst-plugins-good-wavparse, gst-plugins-good-videomixer, gst-plugins-good-souphttpsrc, gst-plugins-good-icydemux, gst-plugins-good-avi, gst-plugins-good-apetag, gst-plugins-good-efence, gst-plugins-good-spectrum, gst-plugins-good-annodex
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-0.10.31.tar.bz2 file://0001-v4l2-fix-build-with-recent-kernels-the-v4l2_buffer-i.patch

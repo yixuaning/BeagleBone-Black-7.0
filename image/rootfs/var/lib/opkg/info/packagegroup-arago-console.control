@@ -1,0 +1,14 @@
+Package: packagegroup-arago-console
+Version: 1.0-r6
+Description: packagegroup-arago-console version 1.0-r6
+ Extended task to get more basic and console apps
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-console
+Homepage: unknown
+Depends: alsa-utils, jpeg-tools, ltrace, dosfstools, libz1, jpeg, alsa-utils-amixer, util-linux-fdisk, ncurses-tools, e2fsprogs, util-linux-mkfs, e2fsprogs-tune2fs, tslib-conf, alsa-utils-midi, alsa-utils-iecset, e2fsprogs-e2fsck, alsa-utils-alsamixer, alsa-utils-alsactl, ncurses, alsa-utils-speakertest, e2fsprogs-mke2fs, alsa-state, libpng12, thttpd, i2c-tools, libfreetype6, alsa-server, strace, usbutils, alsa-conf-base, alsa-utils-aconnect, util-linux-sfdisk, fbset, alsa-utils-alsaconf, tslib-tests, iproute2, ncurses-terminfo, tslib-calibrate, alsa-conf
+Recommends: kernel-modules
+Source: None

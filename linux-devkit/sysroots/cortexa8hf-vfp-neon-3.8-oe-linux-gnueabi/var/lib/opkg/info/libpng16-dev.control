@@ -1,0 +1,15 @@
+Package: libpng16-dev
+Version: 1.6.0-r0
+Description: PNG Library - Development files
+ PNG Library  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Libpng
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libpng
+Homepage: http://www.libpng.org/
+Depends: libpng16-16 (= 1.6.0-r0)
+Recommends: libc6-dev, libz-dev
+Source: http://downloads.sourceforge.net/project/libpng/libpng16/1.6.0/libpng-1.6.0.tar.xz

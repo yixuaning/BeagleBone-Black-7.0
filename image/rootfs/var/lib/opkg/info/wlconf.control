@@ -1,0 +1,13 @@
+Package: wlconf
+Version: r8.a8.10-r1+gitrAUTOINC+c50159d66af1786414b819ebcaa8b2571ae790a1
+Description: wlconf version r8.a8.10-r1+gitrAUTOINC+c50159d66af1786414b819ebcaa8b2571ae790a1
+ Configuration utility for TI wireless drivers
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: wlconf
+Homepage: unknown
+Depends: libc6 (>= 2.15)
+Source: git://github.com/TI-OpenLink/18xx-ti-utils.git

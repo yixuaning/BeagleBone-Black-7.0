@@ -1,0 +1,13 @@
+Package: matrix-gui-armbenchmarks-demos
+Version: 2.0-r21.5
+Description: matrix-gui-armbenchmarks-demos version 2.0-r21.5
+ Arm Benchmarks Applications for Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: all
+OE: matrix-gui-armbenchmarks-demos
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Depends: arm-benchmarks, matrix-gui-submenus-arm, nbench-byte, lmbench, matrix-gui-apps-images
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

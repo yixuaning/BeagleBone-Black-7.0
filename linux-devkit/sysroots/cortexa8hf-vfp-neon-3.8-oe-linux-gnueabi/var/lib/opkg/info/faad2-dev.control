@@ -1,0 +1,16 @@
+Package: faad2-dev
+Version: 2.7-r1
+Description: faad2 version 2.7-r1 - Development files
+ Library for reading some sort of media format.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: faad2
+Homepage: unknown
+Depends: faad2 (= 2.7-r1)
+Recommends: libfaad-dev, libc6-dev, libgcc-s-dev
+Source: http://downloads.sourceforge.net/faac/faad2-src/faad2-2.7/faad2-2.7.tar.bz2;name=faad2

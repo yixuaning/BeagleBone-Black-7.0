@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-graphics
+Version: 1.0-r3
+Description: packagegroup-arago-tisdk-graphics version 1.0-r3
+ Task to install graphics binaries
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-tisdk-graphics
+Homepage: unknown
+Depends: libgles-omap3-flipwsegl, omap3-sgx-modules, libgles-omap3, libgles-omap3-rawdemos, libgles-omap3-linuxfbwsegl, libgles-omap3-blitwsegl, libgles-omap3-frontwsegl
+Source: None

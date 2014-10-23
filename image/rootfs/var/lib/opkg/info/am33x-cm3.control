@@ -1,0 +1,12 @@
+Package: am33x-cm3
+Version: 05.00.00.03-r0
+Description: am33x-cm3 version 05.00.00.03-r0
+ Cortex-M3 binary blob for suspend-resume
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-BSD
+Architecture: am335x_evm
+OE: am33x-cm3
+Homepage: unknown
+Source: git://arago-project.org/git/projects/am33x-cm3.git;protocol=git;branch=master file://init-am33x-cm3 file://init-am43x-cm3

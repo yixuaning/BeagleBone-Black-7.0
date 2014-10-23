@@ -1,0 +1,16 @@
+Package: liboil-dev
+Version: 0.3.17-r5
+Description: liboil version 0.3.17-r5 - Development files
+ Liboil is a library of simple functions that are optimized for various
+ CPUs.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: liboil
+Homepage: http://liboil.freedesktop.org/
+Depends: liboil (= 0.3.17-r5)
+Recommends: libc6-dev, libglib-2.0-dev
+Source: http://liboil.freedesktop.org/download/liboil-0.3.17.tar.gz file://no-tests.patch file://fix-unaligned-whitelist.patch file://0001-Fix-enable-vfp-flag.patch file://liboil_fix_for_x32.patch

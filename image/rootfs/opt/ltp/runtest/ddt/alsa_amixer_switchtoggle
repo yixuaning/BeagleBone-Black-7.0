@@ -1,0 +1,6 @@
+# @name ALSA amixer tests. 
+# @desc Loopback the audio in the backgroung and tests the amixer settings.
+#	amixer cset name is passed as an argument to the alsa_amixer.sh.
+# @requires sound
+ALSA_M_STRESS_AMIXER_SWITCHTOGGLE source "common.sh"; do_cmd install_modules.sh 'sound' ; do_cmd 'alsa_amixer_switchtoggle.sh' 
+

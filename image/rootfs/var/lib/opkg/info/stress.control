@@ -1,0 +1,14 @@
+Package: stress
+Version: 1.0.4-r0
+Description: stress version 1.0.4-r0
+ Deliberately simple workload generator for POSIX systems. It imposes a
+ configurable amount of CPU, memory, I/O, and disk stress on the system.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: stress
+Homepage: http://people.seas.harvard.edu/~apw/stress/
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://pkgs.fedoraproject.org/repo/pkgs/stress/stress-1.0.4.tar.gz/a607afa695a511765b40993a64c6e2f4/stress-1.0.4.tar.gz file://texinfo.patch

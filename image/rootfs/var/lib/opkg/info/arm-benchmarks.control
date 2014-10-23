@@ -1,0 +1,13 @@
+Package: arm-benchmarks
+Version: 1.3-r7-arago0
+Description: arm-benchmarks version 1.3-r7-arago0
+ ARM Benchmarks
+Section: system
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: arm-benchmarks
+Homepage: https://gforge.ti.com/gf/project/am_benchmarks/
+Depends: libc6 (>= 2.15)
+Source: git://gitorious.org/arm_benchmarks/arm_benchmarks.git;protocol=git;branch=master

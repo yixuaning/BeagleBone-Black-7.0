@@ -1,0 +1,12 @@
+Package: alsa-conf
+Version: 1.0.26-r0
+Description: alsa-lib version 1.0.26-r0
+ Alsa sound library
+Section: libs/multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1 & GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.26.tar.bz2 file://fix-tstamp-declaration.patch file://obsolete_automake_macros.patch

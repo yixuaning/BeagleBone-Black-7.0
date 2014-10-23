@@ -1,0 +1,13 @@
+Package: libical
+Version: 0.48-r0
+Description: libical version 0.48-r0
+ iCal and scheduling (RFC 2445, 2446, 2447) library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1 | MPL-1
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libical
+Homepage: http://sourceforge.net/projects/freeassociation/
+Depends: libc6 (>= 2.15)
+Source: http://downloads.sourceforge.net/project/freeassociation/libical/libical-0.48/libical-0.48.tar.gz file://pthread-fix.patch

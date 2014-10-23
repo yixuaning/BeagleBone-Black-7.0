@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Public Key Generation
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/encrypt-icon.png
+Type=Application
+Exec=/usr/bin/openssl_gen_pubkey.sh
+Categories=cryptos
+ProgramType=console
+X-MATRIX-LOCK=ssl
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/openssl_gen_pubkey_program/desc_openssl_gen_pubkey.html

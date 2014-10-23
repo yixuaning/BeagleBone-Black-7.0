@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Playground
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/qml-icon.png
+Exec=runQMLplay.sh
+Type=Application
+Categories=Qt4
+ProgramType=gui
+X-MATRIX-Lock=qt
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/qml_playground/desc_qml_playground.html

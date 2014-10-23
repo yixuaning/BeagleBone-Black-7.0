@@ -1,0 +1,13 @@
+Package: gdb-cross-canadian-arm
+Version: 7.5.1-r0.0
+Description: gdb-cross-canadian-arm version 7.5.1-r0.0
+ cross-canadian gdb for arm target - GNU debugger
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3+
+Architecture: i686-nativesdk
+OE: gdb-cross-canadian-arm
+Homepage: http://www.gnu.org/software/gdb/
+Depends: nativesdk-libexpat1 (>= 2.1.0), nativesdk-python-lang, nativesdk-python-re, nativesdk-libz1 (>= 1.2.7), nativesdk-libpython2.7-1.0 (>= 2.7.3), nativesdk-libreadline6 (>= 6.2), nativesdk-python-core, nativesdk-libncurses5 (>= 5.9), nativesdk-python-netclient, nativesdk-python-codecs, nativesdk-libc6 (>= 2.17), nativesdk-libtinfo5 (>= 5.9)
+Source: ftp://ftp.gnu.org/gnu/gdb/gdb-7.5.1.tar.gz

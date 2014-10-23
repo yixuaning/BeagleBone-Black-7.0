@@ -1,0 +1,12 @@
+/usr/share/trace-cmd/plugins/plugin_jbd2.so
+/usr/share/trace-cmd/plugins/
+/usr/share/trace-cmd/plugins/plugin_function.so
+/usr/share/trace-cmd/plugins/plugin_mac80211.so
+/usr/share/trace-cmd/plugins/plugin_kvm.so
+/usr/share/
+/usr/bin/trace-cmd
+/usr/share/trace-cmd/
+/usr/share/trace-cmd/plugins/plugin_blk.so
+/usr/share/trace-cmd/plugins/plugin_kmem.so
+/usr/share/trace-cmd/plugins/plugin_sched_switch.so
+/usr/share/trace-cmd/plugins/plugin_hrtimer.so

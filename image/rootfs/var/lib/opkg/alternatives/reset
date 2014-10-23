@@ -1,0 +1,3 @@
+/usr/bin/reset
+/bin/busybox 50
+/usr/bin/reset.ncurses 100

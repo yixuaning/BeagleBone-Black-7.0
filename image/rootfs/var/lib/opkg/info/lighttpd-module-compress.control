@@ -1,0 +1,13 @@
+Package: lighttpd-module-compress
+Version: 1.4.32-r0
+Description: lighttpd version 1.4.32-r0
+ Lighttpd module for compress
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: lighttpd
+Homepage: http://www.lighttpd.net/
+Depends: libz1 (>= 1.2.7), libc6 (>= 2.15)
+Source: http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.32.tar.bz2 file://index.html.lighttpd file://lighttpd.conf file://lighttpd

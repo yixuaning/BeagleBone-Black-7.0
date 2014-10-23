@@ -1,0 +1,21 @@
+Package: libfontconfig-dev
+Version: 2.10.2-r1
+Description: Generic font configuration library - Development files
+ Fontconfig is a font configuration and customization library, which does
+ not depend on the X Window System. It is designed to locate fonts within
+ the system and select them according to requirements specified by
+ applications. Fontconfig is not a rasterization library, nor does it
+ impose a particular rasterization library on the application. The
+ X-specific library 'Xft' uses fontconfig along with freetype to specify
+ and rasterize fonts.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT-style & MIT & PD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: fontconfig
+Homepage: http://www.fontconfig.org
+Depends: libfontconfig1 (= 2.10.2-r1)
+Recommends: libc6-dev, libfreetype-dev, libexpat-dev, libz-dev
+Source: http://fontconfig.org/release/fontconfig-2.10.2.tar.gz file://Add-sysroot-option-to-fc-cache-and-fc-cat.patch

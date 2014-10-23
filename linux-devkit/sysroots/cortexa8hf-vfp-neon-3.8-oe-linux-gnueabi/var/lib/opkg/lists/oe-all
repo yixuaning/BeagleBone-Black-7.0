@@ -1,0 +1,1792 @@
+Package: am-sysinfo-src
+Version: git-r9
+Section: system
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ddff665c023d86bbb90c4e4144e55732
+Size: 5886
+Filename: am-sysinfo-src_git-r9_all.ipk
+Source: git://gitorious.org/am_sysinfo/am_sysinfo.git;protocol=git;branch=master
+Description:  Patched sources for am-sysinfo
+License: BSD
+Priority: Optional
+
+Package: arago-gpl-notice-dbg
+Version: 1.0-r1
+Recommends: arago-gpl-notice (= 1.0-r1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 915963d47799256fde9ae6bf46487663
+Size: 774
+Filename: arago-gpl-notice-dbg_1.0-r1_all.ipk
+Source: file://print-gplv3-packages.sh
+Description:  arago-gpl-notice version 1.0-r1 - Debugging files  Script to warn users
+ of GPLv3 content on the target file system at boot   time  This package
+ contains ELF symbols and related sources for debugging   purposes.
+OE: arago-gpl-notice
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: arago-gpl-notice-dev
+Version: 1.0-r1
+Depends: arago-gpl-notice (= 1.0-r1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 77041ee21aa0f3f1af17e77bf51a660b
+Size: 784
+Filename: arago-gpl-notice-dev_1.0-r1_all.ipk
+Source: file://print-gplv3-packages.sh
+Description:  arago-gpl-notice version 1.0-r1 - Development files  Script to warn users
+ of GPLv3 content on the target file system at boot   time  This package
+ contains symbolic links, header files, and related   items necessary for
+ software development.
+OE: arago-gpl-notice
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: arago-gpl-notice
+Version: 1.0-r1
+Recommends: update-rc.d
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b42164a6ddfe32eccd8972118c925ae6
+Size: 2204
+Filename: arago-gpl-notice_1.0-r1_all.ipk
+Source: file://print-gplv3-packages.sh
+Description:  arago-gpl-notice version 1.0-r1  Script to warn users of GPLv3 content on
+ the target file system at boot   time
+OE: arago-gpl-notice
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: arm-benchmarks-src
+Version: 1.3-r7-arago0
+Section: system
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e3dbbda6ddbb0e6ffb80987746d52854
+Size: 31644
+Filename: arm-benchmarks-src_1.3-r7-arago0_all.ipk
+Source: git://gitorious.org/arm_benchmarks/arm_benchmarks.git;protocol=git;branch=master
+Description:  Patched sources for arm-benchmarks
+License: BSD
+Priority: Optional
+
+Package: matrix-gui-apps-images-dbg
+Version: 2.0-r21.0
+Recommends: matrix-gui-apps-images (= 2.0-r21.0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e87446d8ff66b50c5b0dae7e620e7bad
+Size: 794
+Filename: matrix-gui-apps-images-dbg_2.0-r21.0_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-apps-images version 2.0-r21.0 - Debugging files  Image package
+ for Matrix GUI v2 Applications  This package contains ELF   symbols and
+ related sources for debugging purposes.
+OE: matrix-gui-apps-images
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-apps-images-dev
+Version: 2.0-r21.0
+Depends: matrix-gui-apps-images (= 2.0-r21.0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a5fb0d3958fd2df261a669711ecd83c
+Size: 804
+Filename: matrix-gui-apps-images-dev_2.0-r21.0_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-apps-images version 2.0-r21.0 - Development files  Image
+ package for Matrix GUI v2 Applications  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: matrix-gui-apps-images
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-apps-images
+Version: 2.0-r21.0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a817e5e36ad9053de22cd2233878bd67
+Size: 339504
+Filename: matrix-gui-apps-images_2.0-r21.0_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-apps-images version 2.0-r21.0  Image package for Matrix GUI v2
+ Applications
+OE: matrix-gui-apps-images
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-armbenchmarks-demos-dbg
+Version: 2.0-r21.5
+Recommends: matrix-gui-armbenchmarks-demos (= 2.0-r21.5)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7376b82e1fe1974a1ba206c227c0e4ec
+Size: 796
+Filename: matrix-gui-armbenchmarks-demos-dbg_2.0-r21.5_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-armbenchmarks-demos version 2.0-r21.5 - Debugging files  Arm
+ Benchmarks Applications for Matrix v2  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: matrix-gui-armbenchmarks-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-armbenchmarks-demos-dev
+Version: 2.0-r21.5
+Depends: matrix-gui-armbenchmarks-demos (= 2.0-r21.5)
+Recommends: matrix-gui-apps-images-dev, nbench-byte-dev, matrix-gui-submenus-arm-dev, lmbench-dev, arm-benchmarks-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bbc7551eade85655e0e7c650d811667c
+Size: 852
+Filename: matrix-gui-armbenchmarks-demos-dev_2.0-r21.5_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-armbenchmarks-demos version 2.0-r21.5 - Development files  Arm
+ Benchmarks Applications for Matrix v2  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: matrix-gui-armbenchmarks-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-armbenchmarks-demos
+Version: 2.0-r21.5
+Depends: arm-benchmarks, matrix-gui-submenus-arm, nbench-byte, lmbench, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ecec525dd1a2d6daac06e5511af6ac6c
+Size: 21962
+Filename: matrix-gui-armbenchmarks-demos_2.0-r21.5_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-armbenchmarks-demos version 2.0-r21.5  Arm Benchmarks
+ Applications for Matrix v2
+OE: matrix-gui-armbenchmarks-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-browser-src
+Version: 2.0-r7
+Section: multimedia
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8c9415f8caf3a8aa6f39d585f688d4f
+Size: 3046
+Filename: matrix-gui-browser-src_2.0-r7_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix_browser.git;protocol=git;branch=master
+Description:  Patched sources for matrix-gui-browser
+License: BSD
+Priority: Optional
+
+Package: matrix-gui-clocks-dbg
+Version: 2.0-r21.4
+Recommends: matrix-gui-clocks (= 2.0-r21.4)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8beff8c1152a4645a47f1c4919d0b79d
+Size: 782
+Filename: matrix-gui-clocks-dbg_2.0-r21.4_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-clocks version 2.0-r21.4 - Debugging files  Clock setting
+ descriptions for Matrix v2  This package contains ELF   symbols and
+ related sources for debugging purposes.
+OE: matrix-gui-clocks
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-clocks-dev
+Version: 2.0-r21.4
+Depends: matrix-gui-clocks (= 2.0-r21.4)
+Recommends: matrix-gui-apps-images-dev, matrix-gui-generic-pm-dev, matrix-gui-submenus-power-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b316571afd143a3f42ec60817f1c2af2
+Size: 836
+Filename: matrix-gui-clocks-dev_2.0-r21.4_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-clocks version 2.0-r21.4 - Development files  Clock setting
+ descriptions for Matrix v2  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: matrix-gui-clocks
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-clocks
+Version: 2.0-r21.4
+Depends: matrix-gui-submenus-power, matrix-gui-generic-pm, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 98471d8c2ecab82d34ffec3f0ecc4c07
+Size: 2680
+Filename: matrix-gui-clocks_2.0-r21.4_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-clocks version 2.0-r21.4  Clock setting descriptions for
+ Matrix v2
+OE: matrix-gui-clocks
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-ethernet-demos-dbg
+Version: 2.0-r21.1
+Recommends: matrix-gui-ethernet-demos (= 2.0-r21.1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cbbb4a4d8753d5dec5b6e3d213c4b6a3
+Size: 804
+Filename: matrix-gui-ethernet-demos-dbg_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master file://udhcpd_eth1.conf
+Description:  matrix-gui-ethernet-demos version 2.0-r21.1 - Debugging files  Ethernet
+ example applications  This package contains ELF symbols and   related
+ sources for debugging purposes.
+OE: matrix-gui-ethernet-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-ethernet-demos-dev
+Version: 2.0-r21.1
+Depends: matrix-gui-ethernet-demos (= 2.0-r21.1)
+Recommends: matrix-gui-apps-images-dev, matrix-gui-submenus-ethernet-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5f7972ddf603ac09ef101e00d8e1ae8
+Size: 844
+Filename: matrix-gui-ethernet-demos-dev_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master file://udhcpd_eth1.conf
+Description:  matrix-gui-ethernet-demos version 2.0-r21.1 - Development files  Ethernet
+ example applications  This package contains symbolic links,   header
+ files, and related items necessary for software development.
+OE: matrix-gui-ethernet-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-ethernet-demos
+Version: 2.0-r21.1
+Depends: matrix-gui-submenus-ethernet, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f45d62fa66fcad70eaf7c3b0242064a0
+Size: 4656
+Filename: matrix-gui-ethernet-demos_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master file://udhcpd_eth1.conf
+Description:  matrix-gui-ethernet-demos version 2.0-r21.1  Ethernet example
+ applications
+OE: matrix-gui-ethernet-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-generic-pm-dbg
+Version: 2.0-r21.0
+Recommends: matrix-gui-generic-pm (= 2.0-r21.0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5a19821c8ba01368d0e98b4f051c8fc1
+Size: 788
+Filename: matrix-gui-generic-pm-dbg_2.0-r21.0_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-generic-pm version 2.0-r21.0 - Debugging files  Power
+ management helper scripts  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: matrix-gui-generic-pm
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-generic-pm-dev
+Version: 2.0-r21.0
+Depends: matrix-gui-generic-pm (= 2.0-r21.0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0d70ee53120069aafb7db0df1c6bc63
+Size: 798
+Filename: matrix-gui-generic-pm-dev_2.0-r21.0_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-generic-pm version 2.0-r21.0 - Development files  Power
+ management helper scripts  This package contains symbolic links,   header
+ files, and related items necessary for software development.
+OE: matrix-gui-generic-pm
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-generic-pm
+Version: 2.0-r21.0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4dca9fdaa1869b41c49fc3bd2bb16f24
+Size: 4378
+Filename: matrix-gui-generic-pm_2.0-r21.0_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-generic-pm version 2.0-r21.0  Power management helper scripts
+OE: matrix-gui-generic-pm
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-oprofile-demos-dbg
+Version: 2.0-r21.2
+Recommends: matrix-gui-oprofile-demos (= 2.0-r21.2)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 32de6bd8c0417c841b55a0144afd4969
+Size: 788
+Filename: matrix-gui-oprofile-demos-dbg_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-oprofile-demos version 2.0-r21.2 - Debugging files  Oprofile
+ demo applications for Matrix v2  This package contains ELF   symbols and
+ related sources for debugging purposes.
+OE: matrix-gui-oprofile-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-oprofile-demos-dev
+Version: 2.0-r21.2
+Depends: matrix-gui-oprofile-demos (= 2.0-r21.2)
+Recommends: oprofile-example-dev, oprofile-dev, matrix-gui-submenus-oprofile-dev, matrix-gui-apps-images-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06e7e0ff7cb1d87952beb7a6403e56a3
+Size: 840
+Filename: matrix-gui-oprofile-demos-dev_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-oprofile-demos version 2.0-r21.2 - Development files  Oprofile
+ demo applications for Matrix v2  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: matrix-gui-oprofile-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-oprofile-demos
+Version: 2.0-r21.2
+Depends: oprofile, matrix-gui-submenus-oprofile, matrix-gui-apps-images, oprofile-example
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 64003af59e0974660da5bfa56d3975cf
+Size: 3900
+Filename: matrix-gui-oprofile-demos_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-oprofile-demos version 2.0-r21.2  Oprofile demo applications
+ for Matrix v2
+OE: matrix-gui-oprofile-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-pm-demos-count
+Version: 2.0-r21.2
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1028b0fa1d2daf0510d4c77566e51c32
+Size: 2424
+Filename: matrix-gui-pm-demos-count_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-pm-demos version 2.0-r21.2  Power management demo descriptions
+ for Matrix v2
+OE: matrix-gui-pm-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-pm-demos-dbg
+Version: 2.0-r21.2
+Recommends: matrix-gui-pm-demos (= 2.0-r21.2)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2182a58b1289018679fc3191279ca97
+Size: 794
+Filename: matrix-gui-pm-demos-dbg_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-pm-demos version 2.0-r21.2 - Debugging files  Power management
+ demo descriptions for Matrix v2  This package contains   ELF symbols and
+ related sources for debugging purposes.
+OE: matrix-gui-pm-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-pm-demos-dev
+Version: 2.0-r21.2
+Depends: matrix-gui-pm-demos (= 2.0-r21.2)
+Recommends: matrix-gui-apps-images-dev, matrix-gui-generic-pm-dev, matrix-gui-submenus-power-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dee2b52d1f89f7f479c73f01ccbb3e34
+Size: 846
+Filename: matrix-gui-pm-demos-dev_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-pm-demos version 2.0-r21.2 - Development files  Power
+ management demo descriptions for Matrix v2  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: matrix-gui-pm-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-pm-demos-dump-reg
+Version: 2.0-r21.2
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17cd27950ef84fff2e947f76e96b13e5
+Size: 2242
+Filename: matrix-gui-pm-demos-dump-reg_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-pm-demos version 2.0-r21.2  Power management demo descriptions
+ for Matrix v2
+OE: matrix-gui-pm-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-pm-demos-snapshot1
+Version: 2.0-r21.2
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b3d17a7222861c65d3b2445fab169302
+Size: 2338
+Filename: matrix-gui-pm-demos-snapshot1_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-pm-demos version 2.0-r21.2  Power management demo descriptions
+ for Matrix v2
+OE: matrix-gui-pm-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-pm-demos-snapshot2
+Version: 2.0-r21.2
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43deda1124e00e45869618bf116ee8a4
+Size: 2294
+Filename: matrix-gui-pm-demos-snapshot2_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-pm-demos version 2.0-r21.2  Power management demo descriptions
+ for Matrix v2
+OE: matrix-gui-pm-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-pm-demos-suspend
+Version: 2.0-r21.2
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0712cd5cde25025fe32916a9be0007d5
+Size: 2770
+Filename: matrix-gui-pm-demos-suspend_2.0-r21.2_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-pm-demos version 2.0-r21.2  Power management demo descriptions
+ for Matrix v2
+OE: matrix-gui-pm-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-qt4-demos-dbg
+Version: 2.0-r21.1
+Recommends: matrix-gui-qt4-demos (= 2.0-r21.1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 351d089bb14fdabb8968cebc6ea37e91
+Size: 786
+Filename: matrix-gui-qt4-demos-dbg_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-qt4-demos version 2.0-r21.1 - Debugging files  Qt4 demo
+ descriptions for Matrix v2  This package contains ELF symbols   and
+ related sources for debugging purposes.
+OE: matrix-gui-qt4-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-qt4-demos-dev
+Version: 2.0-r21.1
+Depends: matrix-gui-qt4-demos (= 2.0-r21.1)
+Recommends: matrix-gui-apps-images-dev, matrix-gui-submenus-qt4-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 62db9de9ea05e9fc7fbbfe42733b308a
+Size: 826
+Filename: matrix-gui-qt4-demos-dev_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-qt4-demos version 2.0-r21.1 - Development files  Qt4 demo
+ descriptions for Matrix v2  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: matrix-gui-qt4-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-qt4-demos
+Version: 2.0-r21.1
+Depends: matrix-gui-submenus-qt4, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 54892a4d0bbf8611e8a956717cc27db3
+Size: 1718
+Filename: matrix-gui-qt4-demos_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-qt4-demos version 2.0-r21.1  Qt4 demo descriptions for Matrix
+ v2
+OE: matrix-gui-qt4-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-settings-demos-dbg
+Version: 2.0-r21.1
+Recommends: matrix-gui-settings-demos (= 2.0-r21.1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8f310cb67645520b1f4b3417da88f10
+Size: 786
+Filename: matrix-gui-settings-demos-dbg_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-settings-demos version 2.0-r21.1 - Debugging files  Settings
+ demo descriptions for Matrix v2  This package contains ELF   symbols and
+ related sources for debugging purposes.
+OE: matrix-gui-settings-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-settings-demos-dev
+Version: 2.0-r21.1
+Depends: matrix-gui-settings-demos (= 2.0-r21.1)
+Recommends: matrix-gui-apps-images-dev, matrix-gui-submenus-settings-dev, am-sysinfo-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b6cfe2cbceceab8f2470a98928e3cc2
+Size: 836
+Filename: matrix-gui-settings-demos-dev_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-settings-demos version 2.0-r21.1 - Development files  Settings
+ demo descriptions for Matrix v2  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: matrix-gui-settings-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-settings-demos
+Version: 2.0-r21.1
+Depends: am-sysinfo, matrix-gui-submenus-settings, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c2783d2582498d93735de2ed1662f90
+Size: 3428
+Filename: matrix-gui-settings-demos_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-settings-demos version 2.0-r21.1  Settings demo descriptions
+ for Matrix v2
+OE: matrix-gui-settings-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-src
+Version: 2.0-r16
+Section: multimedia
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3113af538c47197eea9db039a7dde41e
+Size: 113558
+Filename: matrix-gui-src_2.0-r16_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2.git;protocol=git;branch=master            file://init            file://php.ini
+Description:  Patched sources for matrix-gui
+License: BSD MIT
+Priority: Optional
+
+Package: matrix-gui-submenus-3d
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c162f4287ee4c5c7ca3b97e55613087
+Size: 992
+Filename: matrix-gui-submenus-3d_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-arm
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a6480fadd760581fea108c71f93c3d8
+Size: 1000
+Filename: matrix-gui-submenus-arm_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-cryptos
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 322d44f06125a21bccb6f2744041d435
+Size: 982
+Filename: matrix-gui-submenus-cryptos_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-dbg
+Version: 2.0-r21.9
+Recommends: matrix-gui-submenus (= 2.0-r21.9)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac53ee2c7b14e7a754577e0fe874b8ff
+Size: 784
+Filename: matrix-gui-submenus-dbg_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9 - Debugging files  Submenu packages
+ for Matrix GUI v2  This package contains ELF symbols and   related
+ sources for debugging purposes.
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-dev
+Version: 2.0-r21.9
+Depends: matrix-gui-submenus (= 2.0-r21.9)
+Recommends: matrix-gui-apps-images-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61b477290f21cf78e728fab17ab9a89f
+Size: 816
+Filename: matrix-gui-submenus-dev_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9 - Development files  Submenu
+ packages for Matrix GUI v2  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-display
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 24b3f784a271939a326490e0421b6f35
+Size: 984
+Filename: matrix-gui-submenus-display_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-ethernet
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2e9de4feecd5fc7d0d0e136e72e25bf9
+Size: 982
+Filename: matrix-gui-submenus-ethernet_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-multimedia
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c57b546c36ac28e3033eff1982a6882
+Size: 980
+Filename: matrix-gui-submenus-multimedia_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-oprofile
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9690656ad09ff448b6cba7dcce4f4dfa
+Size: 996
+Filename: matrix-gui-submenus-oprofile_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-power
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 96697877010ba147444a46f3e245b353
+Size: 974
+Filename: matrix-gui-submenus-power_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-pru
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35abb96159761de46ad844c8d0a57e71
+Size: 984
+Filename: matrix-gui-submenus-pru_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-qt4
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5663a427cc00a3c540aee5c3cd7ff237
+Size: 978
+Filename: matrix-gui-submenus-qt4_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-settings
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f18200f9a674044a98bcf2f1c507715
+Size: 984
+Filename: matrix-gui-submenus-settings_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-usb
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 67207e137511491f6b0a0446d104f382
+Size: 982
+Filename: matrix-gui-submenus-usb_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus-wifi
+Version: 2.0-r21.9
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0913a8de604ba18539d4aefdfd043d0
+Size: 976
+Filename: matrix-gui-submenus-wifi_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-submenus
+Version: 2.0-r21.9
+Depends: matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be180a47d476e875e03c49b78fda46be
+Size: 14654
+Filename: matrix-gui-submenus_2.0-r21.9_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-submenus version 2.0-r21.9  Submenu packages for Matrix GUI v2
+OE: matrix-gui-submenus
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-usb-demos-dbg
+Version: 2.0-r21.1
+Recommends: matrix-gui-usb-demos (= 2.0-r21.1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1ed016b01f814713eff9da92306375a8
+Size: 784
+Filename: matrix-gui-usb-demos-dbg_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-usb-demos version 2.0-r21.1 - Debugging files  USB demo
+ descriptions for Matrix v2  This package contains ELF symbols   and
+ related sources for debugging purposes.
+OE: matrix-gui-usb-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-usb-demos-dev
+Version: 2.0-r21.1
+Depends: matrix-gui-usb-demos (= 2.0-r21.1)
+Recommends: matrix-gui-apps-images-dev, bonnie++-dev, matrix-gui-submenus-usb-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb5baad23f498040cee8dc30e0515ca7
+Size: 832
+Filename: matrix-gui-usb-demos-dev_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-usb-demos version 2.0-r21.1 - Development files  USB demo
+ descriptions for Matrix v2  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: matrix-gui-usb-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-usb-demos
+Version: 2.0-r21.1
+Depends: matrix-gui-submenus-usb, bonnie++, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25757c7fe6e96ecbe818d8cfc94c5773
+Size: 1852
+Filename: matrix-gui-usb-demos_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-usb-demos version 2.0-r21.1  USB demo descriptions for Matrix
+ v2
+OE: matrix-gui-usb-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-wifi-demos-dbg
+Version: 2.0-r21.1
+Recommends: matrix-gui-wifi-demos (= 2.0-r21.1)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0c6e4992bef51188ef74f3eaf0cd762c
+Size: 788
+Filename: matrix-gui-wifi-demos-dbg_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-wifi-demos version 2.0-r21.1 - Debugging files  Wifi demo
+ descriptions for Matrix v2  This package contains ELF symbols   and
+ related sources for debugging purposes.
+OE: matrix-gui-wifi-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-wifi-demos-dev
+Version: 2.0-r21.1
+Depends: matrix-gui-wifi-demos (= 2.0-r21.1)
+Recommends: matrix-gui-submenus-wifi-dev, matrix-gui-apps-images-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 41cf188059be6ccee79b2da07a5d3c06
+Size: 824
+Filename: matrix-gui-wifi-demos-dev_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-wifi-demos version 2.0-r21.1 - Development files  Wifi demo
+ descriptions for Matrix v2  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: matrix-gui-wifi-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-gui-wifi-demos
+Version: 2.0-r21.1
+Depends: matrix-gui-submenus-wifi, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 82deaf86f62ce71e368be3d9bd18f504
+Size: 2064
+Filename: matrix-gui-wifi-demos_2.0-r21.1_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-wifi-demos version 2.0-r21.1  Wifi demo descriptions for
+ Matrix v2
+OE: matrix-gui-wifi-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-lighttpd-config-dbg
+Version: 1.0-r2
+Recommends: matrix-lighttpd-config (= 1.0-r2)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 517304669f4c0ed608d0ace0cabafc4d
+Size: 750
+Filename: matrix-lighttpd-config-dbg_1.0-r2_all.ipk
+Source: file://lighttpd.conf.matrix file://COPYING
+Description:  matrix-lighttpd-config version 1.0-r2 - Debugging files  Lighttpd config
+ for Matrix  This package contains ELF symbols and related   sources for
+ debugging purposes.
+OE: matrix-lighttpd-config
+HomePage: unknown
+License: BSD
+Priority: optional
+
+Package: matrix-lighttpd-config-dev
+Version: 1.0-r2
+Depends: matrix-lighttpd-config (= 1.0-r2)
+Recommends: lighttpd-dev, lighttpd-module-setenv-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8956e9aa0741dea2baf61c54493a05be
+Size: 784
+Filename: matrix-lighttpd-config-dev_1.0-r2_all.ipk
+Source: file://lighttpd.conf.matrix file://COPYING
+Description:  matrix-lighttpd-config version 1.0-r2 - Development files  Lighttpd
+ config for Matrix  This package contains symbolic links, header   files,
+ and related items necessary for software development.
+OE: matrix-lighttpd-config
+HomePage: unknown
+License: BSD
+Priority: optional
+
+Package: matrix-lighttpd-config
+Version: 1.0-r2
+Depends: lighttpd, lighttpd-module-setenv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88de87915faa4b3985758a6e636cb859
+Size: 4482
+Filename: matrix-lighttpd-config_1.0-r2_all.ipk
+Source: file://lighttpd.conf.matrix file://COPYING
+Description:  matrix-lighttpd-config version 1.0-r2  Lighttpd config for Matrix
+OE: matrix-lighttpd-config
+HomePage: unknown
+License: BSD
+Priority: optional
+
+Package: matrix-multimedia-demo-aac
+Version: 2.0-r21.3
+Depends: matrix-gui-submenus-multimedia, amsdk-av-files, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3bfa4bde5e2df60e13cd82156f126fd9
+Size: 1804
+Filename: matrix-multimedia-demo-aac_2.0-r21.3_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-multimedia-demos version 2.0-r21.3  Multimedia demo
+ descriptions for Matrix v2
+OE: matrix-gui-multimedia-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-multimedia-demo-audiocapture
+Version: 2.0-r21.3
+Depends: matrix-gui-submenus-multimedia, amsdk-av-files, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4bcc602b1aa6ff6ac9efd4ee64c1a10e
+Size: 2210
+Filename: matrix-multimedia-demo-audiocapture_2.0-r21.3_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-multimedia-demos version 2.0-r21.3  Multimedia demo
+ descriptions for Matrix v2
+OE: matrix-gui-multimedia-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-multimedia-demo-h264dec
+Version: 2.0-r21.3
+Depends: matrix-gui-submenus-multimedia, amsdk-av-files, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e45297c39e42fe52102532aba32fc992
+Size: 1866
+Filename: matrix-multimedia-demo-h264dec_2.0-r21.3_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-multimedia-demos version 2.0-r21.3  Multimedia demo
+ descriptions for Matrix v2
+OE: matrix-gui-multimedia-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-multimedia-demo-mpeg4aacdec
+Version: 2.0-r21.3
+Depends: matrix-gui-submenus-multimedia, amsdk-av-files, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a2d58ade634cfc1d45845e6c0bd9801
+Size: 2152
+Filename: matrix-multimedia-demo-mpeg4aacdec_2.0-r21.3_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-multimedia-demos version 2.0-r21.3  Multimedia demo
+ descriptions for Matrix v2
+OE: matrix-gui-multimedia-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: matrix-multimedia-demo-mpeg4dec
+Version: 2.0-r21.3
+Depends: matrix-gui-submenus-multimedia, amsdk-av-files, matrix-gui-apps-images
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c4a44bfde3b080b75e489679be250d49
+Size: 1918
+Filename: matrix-multimedia-demo-mpeg4dec_2.0-r21.3_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master
+Description:  matrix-gui-multimedia-demos version 2.0-r21.3  Multimedia demo
+ descriptions for Matrix v2
+OE: matrix-gui-multimedia-demos
+HomePage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+License: CC-BY-SA
+Priority: optional
+
+Package: nativesdk-packagegroup-arago-qte-toolchain-host-dbg
+Version: 1.0-r4
+Recommends: nativesdk-qt4-tools-dbg, nativesdk-opkg-dbg, nativesdk-libtool-dbg, nativesdk-packagegroup-arago-qte-toolchain-host (= 1.0-r4), nativesdk-python-distutils-dbg, nativesdk-pkgconfig-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f41a38101af21faef279943bfda1de13
+Size: 794
+Filename: nativesdk-packagegroup-arago-qte-toolchain-host-dbg_1.0-r4_all.ipk
+Source: None
+Description:  nativesdk-packagegroup-arago-qte-toolchain-host version 1.0-r4 -
+ Debugging files  Host packages for Qt Embedded SDK  This package contains
+ ELF symbols and   related sources for debugging purposes.
+OE: nativesdk-packagegroup-arago-qte-toolchain-host
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: nativesdk-packagegroup-arago-qte-toolchain-host-dev
+Version: 1.0-r4
+Depends: nativesdk-packagegroup-arago-qte-toolchain-host (= 1.0-r4)
+Recommends: nativesdk-pkgconfig-dev, nativesdk-qt4-tools-dev, nativesdk-opkg-dev, nativesdk-libtool-dev, nativesdk-python-distutils-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 97e06f0c5025cc46f9a81b88a6b86f73
+Size: 810
+Filename: nativesdk-packagegroup-arago-qte-toolchain-host-dev_1.0-r4_all.ipk
+Source: None
+Description:  nativesdk-packagegroup-arago-qte-toolchain-host version 1.0-r4 -
+ Development files  Host packages for Qt Embedded SDK  This package
+ contains symbolic links,   header files, and related items necessary for
+ software development.
+OE: nativesdk-packagegroup-arago-qte-toolchain-host
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: nativesdk-packagegroup-arago-qte-toolchain-host
+Version: 1.0-r4
+Depends: nativesdk-python-distutils, nativesdk-libtool, nativesdk-qt4-tools, nativesdk-opkg, nativesdk-pkgconfig
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5f3702422d512475769854dbf6930e5
+Size: 718
+Filename: nativesdk-packagegroup-arago-qte-toolchain-host_1.0-r4_all.ipk
+Source: None
+Description:  nativesdk-packagegroup-arago-qte-toolchain-host version 1.0-r4  Host
+ packages for Qt Embedded SDK
+OE: nativesdk-packagegroup-arago-qte-toolchain-host
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: oe-layersetup-dbg
+Version: 1.0-r0
+Recommends: oe-layersetup (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ebf331bef0d543da9f1e7da310ae7e5
+Size: 782
+Filename: oe-layersetup-dbg_1.0-r0_all.ipk
+Source: git://arago-project.org/git/projects/oe-layersetup.git;protocol=git;branch=master
+Description:  oe-layersetup version 1.0-r0 - Debugging files  Package that contains a
+ script to setup oe-core development environment   This package contains
+ ELF symbols and related sources for debugging   purposes.
+OE: oe-layersetup
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: oe-layersetup-dev
+Version: 1.0-r0
+Depends: oe-layersetup (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 36cd199dabc59fd1c3ebae91549948db
+Size: 786
+Filename: oe-layersetup-dev_1.0-r0_all.ipk
+Source: git://arago-project.org/git/projects/oe-layersetup.git;protocol=git;branch=master
+Description:  oe-layersetup version 1.0-r0 - Development files  Package that contains a
+ script to setup oe-core development environment   This package contains
+ symbolic links, header files, and related items   necessary for software
+ development.
+OE: oe-layersetup
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: oe-layersetup-src
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c05b38708562e28ce4cf4844c35692a5
+Size: 11408
+Filename: oe-layersetup-src_1.0-r0_all.ipk
+Source: git://arago-project.org/git/projects/oe-layersetup.git;protocol=git;branch=master
+Description:  Patched sources for oe-layersetup
+License: MIT
+Priority: Optional
+
+Package: oprofile-example-src
+Version: git-r3
+Section: system
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 96e1867ea057115109e3615d9369c96c
+Size: 5092
+Filename: oprofile-example-src_git-r3_all.ipk
+Source: git://gitorious.org/oprofile-example/oprofile-example.git;protocol=git;branch=master
+Description:  Patched sources for oprofile-example
+License: BSD
+Priority: Optional
+
+Package: packagegroup-arago-base-dbg
+Version: 1.0-r4
+Recommends: devmem2-dbg, curl-dbg, initscript-telnetd-dbg, packagegroup-arago-base (= 1.0-r4), ethtool-dbg, alsa-lib-dbg, mtd-utils-ubifs-dbg, alsa-utils-aplay-dbg, mtd-utils-dbg, tcpdump-dbg, module-init-tools-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 135755772428ed692892b0b7fc397eb3
+Size: 816
+Filename: packagegroup-arago-base-dbg_1.0-r4_all.ipk
+Source: None
+Description:  packagegroup-arago-base version 1.0-r4 - Debugging files  Basic task to
+ get a device booting  This package contains ELF symbols and   related
+ sources for debugging purposes.
+OE: packagegroup-arago-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-base-dev
+Version: 1.0-r4
+Depends: packagegroup-arago-base (= 1.0-r4)
+Recommends: tcpdump-dev, initscript-telnetd-dev, mtd-utils-ubifs-dev, module-init-tools-dev, alsa-lib-dev, curl-dev, ethtool-dev, devmem2-dev, alsa-utils-aplay-dev, mtd-utils-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 291df6c50ed1423d4561ffa41aa5036c
+Size: 834
+Filename: packagegroup-arago-base-dev_1.0-r4_all.ipk
+Source: None
+Description:  packagegroup-arago-base version 1.0-r4 - Development files  Basic task to
+ get a device booting  This package contains symbolic links,   header
+ files, and related items necessary for software development.
+OE: packagegroup-arago-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-base
+Version: 1.0-r4
+Depends: mtd-utils, ethtool, devmem2, alsa-lib, mtd-utils-ubifs, initscript-telnetd, module-init-tools, curl, tcpdump, alsa-utils-aplay
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d121c02c6066bae896d5c6c5960eed7f
+Size: 736
+Filename: packagegroup-arago-base_1.0-r4_all.ipk
+Source: None
+Description:  packagegroup-arago-base version 1.0-r4  Basic task to get a device
+ booting
+OE: packagegroup-arago-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-console-dbg
+Version: 1.0-r6
+Recommends: e2fsprogs-mke2fs-dbg, ncurses-dbg, jpeg-dbg, ncurses-tools-dbg, e2fsprogs-dbg, strace-dbg, tslib-calibrate-dbg, alsa-utils-aconnect-dbg, e2fsprogs-e2fsck-dbg, util-linux-fdisk-dbg, alsa-utils-alsamixer-dbg, packagegroup-arago-console (= 1.0-r6), alsa-conf-base-dbg, alsa-utils-alsactl-dbg, ltrace-dbg, alsa-utils-iecset-dbg, alsa-conf-dbg, dosfstools-dbg, alsa-utils-amixer-dbg, alsa-utils-dbg, libz-dbg, util-linux-sfdisk-dbg, util-linux-mkfs-dbg, alsa-state-dbg, libfreetype-dbg, tslib-conf-dbg, iproute2-dbg, tslib-tests-dbg, jpeg-tools-dbg, thttpd-dbg, e2fsprogs-tune2fs-dbg, usbutils-dbg, alsa-server-dbg, alsa-utils-midi-dbg, alsa-utils-speakertest-dbg, ncurses-terminfo-dbg, i2c-tools-dbg, fbset-dbg, alsa-utils-alsaconf-dbg, libpng12-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 52da381022a7bdcd339d95967520b323
+Size: 986
+Filename: packagegroup-arago-console-dbg_1.0-r6_all.ipk
+Source: None
+Description:  packagegroup-arago-console version 1.0-r6 - Debugging files  Extended
+ task to get more basic and console apps  This package contains   ELF
+ symbols and related sources for debugging purposes.
+OE: packagegroup-arago-console
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-console-dev
+Version: 1.0-r6
+Depends: packagegroup-arago-console (= 1.0-r6)
+Recommends: alsa-utils-iecset-dev, tslib-tests-dev, alsa-conf-dev, util-linux-fdisk-dev, alsa-utils-dev, libfreetype-dev, tslib-conf-dev, dosfstools-dev, thttpd-dev, alsa-utils-alsaconf-dev, libz-dev, i2c-tools-dev, alsa-utils-midi-dev, alsa-utils-speakertest-dev, ncurses-terminfo-dev, e2fsprogs-tune2fs-dev, usbutils-dev, util-linux-mkfs-dev, alsa-server-dev, e2fsprogs-e2fsck-dev, util-linux-sfdisk-dev, strace-dev, jpeg-tools-dev, jpeg-dev, alsa-utils-aconnect-dev, ncurses-tools-dev, e2fsprogs-dev, alsa-utils-amixer-dev, alsa-conf-base-dev, ncurses-dev, fbset-dev, iproute2-dev, tslib-calibrate-dev, e2fsprogs-mke2fs-dev, alsa-utils-alsamixer-dev, alsa-utils-alsactl-dev, alsa-state-dev, libpng12-dev, ltrace-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 993b5fdabe258f42bf3ce881bf6b7abf
+Size: 1002
+Filename: packagegroup-arago-console-dev_1.0-r6_all.ipk
+Source: None
+Description:  packagegroup-arago-console version 1.0-r6 - Development files  Extended
+ task to get more basic and console apps  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: packagegroup-arago-console
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-console
+Version: 1.0-r6
+Depends: alsa-utils, jpeg-tools, ltrace, dosfstools, libz1, jpeg, alsa-utils-amixer, util-linux-fdisk, ncurses-tools, e2fsprogs, util-linux-mkfs, e2fsprogs-tune2fs, tslib-conf, alsa-utils-midi, alsa-utils-iecset, e2fsprogs-e2fsck, alsa-utils-alsamixer, alsa-utils-alsactl, ncurses, alsa-utils-speakertest, e2fsprogs-mke2fs, alsa-state, libpng12, thttpd, i2c-tools, libfreetype6, alsa-server, strace, usbutils, alsa-conf-base, alsa-utils-aconnect, util-linux-sfdisk, fbset, alsa-utils-alsaconf, tslib-tests, iproute2, ncurses-terminfo, tslib-calibrate, alsa-conf
+Recommends: kernel-modules
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 595f1ab922e02bf9428e24ecb639d08a
+Size: 914
+Filename: packagegroup-arago-console_1.0-r6_all.ipk
+Source: None
+Description:  packagegroup-arago-console version 1.0-r6  Extended task to get more
+ basic and console apps
+OE: packagegroup-arago-console
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-cross-canadian-arm
+Version: 1.0-r5
+Depends: binutils-cross-canadian-arm, gcc-cross-canadian-arm, gdb-cross-canadian-arm
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 868cd56b78d2c8e46013c93631bc3b8c
+Size: 688
+Filename: packagegroup-arago-cross-canadian-arm_1.0-r5_all.ipk
+Source: None
+Description:  Host Arago SDK package for cross canadian toolchain  Host Arago SDK
+ package for cross canadian toolchain
+OE: packagegroup-arago-cross-canadian-arm
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-gst-dbg
+Version: 1.0-r6
+Recommends: packagegroup-arago-gst (= 1.0-r6), gst-plugins-base-meta-dbg, gst-plugins-good-dbg, gstreamer-dbg, gst-plugins-base-dbg, gst-ffmpeg-dbg, gst-plugins-good-meta-dbg, gst-plugins-bad-meta-dbg, gst-plugins-bad-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f5ce3ccdbc4f1fc9afac1c7d213f552
+Size: 780
+Filename: packagegroup-arago-gst-dbg_1.0-r6_all.ipk
+Source: None
+Description:  packagegroup-arago-gst version 1.0-r6 - Debugging files  Task to add
+ gstreamer and gstreamer plugins  This package contains ELF   symbols and
+ related sources for debugging purposes.
+OE: packagegroup-arago-gst
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-gst-dev
+Version: 1.0-r6
+Depends: packagegroup-arago-gst (= 1.0-r6)
+Recommends: gst-plugins-base-meta-dev, gst-plugins-base-dev, gstreamer-dev, gst-ffmpeg-dev, gst-plugins-good-meta-dev, gst-plugins-good-dev, gst-plugins-bad-meta-dev, gst-plugins-bad-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b055d8eeecac026681c048622498d09
+Size: 798
+Filename: packagegroup-arago-gst-dev_1.0-r6_all.ipk
+Source: None
+Description:  packagegroup-arago-gst version 1.0-r6 - Development files  Task to add
+ gstreamer and gstreamer plugins  This package contains   symbolic links,
+ header files, and related items necessary for software   development.
+OE: packagegroup-arago-gst
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-gst-sdk-target-dbg
+Version: 1.0-r5
+Recommends: packagegroup-arago-gst-sdk-target (= 1.0-r5), gst-plugins-good-dbg, gstreamer-dbg, gst-plugins-base-dbg, gst-ffmpeg-dbg, gst-plugins-bad-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 820837ab97f721865f9ab75819d3e08b
+Size: 788
+Filename: packagegroup-arago-gst-sdk-target-dbg_1.0-r5_all.ipk
+Source: None
+Description:  packagegroup-arago-gst-sdk-target version 1.0-r5 - Debugging files  Task
+ to build and install header and libs in sdk  This package contains   ELF
+ symbols and related sources for debugging purposes.
+OE: packagegroup-arago-gst-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-gst-sdk-target-dev
+Version: 1.0-r5
+Depends: packagegroup-arago-gst-sdk-target (= 1.0-r5)
+Recommends: gst-plugins-base-dev, gst-ffmpeg-dev, gstreamer-dev, gst-plugins-bad-dev, gst-plugins-good-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4fecdd49169d92e983c64c6ac201acfd
+Size: 806
+Filename: packagegroup-arago-gst-sdk-target-dev_1.0-r5_all.ipk
+Source: None
+Description:  packagegroup-arago-gst-sdk-target version 1.0-r5 - Development files
+ Task to build and install header and libs in sdk  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: packagegroup-arago-gst-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-gst-sdk-target
+Version: 1.0-r5
+Depends: gst-plugins-base-dev, gst-ffmpeg-dev, gstreamer-dev, gst-plugins-bad-dev, gst-plugins-good-dev
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 795059e3f5f96f99600dfd3d361b4be0
+Size: 716
+Filename: packagegroup-arago-gst-sdk-target_1.0-r5_all.ipk
+Source: None
+Description:  packagegroup-arago-gst-sdk-target version 1.0-r5  Task to build and
+ install header and libs in sdk
+OE: packagegroup-arago-gst-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-gst
+Version: 1.0-r6
+Depends: gst-plugins-bad, gst-plugins-bad-meta, gstreamer, gst-plugins-good, gst-plugins-base-meta, gst-plugins-good-meta, gst-ffmpeg, gst-plugins-base
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 79b582f35a2644613b0c79a358a2815d
+Size: 706
+Filename: packagegroup-arago-gst_1.0-r6_all.ipk
+Source: None
+Description:  packagegroup-arago-gst version 1.0-r6  Task to add gstreamer and
+ gstreamer plugins
+OE: packagegroup-arago-gst
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-tisdk-matrix-sdk-host-dbg
+Version: 1.0-r2
+Recommends: matrix-gui-src-dbg, refresh-screen-src-dbg, matrix-gui-browser-src-dbg, packagegroup-arago-tisdk-matrix-sdk-host (= 1.0-r2)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 463f01f7faf1f0202905df0ea7dff5f1
+Size: 804
+Filename: packagegroup-arago-tisdk-matrix-sdk-host-dbg_1.0-r2_all.ipk
+Source: None
+Description:  packagegroup-arago-tisdk-matrix-sdk-host version 1.0-r2 - Debugging files
+ Task to install Matrix v2 and associated applications sources in the SDK
+ This package contains ELF symbols and related sources for debugging
+ purposes.
+OE: packagegroup-arago-tisdk-matrix-sdk-host
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-tisdk-matrix-sdk-host-dev
+Version: 1.0-r2
+Depends: packagegroup-arago-tisdk-matrix-sdk-host (= 1.0-r2)
+Recommends: refresh-screen-src-dev, matrix-gui-src-dev, matrix-gui-browser-src-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c168d2cd93efc87593bc11dfc445238
+Size: 818
+Filename: packagegroup-arago-tisdk-matrix-sdk-host-dev_1.0-r2_all.ipk
+Source: None
+Description:  packagegroup-arago-tisdk-matrix-sdk-host version 1.0-r2 - Development
+ files  Task to install Matrix v2 and associated applications sources in
+ the SDK   This package contains symbolic links, header files, and related
+ items   necessary for software development.
+OE: packagegroup-arago-tisdk-matrix-sdk-host
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-tisdk-matrix-sdk-host
+Version: 1.0-r2
+Depends: matrix-gui-src, matrix-gui-browser-src, refresh-screen-src
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 56e74e0736688603cd0c9c29c24f8db0
+Size: 728
+Filename: packagegroup-arago-tisdk-matrix-sdk-host_1.0-r2_all.ipk
+Source: None
+Description:  packagegroup-arago-tisdk-matrix-sdk-host version 1.0-r2  Task to install
+ Matrix v2 and associated applications sources in the SDK
+OE: packagegroup-arago-tisdk-matrix-sdk-host
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-tisdk-multimedia-sdk-target-dbg
+Version: 1.0-r3
+Recommends: packagegroup-arago-gst-sdk-target-dbg, packagegroup-arago-tisdk-multimedia-sdk-target (= 1.0-r3)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 410ade039c009bdc4325449c9dcea027
+Size: 772
+Filename: packagegroup-arago-tisdk-multimedia-sdk-target-dbg_1.0-r3_all.ipk
+Source: None
+Description:  packagegroup-arago-tisdk-multimedia-sdk-target version 1.0-r3 - Debugging
+ files  Task to build and install header and libs into sdk  This package
+ contains   ELF symbols and related sources for debugging purposes.
+OE: packagegroup-arago-tisdk-multimedia-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-tisdk-multimedia-sdk-target-dev
+Version: 1.0-r3
+Depends: packagegroup-arago-tisdk-multimedia-sdk-target (= 1.0-r3)
+Recommends: packagegroup-arago-gst-sdk-target-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 69a485892b31c0a33a1fc50f95c678c5
+Size: 786
+Filename: packagegroup-arago-tisdk-multimedia-sdk-target-dev_1.0-r3_all.ipk
+Source: None
+Description:  packagegroup-arago-tisdk-multimedia-sdk-target version 1.0-r3 -
+ Development files  Task to build and install header and libs into sdk
+ This package contains   symbolic links, header files, and related items
+ necessary for software   development.
+OE: packagegroup-arago-tisdk-multimedia-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-arago-tisdk-multimedia-sdk-target
+Version: 1.0-r3
+Depends: packagegroup-arago-gst-sdk-target
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe9947c3f93ba3ccc3689d71cd14ce26
+Size: 698
+Filename: packagegroup-arago-tisdk-multimedia-sdk-target_1.0-r3_all.ipk
+Source: None
+Description:  packagegroup-arago-tisdk-multimedia-sdk-target version 1.0-r3  Task to
+ build and install header and libs into sdk
+OE: packagegroup-arago-tisdk-multimedia-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: qt-tstat-src
+Version: 2.0-r8
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f1cbdddd494bdde1e95ff6820535919
+Size: 2902578
+Filename: qt-tstat-src_2.0-r8_all.ipk
+Source: git://gitorious.org/thermostat-demo/thermostat-demo.git;protocol=git
+Description:  Patched sources for qt-tstat
+License: BSD & CC-BY-SA-2.0 & CC-BY-SA-3.0 & MIT
+Priority: Optional
+
+Package: quick-playground-src
+Version: 1.0-r2
+Section: multimedia
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d829bc95650f2604c810c84df3b883a8
+Size: 27373522
+Filename: quick-playground-src_1.0-r2_all.ipk
+Source: git://arago-project.org/git/projects/qt4-demos.git;protocol=git;branch=master
+Description:  Patched sources for quick-playground
+License: Nokia
+Priority: Optional
+
+Package: refresh-screen-src
+Version: 2.0-r5
+Section: multimedia
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: adbe41de2c30cba45c92c402f9bf126c
+Size: 3570
+Filename: refresh-screen-src_2.0-r5_all.ipk
+Source: git://gitorious.org/matrix-gui-v2/refresh-screen.git;protocol=git;branch=master
+Description:  Patched sources for refresh-screen
+License: BSD
+Priority: Optional
+
+Package: ti-crypto-examples-src
+Version: git-r7
+Section: console
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2b752d5c7dd9ef91db9382c326a70740
+Size: 13398
+Filename: ti-crypto-examples-src_git-r7_all.ipk
+Source: git://arago-project.org/git/projects/crypto-example-apps.git;protocol=git;branch=master
+Description:  Patched sources for ti-crypto-examples
+License: BSD
+Priority: Optional
+
+Package: update-rc.d-dbg
+Version: 0.7-r5
+Recommends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7d61255d01c54007fa36f827c499fcd
+Size: 848
+Filename: update-rc.d-dbg_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d. - Debugging files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   ELF symbols
+ and related sources for debugging purposes.
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.7-r5
+Depends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f7768e2d547acb97a537c90c1174ba88
+Size: 856
+Filename: update-rc.d-dev_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d. - Development files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.7-r5
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5e6a180cac546120d05c1afccfdafe43
+Size: 2814
+Filename: update-rc.d_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d.  update-rc.d is a utilities that allows
+ the management of symlinks to the   initscripts in the /etc/rcN.d
+ directory structure.
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+
+Package: wl18xx-firmware-dbg
+Version: r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b
+Recommends: wl18xx-firmware (= r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 50d0bada25285e7eaf3265abb8c72462
+Size: 846
+Filename: wl18xx-firmware-dbg_r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b_all.ipk
+Source: git://github.com/TI-OpenLink/wl18xx_fw.git;protocol=git file://0001-Add-Makefile-for-SDK.patch
+Description:  wl18xx-firmware version
+ r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b -
+ Debugging files  Firmware files for use with TI wl18xx  This package
+ contains ELF symbols   and related sources for debugging purposes.
+OE: wl18xx-firmware
+HomePage: unknown
+License: TI-TSPA
+Priority: optional
+
+Package: wl18xx-firmware-dev
+Version: r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b
+Depends: wl18xx-firmware (= r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b11bb23b02db3f70ce7307ec8984ba0
+Size: 860
+Filename: wl18xx-firmware-dev_r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b_all.ipk
+Source: git://github.com/TI-OpenLink/wl18xx_fw.git;protocol=git file://0001-Add-Makefile-for-SDK.patch
+Description:  wl18xx-firmware version
+ r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b -
+ Development files  Firmware files for use with TI wl18xx  This package
+ contains symbolic   links, header files, and related items necessary for
+ software   development.
+OE: wl18xx-firmware
+HomePage: unknown
+License: TI-TSPA
+Priority: optional
+
+Package: wl18xx-firmware-src
+Version: r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 172e5e2eb4bf04d2e611f27993dd163c
+Size: 317772
+Filename: wl18xx-firmware-src_r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b_all.ipk
+Source: git://github.com/TI-OpenLink/wl18xx_fw.git;protocol=git            file://0001-Add-Makefile-for-SDK.patch
+Description:  Patched sources for wl18xx-firmware
+License: TI-TSPA
+Priority: Optional
+
+Package: wl18xx-firmware
+Version: r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b
+Provides: wl12xx-firmware
+Replaces: wl12xx-firmware
+Conflicts: wl12xx-firmware
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3a74871e7f5c3b2d7a9f613f0166c209
+Size: 315010
+Filename: wl18xx-firmware_r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b_all.ipk
+Source: git://github.com/TI-OpenLink/wl18xx_fw.git;protocol=git file://0001-Add-Makefile-for-SDK.patch
+Description:  wl18xx-firmware version
+ r8.a8.10-r3+gitrAUTOINC+89dc93a5c23fd69ebacd64c936ba5aabf173c29b
+ Firmware files for use with TI wl18xx
+OE: wl18xx-firmware
+HomePage: unknown
+License: TI-TSPA
+Priority: optional
+

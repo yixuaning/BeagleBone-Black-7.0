@@ -1,0 +1,9 @@
+# @name Crypto AES Tests
+# @desc Run tcrypt module to exercise AES HW crypto operations
+# @requires crypto/crypto-omap && crypto/crypto-omap/aes
+# @setup_requires 
+
+CRYPTO_S_PERF_AES source 'common.sh'; config_options=`get_modular_config_names.sh crypto`; check_config_options "y" CONFIG_CRYPTO_HW $config_options; check_config_options "m" CONFIG_CRYPTO_TEST; check_config_options  "n" CONFIG_CRYPTO_MANAGER_DISABLE_TESTS; echo /dev/null>/var/log/messages; crypto_ip=`get_crypto_ip.sh`; IRQ_NUM=`get_irq_for_iface.sh -i $crypto_ip` || die "error getting irq for crypto"; PRE=`get_num_interrupts_for_irq.sh -i $IRQ_NUM -c 0`; modprobe tcrypt mode=500 sec=1; POST=`get_num_interrupts_for_irq.sh -i $IRQ_NUM -c 0`; [[ $POST -gt $PRE ]]|| die "IRQ count did not increase, no hardware crypto, looking for irq number $IRQ_NUM, initial count $PRE, final count $POST";crypto_test.sh
+
+
+CRYPTO_L_PERF_AES source 'common.sh'; config_options=`get_modular_config_names.sh crypto`; check_config_options "y" CONFIG_CRYPTO_HW $config_options; check_config_options "m" CONFIG_CRYPTO_TEST; check_config_options  "n" CONFIG_CRYPTO_MANAGER_DISABLE_TESTS; echo /dev/null>/var/log/messages; crypto_ip=`get_crypto_ip.sh`; IRQ_NUM=`get_irq_for_iface.sh -i $crypto_ip` || die "error getting irq for crypto"; PRE=`get_num_interrupts_for_irq.sh -i $IRQ_NUM -c 0`; modprobe tcrypt mode=500 sec=30; POST=`get_num_interrupts_for_irq.sh -i $IRQ_NUM -c 0`; [[ $POST -gt $PRE ]]|| die "IRQ count did not increase, no hardware crypto, looking for irq number $IRQ_NUM, initial count $PRE, final count $POST";crypto_test.sh

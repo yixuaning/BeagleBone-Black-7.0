@@ -1,0 +1,14 @@
+Package: nbench-byte
+Version: 2.2.3-r0
+Description: nbench-byte version 2.2.3-r0
+ BYTE Magazine's native benchmarks (also called BYTEmark) designed to
+ expose the capabilities of a system's CPU, FPU, and memory system.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: freely distributable
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: nbench-byte
+Homepage: http://www.tux.org/~mayer/linux/
+Depends: libc6 (>= 2.15)
+Source: http://www.tux.org/~mayer/linux/nbench-byte-2.2.3.tar.gz file://nbench_32bits.patch

@@ -1,0 +1,17 @@
+Package: ti-wifi-utils-wl18xx
+Version: r8.a8.10-r1+gitrAUTOINC+c50159d66af1786414b819ebcaa8b2571ae790a1
+Description: ti-wifi-utils-wl18xx version r8.a8.10-r1+gitrAUTOINC+c50159d66af1786414b819ebcaa8b2571ae790a1
+ The calibrator and other useful utilities for TI wireless solution based
+ on wl12xx driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: ti-wifi-utils-wl18xx
+Homepage: unknown
+Depends: wl18xx-firmware, libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.15)
+Provides: ti-wifi-utils
+Replaces: ti-wifi-utils
+Conflicts: ti-wifi-utils
+Source: git://github.com/TI-OpenLink/18xx-ti-utils.git

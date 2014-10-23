@@ -1,0 +1,16 @@
+Package: libav-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1
+Description: libav version 0.8.4+gitAUTOINC+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1 - Development files
+ Libav is a complete, cross-platform solution to record, convert and
+ stream audio and video.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libav
+Homepage: http://libav.org/
+Depends: libav (= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0-arago1)
+Recommends: libavformat-dev, libtheora-dev, libgcc-s-dev, libavcodec-dev, libavutil-dev, bzip2-dev, libpostproc-dev, libavfilter-dev, libvorbis-dev, libc6-dev, libogg-dev, libswscale-dev, libsdl-1.2-dev, libz-dev, libvpx-dev, libx264-dev, libavdevice-dev
+Source: git://git.libav.org/libav.git;protocol=git;branch=release/0.8 file://0001-configure-enable-pic-for-AArch64.patch

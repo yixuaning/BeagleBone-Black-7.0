@@ -1,0 +1,19 @@
+Package: binutils
+Version: 2.20.1-r9
+Description: A GNU collection of binary utilities
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: binutils
+Homepage: http://www.gnu.org/software/binutils/
+Depends: libz1 (>= 1.2.7), libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.20.1a.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://110-arm-eabi-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://binutils-x86_64_i386_biarch.patch file://binutils-mips-pie.patch file://libtool-2.4-update.patch file://binutils-2.19.1-ld-sysroot.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://152_arm_branches_to_weak_symbols.patch file://200_elflink_%B_fixes.patch file://201_elflink_improve_noaddneeded_errors.patch file://202_elflink_noaddneeded_vs_weak.patch

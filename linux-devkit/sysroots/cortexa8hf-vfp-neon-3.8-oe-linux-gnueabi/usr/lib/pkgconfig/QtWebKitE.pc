@@ -1,0 +1,19 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qtopia/QtWebKit
+qt_config=lex yacc uic resources qt release incremental link_prl rpath_libdirs def_files_disabled exceptions no_mocdepend release stl qt_no_framework silent system-sqlite release shared dll embedded largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build nostrip building-libs depend_includepath embedded standalone_package depend_includepath include_webinspector production production embedded no_debug_info link_pkgconfig embedded production qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_pc create_libtool moc thread shared dll
+moc_location=/usr/bin/moc4
+uic_location=/usr/bin/uic4
+rcc_location=$(OE_QMAKE_RCC)
+lupdate_location=/usr/bin/lupdate
+lrelease_location=/usr/bin/lrelease
+
+Name: Qtwebkite
+Description: Qtwebkite Library
+Version: 4.9.3
+Libs: -L${libdir} -lQtWebKitE 
+Libs.private:    -lsqlite3 -lQtGuiE -lEGL -lIMGegl -lsrv_um -lQtNetworkE -lQtCoreE -lpthread -lgio-2.0 -lgstapp-0.10 -lgstinterfaces-0.10 -lgstpbutils-0.10 -pthread -lgstvideo-0.10 -lgstbase-0.10 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lxml2 -lglib-2.0   
+Cflags: -DQT_SHARED -I/usr/include/qtopia -I${includedir}
+Requires: QtCoreE QtGuiE QtNetworkE
+

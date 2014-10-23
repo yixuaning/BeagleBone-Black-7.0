@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Certificate Info
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/encrypt-icon.png
+Type=Application
+Exec=/usr/bin/openssl_display_cert.sh
+Categories=cryptos
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/openssl_display_cert_program/desc_openssl_display_cert.html

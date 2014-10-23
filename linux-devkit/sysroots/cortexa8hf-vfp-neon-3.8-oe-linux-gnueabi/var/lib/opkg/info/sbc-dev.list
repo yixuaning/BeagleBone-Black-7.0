@@ -1,0 +1,5 @@
+/usr/include/sbc/
+/usr/lib/libsbc.la
+/usr/include/sbc/sbc.h
+/usr/lib/pkgconfig/sbc.pc
+/usr/lib/libsbc.so

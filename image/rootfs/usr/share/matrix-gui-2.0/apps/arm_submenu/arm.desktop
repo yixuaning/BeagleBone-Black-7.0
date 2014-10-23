@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=ARM
+GenericName=Generic ARM Benchmarks
+Icon=/usr/share/matrix-gui-2.0/apps/images/arm-icon.png
+Type=Directory
+X-MATRIX-CategoryTarget=arm
+X-MATRIX-DisplayPriority=1

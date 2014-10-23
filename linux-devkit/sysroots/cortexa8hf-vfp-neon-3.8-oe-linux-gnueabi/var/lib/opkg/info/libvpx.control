@@ -1,0 +1,13 @@
+Package: libvpx
+Version: 0.9.5-r3.0
+Description: libvpx version 0.9.5-r3.0
+ vpx Multi-Format Codec SDK
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libvpx
+Homepage: unknown
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://webm.googlecode.com/files/libvpx-v0.9.5.tar.bz2 file://libvpx-configure-support-blank-prefix.patch file://do-not-hardcode-softfp-float-api.patch file://CVE-2010-4203.patch

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Thermostat Demo
+Icon=/usr/share/matrix-gui-2.0/apps/images/qt-icon.png
+Exec=/usr/bin/ThermostatDemo
+Type=Application
+Categories=Qt4
+ProgramType=gui
+X-MATRIX-Lock=qt
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/qt_tstat/desc_thermostat_demo.html

@@ -1,0 +1,15 @@
+Package: libcheck-dev
+Version: 0.9.9-r1
+Description: libcheck version 0.9.9-r1 - Development files
+ Check Test Framework  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libcheck
+Homepage: http://check.sourceforge.net/
+Depends: libcheck (= 0.9.9-r1)
+Recommends: gawk-dev, libc6-dev
+Source: http://downloads.sourceforge.net/check/check-0.9.9.tar.gz file://libcheck_fix_for_automake-1.12.patch

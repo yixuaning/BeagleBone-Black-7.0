@@ -1,0 +1,16 @@
+Package: libsocketcan-dev
+Version: 0.0.8-r0
+Description: libsocketcan version 0.0.8-r0 - Development files
+ Control basic functions in socketcan from userspace  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libsocketcan
+Homepage: http://www.pengutronix.de
+Depends: libsocketcan2 (= 0.0.8-r0)
+Recommends: libc6-dev
+Source: git://git.pengutronix.de/git/tools/libsocketcan.git;protocol=git

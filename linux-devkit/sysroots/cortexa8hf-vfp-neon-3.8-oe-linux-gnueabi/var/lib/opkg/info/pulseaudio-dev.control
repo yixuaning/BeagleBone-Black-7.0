@@ -1,0 +1,16 @@
+Package: pulseaudio-dev
+Version: 3.0-r0-arago0
+Description: pulseaudio version 3.0-r0-arago0 - Development files
+ Pulseaudio is a sound server for Linux and Unix-like operating systems.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Depends: libpulse0, libpulse-mainloop-glib0, libpulse-simple0, pulseaudio (= 3.0-r0-arago0)
+Recommends: dbus-lib-dev, pulseaudio-module-card-restore-dev, base-passwd-dev, libltdl-dev, speex-dev, bluez4-dev, libz-dev, pulseaudio-module-filter-apply-dev, pulseaudio-module-intended-roles-dev, libpulsecore-dev, pulseaudio-lib-alsa-util-dev, libffi-dev, libavahi-client-dev, alsa-lib-dev, libgcc-s-dev, libudev-dev, pulseaudio-module-alsa-sink-dev, libpulse-dev, pulseaudio-module-filter-heuristics-dev, pulseaudio-lib-cli-dev, pulseaudio-lib-avahi-wrap-dev, pulseaudio-module-stream-restore-dev, pulseaudio-module-null-sink-dev, pulseaudio-module-detect-dev, libcap-dev, pulseaudio-module-native-protocol-unix-dev, pulseaudio-lib-rtp-dev, sbc-dev, dbus-dev, pulseaudio-module-default-device-restore-dev, pulseaudio-module-always-sink-dev, libavahi-common-dev, udev-dev, pulseaudio-lib-protocol-esound-dev, libpulsecommon-dev, libdbus-glib-1-dev, gconf-dev, libc6-dev, pulseaudio-module-role-cork-dev, libasound-dev, pulseaudio-module-device-restore-dev, libpulse-simple-dev, pulseaudio-lib-protocol-cli-dev, libsndfile-dev, pulseaudio-module-alsa-card-dev, pulseaudio-lib-protocol-native-dev, pulseaudio-module-alsa-source-dev, pulseaudio-module-augment-properties-dev, shadow-dev, pulseaudio-module-switch-on-port-available-dev, shadow-sysroot-dev, pulseaudio-lib-protocol-http-dev, pulseaudio-lib-bluetooth-util-dev, libglib-2.0-dev, consolekit-dev, pulseaudio-module-udev-detect-dev, liboil-dev, libpulse-mainloop-glib-dev, libgdbm-dev, pulseaudio-lib-protocol-simple-dev, pulseaudio-module-position-event-sounds-dev, libjson-dev, pulseaudio-lib-oss-util-dev, pulseaudio-module-rescue-streams-dev, avahi-dev, libtool-dev, pulseaudio-module-suspend-on-idle-dev, libatomics-ops-dev, libsamplerate0-dev
+Source: http://freedesktop.org/software/pulseaudio/releases/pulseaudio-3.0.tar.xz file://volatiles.04_pulse

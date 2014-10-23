@@ -1,0 +1,13 @@
+Package: matrix-multimedia-demo-audiocapture
+Version: 2.0-r21.3
+Description: matrix-gui-multimedia-demos version 2.0-r21.3
+ Multimedia demo descriptions for Matrix v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: all
+OE: matrix-gui-multimedia-demos
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Depends: matrix-gui-submenus-multimedia, amsdk-av-files, matrix-gui-apps-images
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

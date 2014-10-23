@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=eth1_eth0 nat
+GenericName=Demo App
+Icon=/usr/share/matrix-gui-2.0/apps/images/network-icon.png
+Type=Application
+Exec=eth1_nat.sh
+Categories=ethernet
+ProgramType=console
+X-MATRIX-Description=/usr/share/matrix-gui-2.0/apps/eth1_nat/desc_eth1_enbl_nat.html
+X-MATRIX-DisplayPriority=2

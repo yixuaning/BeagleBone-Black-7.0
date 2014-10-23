@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-connectivity-sdk-target
+Version: 1.0-r7
+Description: packagegroup-arago-tisdk-connectivity-sdk-target version 1.0-r7
+ Task to install wireless headers and libraries into the SDK
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-tisdk-connectivity-sdk-target
+Homepage: unknown
+Depends: wpa-supplicant-wl18xx-dev, bluez4-dev
+Source: None

@@ -1,0 +1,13 @@
+Package: pulseaudio-module-switch-on-port-available
+Version: 3.0-r0-arago0
+Description: pulseaudio version 3.0-r0-arago0
+ PulseAudio module for switch-on-port-available
+Section: libs/multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2.1
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Depends: speex (>= 1.2rc1), libpulse0 (>= 3.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 3.0), libsamplerate0 (>= 0.1.8), libcap2 (>= 2.22), libdbus-1-3 (>= 1.6.8), libpulsecore (>= 3.0), libltdl7 (>= 2.4.2), libc6 (>= 2.15), libjson0 (>= 0.9)
+Source: http://freedesktop.org/software/pulseaudio/releases/pulseaudio-3.0.tar.xz file://volatiles.04_pulse

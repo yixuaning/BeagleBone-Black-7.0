@@ -1,0 +1,12 @@
+<h1> ARM H.264 Video Decode </h1>
+
+<p> This example demonstrates video content decoding capability of Cortex-A8 core using H.264 codec. The Multimedia framework used is GStreamer and gst-ffmpeg plug-in is used to call into open source FFmpeg codec libraries. </p>
+
+<h2> Multimedia Pipeline </h2>
+<p>
+gst-launch <br>
+&nbsp;|_ h264parse <br>
+&nbsp; &nbsp;|_ ffdec_h264 <br>
+&nbsp; &nbsp; &nbsp;|_ v4l2/fbdev sink <br>
+</p>
+

@@ -1,0 +1,15 @@
+Package: dt
+Version: 17.07-r0
+Description: dt version 17.07-r0
+ The Data Test Program (dt) is a generic data test program used to verify
+ proper operation of peripherals, file systems, device drivers, or any
+ data stream supported by the operating system.
+Section: console/tests
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: dt
+Homepage: http://home.comcast.net/~SCSIguy/SCSI_FAQ/RMiller_Tools/dt.html
+Depends: libgcc-s1 (>= 4.7.3), libc6 (>= 2.15)
+Source: http://home.comcast.net/~SCSIguy/SCSI_FAQ/RMiller_Tools/ftp/dt/dt-source.tar.gz

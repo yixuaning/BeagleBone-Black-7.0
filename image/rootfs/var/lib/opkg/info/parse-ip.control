@@ -1,0 +1,14 @@
+Package: parse-ip
+Version: 1.0-r2
+Description: parse-ip version 1.0-r2
+ Script to parse ip address during boot and make it available to the host
+ system using shared partitions
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am335x_evm
+OE: parse-ip
+Homepage: unknown
+Recommends: update-rc.d
+Source: file://init

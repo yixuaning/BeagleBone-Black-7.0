@@ -1,0 +1,17 @@
+Package: libjpeg-dev
+Version: 8d+1.2.1-r6
+Description: libjpeg-turbo version 8d+1.2.1-r6 - Development files
+ libjpeg-turbo is a derivative of libjpeg that uses SIMD instructions
+ (MMX, SSE2, NEON) to accelerate baseline JPEG compression and
+ decompression  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: libjpeg-turbo
+Homepage: http://libjpeg-turbo.org/
+Depends: libjpeg8 (= 8d+1.2.1-r6)
+Recommends: libc6-dev
+Source: svn://libjpeg-turbo.svn.sourceforge.net/svnroot/libjpeg-turbo;protocol=http;module=trunk

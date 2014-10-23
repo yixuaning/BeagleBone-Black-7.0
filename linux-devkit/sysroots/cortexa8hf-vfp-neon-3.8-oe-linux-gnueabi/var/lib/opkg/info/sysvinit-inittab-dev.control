@@ -1,0 +1,14 @@
+Package: sysvinit-inittab-dev
+Version: 2.88dsf-r9
+Description: sysvinit-inittab version 2.88dsf-r9 - Development files
+ Inittab for sysvinit  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am335x_evm
+OE: sysvinit-inittab
+Homepage: unknown
+Depends: sysvinit-inittab (= 2.88dsf-r9)
+Source: file://inittab

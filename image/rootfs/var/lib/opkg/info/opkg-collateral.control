@@ -1,0 +1,12 @@
+Package: opkg-collateral
+Version: 1.0-r2
+Description: opkg-collateral version 1.0-r2
+ opkg configuration files
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: opkg-collateral
+Homepage: unknown
+Source: file://opkg.conf.comments file://dest file://src

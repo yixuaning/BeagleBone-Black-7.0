@@ -1,0 +1,12 @@
+Package: matrix-gui-submenus-ethernet
+Version: 2.0-r21.9
+Description: matrix-gui-submenus version 2.0-r21.9
+ Submenu packages for Matrix GUI v2
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CC-BY-SA
+Architecture: all
+OE: matrix-gui-submenus
+Homepage: https://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps
+Source: git://gitorious.org/matrix-gui-v2/matrix-gui-v2-apps.git;protocol=git;branch=master

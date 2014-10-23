@@ -1,0 +1,14 @@
+Package: nfs-utils-client
+Version: 1.2.7-r0
+Description: userspace utilities for kernel nfs
+ The nfs-utils package provides a daemon for the kernel NFS server and
+ related tools.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & GPLv2+ & BSD
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: nfs-utils
+Homepage: http://nfs.sourceforge.net/
+Depends: libmount1 (>= 2.22.2), libblkid1 (>= 2.22.2), libuuid1 (>= 2.22.2), libc6 (>= 2.15)
+Source: http://kernel.org/pub/linux/utils/nfs-utils/1.2.7/nfs-utils-1.2.7.tar.bz2 file://nfs-utils.1.2.8.rc3.patch file://nfs-utils-1.0.6-uclibc.patch file://nfs-utils-1.2.3-uclibc-libio.h.patch file://nfs-utils-1.2.3-sm-notify-res_init.patch file://nfsserver

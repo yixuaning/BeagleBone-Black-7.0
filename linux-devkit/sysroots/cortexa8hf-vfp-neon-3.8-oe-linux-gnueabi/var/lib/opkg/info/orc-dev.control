@@ -1,0 +1,15 @@
+Package: orc-dev
+Version: 0.4.16-r1.0
+Description: orc version 0.4.16-r1.0 - Development files
+ orc - The Oil Runtime Compiler  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: orc
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: orc
+Homepage: http://code.entropywave.com/projects/orc/
+Depends: liborc-0.4-0, liborc-test-0.4-0, orc (= 0.4.16-r1.0)
+Recommends: libc6-dev, liborc-test-0.4-dev, liborc-0.4-dev, libgcc-s-dev
+Source: http://code.entropywave.com/download/orc/orc-0.4.16.tar.gz;name=orc

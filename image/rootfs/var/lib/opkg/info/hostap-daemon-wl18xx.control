@@ -1,0 +1,17 @@
+Package: hostap-daemon-wl18xx
+Version: 2.0-devel-ti-r5b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+Description: hostap-daemon-wl18xx version 2.0-devel-ti-r5b+gitrAUTOINC+257ab333aad993b4be81808524bc0d939c276058
+ User space daemon for extended IEEE 802.11 management
+Section: kernel/userland
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: hostap-daemon-wl18xx
+Homepage: http://hostap.epitest.fi
+Depends: libcrypto1.0.0 (>= 1.0.1e), libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.15)
+Recommends: update-rc.d
+Provides: hostap-daemon
+Replaces: hostap-daemon
+Conflicts: hostap-daemon
+Source: git://github.com/TI-OpenLink/hostap.git;protocol=git file://0001-hostapd-change-conf-file-for-better-oob-startup.patch;patchdir=.. file://defconfig file://init

@@ -1,0 +1,7 @@
+/usr/include/tremor/
+/usr/include/tremor/ivorbiscodec.h
+/usr/include/tremor/config_types.h
+/usr/lib/pkgconfig/vorbisidec.pc
+/usr/lib/libvorbisidec.la
+/usr/include/tremor/ivorbisfile.h
+/usr/lib/libvorbisidec.so

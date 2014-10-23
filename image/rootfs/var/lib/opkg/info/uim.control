@@ -1,0 +1,14 @@
+Package: uim
+Version: 1.0-r1+gitrAUTOINC+c73894456df5def97111cb33d2106b684b8b7959
+Description: uim version 1.0-r1+gitrAUTOINC+c73894456df5def97111cb33d2106b684b8b7959
+ Shared Transport Line Discipline User Mode initialisation Manager Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: cortexa8hf-vfp-neon-3.8
+OE: uim
+Homepage: unknown
+Depends: libc6 (>= 2.15)
+Recommends: update-rc.d
+Source: git://gitorious.org/uim/uim.git file://0001-uim-Add-command-line-args-for-passing-sysfs-node-pat.patch file://uim-sysfs
